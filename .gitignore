@@ -516,3 +516,4 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 
+.tmp/
