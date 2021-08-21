@@ -1,3 +1,5 @@
+[string] $tmpFolder = '.tmp';
+
 function Get-Data() {
   $headers = @{}
   $headers.Add("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
@@ -7,7 +9,7 @@ function Get-Data() {
 
   $result = $response | Where-Object { $_.command -eq "insert" -and $_.method -eq "replaceWith" -and $_.selector.StartsWith(".view-dom-id-") }
 
-  $result.data > ./.tmp/locations-of-interest.xml
+  $result.data > "./$tmpFolder/locations-of-interest.xml"
   return $result.data;
 }
 
@@ -89,5 +91,9 @@ function Import-Xml {
   return $locationsOfInterests;
 }
 
+if (!(Test-Path $tmpFolder)) {
+  mkdir $tmpFolder | Out-Null
+}
+
 [xml] $data = Get-Data
-Import-Xml $data | ConvertTo-Json > ./.tmp/locations-of-interest.json
+Import-Xml $data | ConvertTo-Json > "./$tmpFolder/locations-of-interest.json"
