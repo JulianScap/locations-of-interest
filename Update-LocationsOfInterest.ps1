@@ -26,6 +26,9 @@ function Get-Month {
   switch ($monthAsString) {
     "Aug" { return 8; }
     "August" { return 8; }
+    "Sep" { return 9; }
+    "Sept" { return 9; }
+    "September" { return 9; }
     Default {}
   }
 }
