@@ -1,4 +1,5 @@
 interface ILocation {
+  id: number;
   locationName: string;
   address: string;
   dayAsString: string;
