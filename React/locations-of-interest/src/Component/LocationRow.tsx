@@ -26,7 +26,10 @@ class LocationRow extends React.Component<LocationRowProps, LocationRowState> {
       <TableRow>
         <TableCell>{this.state.location.id}</TableCell>
         <TableCell>{this.state.location.locationName}</TableCell>
-        <TableCell>{this.state.location.address}</TableCell>
+        <TableCell>{this.state.location.streetAddress}</TableCell>
+        <TableCell>{this.state.location.suburb}</TableCell>
+        <TableCell>{this.state.location.city}</TableCell>
+        <TableCell>{this.state.location.postCode}</TableCell>
         <TableCell>{this.state.location.dayAsString}</TableCell>
         <TableCell>{this.state.location.times}</TableCell>
         <TableCell>{this.state.location.updatedAsString}</TableCell>

@@ -55,10 +55,24 @@ function Set-Dates {
   }
 }
 
-function Get-PostCode {
-  param([string] $city)
-  if (!$city -or $city.Length -lt 4) { return $null; }
-  return $city.Substring($city.Length - 4);
+function Get-CityPostCode {
+  param([string] $cityPostCode)
+  if (!$cityPostCode -or $cityPostCode.Length -lt 5) {
+    if ($cityPostCode -match "^\d+$") {
+      return $null, $cityPostCode;
+    }
+    return $null, $null;
+  }
+
+  [string] $postCode = $cityPostCode.Substring($cityPostCode.Length - 4);
+  [string] $city = $cityPostCode.Substring(0, $cityPostCode.Length - 5);
+
+  if ($postCode -match "^\d+$") {
+    return $city, $postCode;
+  }
+  else {
+    return $cityPostCode, $null;
+  }
 }
 
 function Convert-Address {
@@ -73,14 +87,16 @@ function Convert-Address {
   }
   elseif ($parts.count -eq 2) {
     $loi.streetAddress = $parts[0];
-    $loi.city = $parts[1];
-    $loi.postCode = Get-PostCode $parts[1];
+    [string[]] $cityPostCode = Get-CityPostCode $parts[1]
+    $loi.city = $cityPostCode[0];
+    $loi.postCode = $cityPostCode[1];
   }
   elseif ($parts.count -eq 3) {
     $loi.streetAddress = $parts[0];
     $loi.suburb = $parts[1];
-    $loi.city = $parts[2];
-    $loi.postCode = Get-PostCode $parts[2];
+    [string[]] $cityPostCode = Get-CityPostCode $parts[2]
+    $loi.city = $cityPostCode[0];
+    $loi.postCode = $cityPostCode[1];
   }
 }
 

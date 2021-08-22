@@ -28,7 +28,10 @@ function LocationTable() {
         <TableRow>
           <TableCell>#</TableCell>
           <TableCell>Location Name</TableCell>
-          <TableCell>Address</TableCell>
+          <TableCell>Street address</TableCell>
+          <TableCell>Suburb</TableCell>
+          <TableCell>City</TableCell>
+          <TableCell>Post code</TableCell>
           <TableCell>Day</TableCell>
           <TableCell>Times</TableCell>
           <TableCell>Updated</TableCell>
