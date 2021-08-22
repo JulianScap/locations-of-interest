@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import LocationTable from "./Component/LocationTable";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { Input } from "@material-ui/core";
-import { useState } from "react";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -10,7 +9,10 @@ function App() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Input onChange={(e) => setSearch(e.currentTarget.value)} />
+      <Input
+        placeholder="Search..."
+        onChange={(e) => setSearch(e.currentTarget.value)}
+      />
       <LocationTable search={search} />
     </React.Fragment>
   );

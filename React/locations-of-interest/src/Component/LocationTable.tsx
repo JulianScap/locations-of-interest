@@ -13,13 +13,14 @@ import { getLocationsOfInterest } from "../data/getLocationsOfInterest";
 import Sort from "../tools/Sort";
 import ISearchable from "../types/ISearchable";
 
-function LocationTable(props : ISearchable) {
+function LocationTable(props: ISearchable) {
   const [currentData, setData] = useState(getLocationsOfInterest());
   const [sortBy, setSort] = useState(Sort.defaultSort);
   const [sortAsc, setSortAsc] = useState(true);
 
   const sortData = (e: React.MouseEvent) => {
-    const sortProperty: string = e.currentTarget.getAttribute("sortproperty") || Sort.defaultSort;
+    const sortProperty: string =
+      e.currentTarget.getAttribute("sortproperty") || Sort.defaultSort;
 
     let newSort: boolean;
     if (sortBy === sortProperty) {

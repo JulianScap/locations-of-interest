@@ -1,5 +1,5 @@
 import { TableCell } from "@material-ui/core";
-import React from "react";
+import { PureComponent } from "react";
 import ILocation from "../types/ILocation";
 import StyledTableRow from "./StyledTableRow";
 
@@ -11,7 +11,7 @@ interface LocationRowState {
   location: ILocation;
 }
 
-class LocationRow extends React.Component<LocationRowProps, LocationRowState> {
+class LocationRow extends PureComponent<LocationRowProps, LocationRowState> {
   constructor(props: LocationRowProps) {
     super(props);
 
