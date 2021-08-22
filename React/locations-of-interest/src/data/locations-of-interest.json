@@ -1325,8 +1325,8 @@
         "updated":  "2021-08-22T00:00:00Z",
         "day":  "2021-08-15T00:00:00Z",
         "streetAddress":  "State Highway 2",
-        "suburb":  "Thames",
-        "city":  "",
+        "suburb":  null,
+        "city":  "Thames",
         "postCode":  "3576"
     },
     {

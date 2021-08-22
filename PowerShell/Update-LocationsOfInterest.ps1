@@ -98,6 +98,11 @@ function Convert-Address {
     $loi.city = $cityPostCode[0];
     $loi.postCode = $cityPostCode[1];
   }
+
+  if (!$loi.city -and $loi.suburb) {
+    $loi.city = $loi.suburb;
+    $loi.suburb = $null;
+  }
 }
 
 function Convert-ToLocationOfInterest {
