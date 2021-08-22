@@ -1,6 +1,7 @@
-import { TableCell, TableRow } from "@material-ui/core";
+import { TableCell } from "@material-ui/core";
 import React from "react";
 import ILocation from "../types/ILocation";
+import StyledTableRow from "./StyledTableRow";
 
 interface LocationRowProps {
   location: ILocation;
@@ -23,9 +24,13 @@ class LocationRow extends React.Component<LocationRowProps, LocationRowState> {
 
   render() {
     return (
-      <TableRow>
+      <StyledTableRow>
         <TableCell>{this.state.location.id}</TableCell>
-        <TableCell><span title={this.state.location.whatToDo}>{this.state.location.locationName}</span></TableCell>
+        <TableCell>
+          <span title={this.state.location.whatToDo}>
+            {this.state.location.locationName}
+          </span>
+        </TableCell>
         <TableCell>{this.state.location.streetAddress}</TableCell>
         <TableCell>{this.state.location.suburb}</TableCell>
         <TableCell>{this.state.location.city}</TableCell>
@@ -33,7 +38,7 @@ class LocationRow extends React.Component<LocationRowProps, LocationRowState> {
         <TableCell>{this.state.location.dayAsString}</TableCell>
         <TableCell>{this.state.location.times}</TableCell>
         <TableCell>{this.state.location.updatedAsString}</TableCell>
-      </TableRow>
+      </StyledTableRow>
     );
   }
 }
