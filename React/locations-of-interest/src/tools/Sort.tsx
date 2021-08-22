@@ -16,7 +16,7 @@ function SortLocations(
     );
   } else {
     locations.sort((a: ILocation, b: ILocation) =>
-      Compare.strings(a[sortProperty], b[sortProperty], asc)
+      Compare.strings(a[sortProperty] as string, b[sortProperty] as string, asc)
     );
   }
   return [...locations];
