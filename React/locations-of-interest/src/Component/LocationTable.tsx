@@ -7,18 +7,18 @@ import {
 } from "@material-ui/core";
 import LocationRow from "./LocationRow";
 import ILocation from "../types/ILocation";
-import { useState } from "react";
+import React, { useState } from "react";
 import SortableTableCell from "./SortableTableCell";
 import { getLocationsOfInterest } from "../data/getLocationsOfInterest";
 import Sort from "../tools/Sort";
 
 function LocationTable() {
   const [currentData, setData] = useState(getLocationsOfInterest());
-  const [sortBy, setSort] = useState("id");
+  const [sortBy, setSort] = useState(Sort.defaultSort);
   const [sortAsc, setSortAsc] = useState(true);
 
-  const sortData = (e: any) => {
-    const sortProperty: string = e.target.getAttribute("sortproperty");
+  const sortData = (e: React.MouseEvent) => {
+    const sortProperty: string = e.currentTarget.getAttribute("sortproperty") || Sort.defaultSort;
 
     let newSort: boolean;
     if (sortBy === sortProperty) {

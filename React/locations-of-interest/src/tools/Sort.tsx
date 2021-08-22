@@ -24,6 +24,7 @@ function SortLocations(
 
 const Sort = {
   locations: SortLocations,
+  defaultSort: "id",
 };
 
 export default Sort;
