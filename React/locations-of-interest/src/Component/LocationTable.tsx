@@ -47,24 +47,6 @@ function compareNumbers(a: number, b: number, asc: boolean): number {
   return result;
 }
 
-// function compare(a: any, b: any, asc: boolean): number {
-//   let result = 0;
-
-//   if (a < b) {
-//     result = -1;
-//   }
-
-//   if (a > b) {
-//     result = 1;
-//   }
-
-//   if (!asc) {
-//     result *= -1;
-//   }
-
-//   return result;
-// }
-
 function LocationTable() {
   const [currentData, setData] = useState(prepareData(data));
   const [sortBy, setSort] = useState("id");
