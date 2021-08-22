@@ -1,3 +1,4 @@
+[string] $jsonFile = '..\React\locations-of-interest\src\data\locations-of-interest.json';
 [string] $tmpFolder = '.tmp';
 
 function Get-Data() {
@@ -39,16 +40,16 @@ function Set-Dates {
   param ([PSCustomObject]$loi)
   if (!$loi) { return; }
 
-  if ($loi.UpdatedAsString) {
-    [string[]] $tokens = -split $loi.UpdatedAsString;
+  if ($loi.updatedAsString) {
+    [string[]] $tokens = -split $loi.updatedAsString;
     [int] $month = Get-Month $tokens[1];
-    $loi.Updated = [DateTime]::new(2021, $month, $tokens[0]);
+    $loi.updated = [DateTime]::new(2021, $month, $tokens[0]);
   }
 
-  if ($loi.DayAsString) {
-    [string[]] $tokens = -split $loi.DayAsString;
+  if ($loi.dayAsString) {
+    [string[]] $tokens = -split $loi.dayAsString;
     [int] $month = Get-Month $tokens[2];
-    $loi.Day = [DateTime]::new(2021, $month, $tokens[1]);
+    $loi.day = [DateTime]::new(2021, $month, $tokens[1]);
   }
 }
 
@@ -61,14 +62,14 @@ function Convert-ToLocationOfInterest {
   }
 
   [PSCustomObject] $loi = [PSCustomObject]@{
-    LocationName    = $entityAsArray[0];
-    Address         = $entityAsArray[1];
-    DayAsString     = $entityAsArray[2];
-    Times           = $entityAsArray[3];
-    WhatToDo        = $entityAsArray[4];
-    UpdatedAsString = $entityAsArray[5];
-    Updated         = $null;
-    Day             = $null;
+    locationName    = $entityAsArray[0];
+    address         = $entityAsArray[1];
+    dayAsString     = $entityAsArray[2];
+    times           = $entityAsArray[3];
+    whatToDo        = $entityAsArray[4];
+    updatedAsString = $entityAsArray[5];
+    updated         = $null;
+    day             = $null;
   };
 
   Set-Dates $loi
@@ -96,4 +97,4 @@ if (!(Test-Path $tmpFolder)) {
 }
 
 [xml] $data = Get-Data
-Import-Xml $data | ConvertTo-Json > "./$tmpFolder/locations-of-interest.json"
+Import-Xml $data | ConvertTo-Json | Out-File -Encoding utf8 $jsonFile
