@@ -25,9 +25,7 @@ function LocationTable() {
       newSort = !sortAsc;
     } else {
       newSort = true;
-      setSort(sortProperty);
     }
-    setSortAsc(newSort);
 
     if (sortProperty === "id") {
       currentData.sort((a: ILocation, b: ILocation) =>
@@ -43,6 +41,8 @@ function LocationTable() {
       );
     }
 
+    setSort(sortProperty);
+    setSortAsc(newSort);
     setData([...currentData]);
   };
 
