@@ -4,9 +4,11 @@ import ILocation from "../types/ILocation";
 
 interface LocationRowProps {
   location: ILocation;
+  lineNumber: Number;
 }
 
 interface LocationRowState {
+  lineNumber: Number;
   location: ILocation;
 }
 
@@ -15,6 +17,7 @@ class LocationRow extends React.Component<LocationRowProps, LocationRowState> {
     super(props);
 
     this.state = {
+      lineNumber: props.lineNumber,
       location: {
         ...props.location,
       },
@@ -24,6 +27,7 @@ class LocationRow extends React.Component<LocationRowProps, LocationRowState> {
   render() {
     return (
       <TableRow>
+        <TableCell>{this.state.lineNumber}</TableCell>
         <TableCell>{this.state.location.locationName}</TableCell>
         <TableCell>{this.state.location.address}</TableCell>
         <TableCell>{this.state.location.dayAsString}</TableCell>

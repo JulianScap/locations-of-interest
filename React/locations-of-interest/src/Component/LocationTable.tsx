@@ -4,10 +4,12 @@ import data from "../data/locations-of-interest.json";
 import ILocation from "../types/ILocation";
 
 function LocationTable() {
+  let lineNumber = 0;
   return (
     <Table stickyHeader={true}>
       <TableHead>
       <TableRow>
+        <TableCell>#</TableCell>
         <TableCell>Location Name</TableCell>
         <TableCell>Address</TableCell>
         <TableCell>Day</TableCell>
@@ -16,8 +18,9 @@ function LocationTable() {
       </TableRow>
       </TableHead>
       <TableBody>
-        {data.map((location: ILocation) => (
-          <LocationRow location={location} />
+        {
+        data.map((location: ILocation) => (
+          <LocationRow lineNumber={++lineNumber} location={location} />
         ))}
       </TableBody>
     </Table>
