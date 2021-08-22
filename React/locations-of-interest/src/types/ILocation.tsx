@@ -12,6 +12,7 @@ interface ILocation {
   updatedAsString: string;
   updated: string;
   day: string;
+  [name: string]: any;
 }
 
 export default ILocation;
