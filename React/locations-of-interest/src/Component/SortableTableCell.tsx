@@ -5,8 +5,7 @@ export interface SortableTableCellProps extends TableCellProps {
 }
 
 function SortableTableCell(props: SortableTableCellProps) {
-  const newProps: TableCellProps = { ...props };
-  return <TableCell {...newProps} />;
+  return <TableCell {...props} />;
 }
 
 export default SortableTableCell;
