@@ -1,5 +1,103 @@
 ﻿[
   {
+    "locationName": "Koffee Bar West City Henderson",
+    "address": "7 Catherine Street, Henderson, Auckland 0612",
+    "dayAsString": "Sunday 15 August",
+    "times": "1:00 pm - 3:00 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "22 Aug",
+    "updated": "/Date(1629547200000)/",
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "7 Catherine Street",
+    "suburb": "Henderson",
+    "city": "Auckland 0612",
+    "postCode": "0612"
+  },
+  {
+    "locationName": "SuperValue Avondale",
+    "address": "2021 Great North Road, Avondale, Auckland 1026",
+    "dayAsString": "Tuesday 17 August",
+    "times": "5:00 pm - 6:30 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "22 Aug",
+    "updated": "/Date(1629547200000)/",
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "2021 Great North Road",
+    "suburb": "Avondale",
+    "city": "Auckland 1026",
+    "postCode": "1026"
+  },
+  {
+    "locationName": "Kmart St Lukes",
+    "address": "72 St Lukes Road, Mount Albert, Auckland 1025",
+    "dayAsString": "Tuesday 17 August",
+    "times": "8:45 pm - 9:05 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "22 Aug",
+    "updated": "/Date(1629547200000)/",
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "72 St Lukes Road",
+    "suburb": "Mount Albert",
+    "city": "Auckland 1025",
+    "postCode": "1025"
+  },
+  {
+    "locationName": "Farro Grey Lynn",
+    "address": "34 Westmoreland Street West, Grey Lynn, Auckland 1021",
+    "dayAsString": "Wednesday 18 August",
+    "times": "4:33 pm - 4:45 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "22 Aug",
+    "updated": "/Date(1629547200000)/",
+    "day": "/Date(1629201600000)/",
+    "streetAddress": "34 Westmoreland Street West",
+    "suburb": "Grey Lynn",
+    "city": "Auckland 1021",
+    "postCode": "1021"
+  },
+  {
+    "locationName": "Countdown Grey Lynn",
+    "address": "271 Richmond Road, Grey Lynn, Auckland 1022",
+    "dayAsString": "Wednesday 18 August",
+    "times": "4:55 pm - 5:30 pm",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "updatedAsString": "22 Aug",
+    "updated": "/Date(1629547200000)/",
+    "day": "/Date(1629201600000)/",
+    "streetAddress": "271 Richmond Road",
+    "suburb": "Grey Lynn",
+    "city": "Auckland 1022",
+    "postCode": "1022"
+  },
+  {
+    "locationName": "Farro Grey Lynn",
+    "address": "34 Westmoreland Street West, Grey Lynn, Auckland 1021",
+    "dayAsString": "Tuesday 17 August",
+    "times": "6:37 pm - 6:50 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "22 Aug",
+    "updated": "/Date(1629547200000)/",
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "34 Westmoreland Street West",
+    "suburb": "Grey Lynn",
+    "city": "Auckland 1021",
+    "postCode": "1021"
+  },
+  {
+    "locationName": "Countdown Grey Lynn",
+    "address": "271 Richmond Road, Grey Lynn, Auckland 1022",
+    "dayAsString": "Tuesday 17 August",
+    "times": "6:52 pm - 7:15 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "22 Aug",
+    "updated": "/Date(1629547200000)/",
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "271 Richmond Road",
+    "suburb": "Grey Lynn",
+    "city": "Auckland 1022",
+    "postCode": "1022"
+  },
+  {
     "locationName": "Starbucks Westfield Albany mall",
     "address": "219 Don McKinnon Drive, Albany, Auckland 0632",
     "dayAsString": "Sunday 15 August",
@@ -7,7 +105,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "219 Don McKinnon Drive",
+    "suburb": "Albany",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
     "locationName": "Laundromat, Otara",
@@ -17,17 +119,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629460800000)/"
+    "day": "/Date(1629460800000)/",
+    "streetAddress": "11 Wymondley Road",
+    "suburb": "Otara",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "New World Papatoetoe",
     "address": "63 St George Street, Papatoetoe, Auckland 2025",
     "dayAsString": "Thursday 19 August",
     "times": "9:53 am - 10:30 am",
-    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629288000000)/"
+    "day": "/Date(1629288000000)/",
+    "streetAddress": "63 St George Street",
+    "suburb": "Papatoetoe",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "Waiparuru Dining Hall Grafton Campus University of Auckland",
@@ -37,7 +147,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "35 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Waiparuru Dining Hall Grafton Campus University of Auckland",
@@ -47,7 +161,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "35 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Pukekohe High School",
@@ -57,7 +175,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "14 Harris Street",
+    "suburb": "Pukekohe",
+    "city": "Pukekohe 2120",
+    "postCode": "2120"
   },
   {
     "locationName": "Pukekohe High School",
@@ -67,17 +189,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "14 Harris Street",
+    "suburb": "Pukekohe",
+    "city": "Pukekohe 2120",
+    "postCode": "2120"
   },
   {
     "locationName": "Horizon Radiology Otara",
     "address": "3 Watford Street, Otara, Auckland 2023",
     "dayAsString": "Tuesday 17 August",
-    "times": "1:15 pm - 2:30 pm",
+    "times": "2:15 pm - 3:30 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "3 Watford Street",
+    "suburb": "Otara",
+    "city": "Auckland 2023",
+    "postCode": "2023"
   },
   {
     "locationName": "The Lula Inn Auckland CBD",
@@ -87,7 +217,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628251200000)/"
+    "day": "/Date(1628251200000)/",
+    "streetAddress": "149 Quay Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Waiparuru Dining Hall Grafton Campus University of Auckland",
@@ -97,7 +231,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "35 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Waiparuru Dining Hall Grafton Campus University of Auckland",
@@ -107,7 +245,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "35 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Waiparuru Dining Hall Grafton Campus University of Auckland",
@@ -117,7 +259,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "35 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Wymondley Early Learning Centre Otara",
@@ -127,17 +273,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "77s Wymondley Road",
+    "suburb": "Otara",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "McDonalds New Lynn",
     "address": "1 Memorial Drive, New Lynn, Auckland 0600",
     "dayAsString": "Friday 13 August",
-    "times": "11:00 pm - 7:15 pm",
+    "times": "11:00 pm - 7:15 am",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "1 Memorial Drive",
+    "suburb": "New Lynn",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Blockhouse Bay Christian Kindergarten",
@@ -147,7 +301,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628424000000)/"
+    "day": "/Date(1628424000000)/",
+    "streetAddress": "76 Dundale Avenue",
+    "suburb": "Blockhouse Bay",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Remuera Exchange Auckland",
@@ -157,7 +315,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628424000000)/"
+    "day": "/Date(1628424000000)/",
+    "streetAddress": "2A Dilworth Avenue",
+    "suburb": "Remuera",
+    "city": "Auckland 1050",
+    "postCode": "1050"
   },
   {
     "locationName": "Seaworld Fisheries Otara",
@@ -167,27 +329,39 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629374400000)/"
+    "day": "/Date(1629374400000)/",
+    "streetAddress": "122 East Tamaki Road",
+    "suburb": "Otara",
+    "city": "Manukau 2023",
+    "postCode": "2023"
   },
   {
     "locationName": "Countdown Mangere East",
     "address": "359 Massey Road, Mangere East, Auckland 2024",
     "dayAsString": "Friday 20 August",
     "times": "9:50 am - 10:15 am",
-    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629374400000)/"
+    "day": "/Date(1629374400000)/",
+    "streetAddress": "359 Massey Road",
+    "suburb": "Mangere East",
+    "city": "Auckland 2024",
+    "postCode": "2024"
   },
   {
     "locationName": "Countdown Manukau",
     "address": "652 Great South Road, Manukau, Auckland 2104",
     "dayAsString": "Thursday 19 August",
     "times": "4:53 pm - 5:30 pm",
-    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629288000000)/"
+    "day": "/Date(1629288000000)/",
+    "streetAddress": "652 Great South Road",
+    "suburb": "Manukau",
+    "city": "Auckland 2104",
+    "postCode": "2104"
   },
   {
     "locationName": "Wellington Domestic Airport",
@@ -197,7 +371,11 @@
     "whatToDo": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629288000000)/"
+    "day": "/Date(1629288000000)/",
+    "streetAddress": "1 Stewart Duff Drive",
+    "suburb": "Rongotai",
+    "city": "Wellington 6022",
+    "postCode": "6022"
   },
   {
     "locationName": "Bus 32 Mangere Town Centre to Sylvia Park",
@@ -207,17 +385,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629201600000)/"
+    "day": "/Date(1629201600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Whitaker Hall Auckland University Grafton Campus",
     "address": "27 Whitaker Place, Grafton, Auckland 1010",
-    "dayAsString": "Thursday 19 August",
+    "dayAsString": "Friday 13 August",
     "times": "12:00 am - 11:45 pm",
     "whatToDo": "Residents \u0026 staff isolate 14 days from last exposure. Test immediately \u0026 on days 5 \u0026 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629288000000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "27 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Pak N Save Kilbirnie",
@@ -227,7 +413,11 @@
     "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629288000000)/"
+    "day": "/Date(1629288000000)/",
+    "streetAddress": "78 Rongotai Road",
+    "suburb": "Kilbirnie",
+    "city": "Wellington 6022",
+    "postCode": "6022"
   },
   {
     "locationName": "Chatters Laundromat Mangere",
@@ -237,17 +427,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629288000000)/"
+    "day": "/Date(1629288000000)/",
+    "streetAddress": "5A Wanstead Way",
+    "suburb": "Mangere",
+    "city": "Auckland 2022",
+    "postCode": "2022"
   },
   {
     "locationName": "Auckland Domestic Airport",
     "address": "1 Ray Emery Drive, Auckland Airport, Auckland 2022",
     "dayAsString": "Thursday 19 August",
     "times": "3:30 pm - 4:30 pm",
-    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "whatToDo": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629288000000)/"
+    "day": "/Date(1629288000000)/",
+    "streetAddress": "1 Ray Emery Drive",
+    "suburb": "Auckland Airport",
+    "city": "Auckland 2022",
+    "postCode": "2022"
   },
   {
     "locationName": "Whitaker Hall Auckland University Grafton Campus",
@@ -257,7 +455,11 @@
     "whatToDo": "Residents \u0026 staff isolate 14 days from last exposure. Test immediately \u0026 on days 5 \u0026 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629201600000)/"
+    "day": "/Date(1629201600000)/",
+    "streetAddress": "27 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Mobil Petrol Station Otara",
@@ -267,7 +469,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629201600000)/"
+    "day": "/Date(1629201600000)/",
+    "streetAddress": "138/142 East Tamaki Road",
+    "suburb": "Otara",
+    "city": "Auckland 2023",
+    "postCode": "2023"
   },
   {
     "locationName": "Pak N Save Kilbirnie",
@@ -277,7 +483,11 @@
     "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629201600000)/"
+    "day": "/Date(1629201600000)/",
+    "streetAddress": "78 Rongotai Road",
+    "suburb": "Kilbirnie",
+    "city": "Wellington 6022",
+    "postCode": "6022"
   },
   {
     "locationName": "Lynfield College Mount Roskill",
@@ -287,7 +497,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "191 White Swan Road",
+    "suburb": "Mount Roskill",
+    "city": "Auckland 1041",
+    "postCode": "1041"
   },
   {
     "locationName": "PlaceMakers New Lynn",
@@ -297,7 +511,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "17 Clark Street",
+    "suburb": "New Lynn",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Bus 32 Mangere Town Centre to Sylvia Park",
@@ -307,7 +525,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Countdown Greenlane",
@@ -317,7 +539,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "326 Great South Road",
+    "suburb": "Greenlane",
+    "city": "Auckland 1051",
+    "postCode": "1051"
   },
   {
     "locationName": "McAuley High School Otahuhu",
@@ -327,7 +553,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "26 High Street",
+    "suburb": "Otahuhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "McDonald\u0027s Manukau",
@@ -337,7 +567,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "2 Ronwood Avenue",
+    "suburb": "Manukau",
+    "city": "Auckland 2104",
+    "postCode": "2104"
   },
   {
     "locationName": "Bus 325 Otara to Otahuhu",
@@ -347,7 +581,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Wymondley Road Superette Otara",
@@ -357,7 +595,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "2 Wymondley Road",
+    "suburb": "Otara",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "Domino\u0027s Birkenhead",
@@ -367,7 +609,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "Unit A/174 Mokoia Rd",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "Engineering Building City Campus University of Auckland",
@@ -377,17 +623,25 @@
     "whatToDo": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "20 Symonds Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
-    "locationName": "Bus 325  Otara Bus station to Gilbert Rd",
+    "locationName": "Bus 325 Otara Bus station to Gilbert Rd",
     "address": "Auckland",
     "dayAsString": "Tuesday 17 August",
     "times": "3:45 pm - 4:00 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Optometry Lab Room 039 MDL Ground floor Building 502 Grafton Campus University of Auckland",
@@ -397,7 +651,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "85 Park Road",
+    "suburb": "Grafton",
+    "city": "Auckland 1023",
+    "postCode": "1023"
   },
   {
     "locationName": "Vege Oasis Otara",
@@ -407,7 +665,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "3/28 Bairds Road",
+    "suburb": "Papatoetoe",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "Munchy Mart Auckland University Campus",
@@ -417,7 +679,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "11 Symonds Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Bus 95B or 95C Northcote College to Glenfield",
@@ -427,7 +693,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Bus 309X Queen St to Newmarket to Mangere",
@@ -437,7 +707,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Train Ellerslie Station to Britomart Station",
@@ -447,7 +721,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Bus 27H Britomart to AUT",
@@ -457,7 +735,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Whitaker Hall Auckland University Grafton Campus",
@@ -467,7 +749,11 @@
     "whatToDo": "Residents \u0026 staff isolate 14 days from last exposure. Test immediately \u0026 on days 5 \u0026 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "27 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Remuera Exchange Auckland",
@@ -477,7 +763,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "2A Dilworth Avenue",
+    "suburb": "Remuera",
+    "city": "Auckland 1050",
+    "postCode": "1050"
   },
   {
     "locationName": "KFC Botany Downs",
@@ -487,7 +777,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "452 Ti Rakau Drive",
+    "suburb": "Botany Downs",
+    "city": "Auckland 2013",
+    "postCode": "2013"
   },
   {
     "locationName": "Pinati\u0027s Keke Pua\u0027a Queen St Otahuhu Auckland",
@@ -497,7 +791,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "19A Queen Street",
+    "suburb": "Otahuhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "Stats 101 Room 115 OGGB Lecture Building 260 Fisher and Paykel lecture theatre City Campus University of Auckland",
@@ -507,7 +805,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "12 Grafton Road",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Blockhouse Bay Christian Kindergarten",
@@ -517,7 +819,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "76 Dundale Avenue",
+    "suburb": "Blockhouse Bay",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Northcote College Auckland",
@@ -527,7 +833,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "1 Kauri Glen Rd",
+    "suburb": "Northcote",
+    "city": "Auckland 0627",
+    "postCode": "0627"
   },
   {
     "locationName": "Building 503 Room 124 Grafton Campus",
@@ -537,7 +847,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "85 Park Road",
+    "suburb": "Grafton",
+    "city": "Auckland 1023",
+    "postCode": "1023"
   },
   {
     "locationName": "Hong Kong Bakery Mangere Bridge",
@@ -547,7 +861,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "28 Coronation Road",
+    "suburb": "Mangere Bridge",
+    "city": "Auckland 2022",
+    "postCode": "2022"
   },
   {
     "locationName": "Bus 32 Mangere Town Centre to Sylvia Park",
@@ -557,7 +875,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Countdown Birkenhead",
@@ -567,7 +889,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "71 Mokoia Road",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "St Honores Bakery",
@@ -577,7 +903,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "71 Mokoia Road",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "McAuley High School Otahuhu",
@@ -587,7 +917,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "26 High Street",
+    "suburb": "Otahuhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "Remuera Exchange Auckland",
@@ -597,7 +931,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "2A Dilworth Avenue",
+    "suburb": "Remuera",
+    "city": "Auckland 1050",
+    "postCode": "1050"
   },
   {
     "locationName": "New World Mt Roskill",
@@ -607,7 +945,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "53 May Road",
+    "suburb": "Mt Roskill",
+    "city": "Auckland 1041",
+    "postCode": "1041"
   },
   {
     "locationName": "Bus 325 Otara to Otahuhu",
@@ -617,7 +959,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Otahuhu Pool \u0026 Leisure Centre",
@@ -627,7 +973,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "30 Mason Avenue",
+    "suburb": "Otahuhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "Level 3 Kate Edger Information Commons City Campus University of Auckland",
@@ -637,7 +987,11 @@
     "whatToDo": "All on level3: isolate 14 days from last exposure. Test immediately \u0026 on days 5 \u0026 12 after last exposure. Call Healthline. All on other levels: self-monitor for symptoms for 14 days. Get a test and isolate until you get a negative test, if symptomatic",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "9 Symonds Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Wymondley Road Superette Otara",
@@ -647,7 +1001,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "2 Wymondley Road",
+    "suburb": "Otara",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "Bunnings Mt Roskill",
@@ -657,7 +1015,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "2 Carr Road",
+    "suburb": "Three Kings",
+    "city": "Auckland 1042",
+    "postCode": "1042"
   },
   {
     "locationName": "Whitaker Hall Auckland University Grafton Campus",
@@ -667,7 +1029,11 @@
     "whatToDo": "Residents \u0026 staff isolate 14 days from last exposure. Test immediately \u0026 on days 5 \u0026 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "27 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Z Harris Road Service Station East Tamaki",
@@ -677,7 +1043,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "142 Harris Road",
+    "suburb": "East Tamaki",
+    "city": "Auckland 2013",
+    "postCode": "2013"
   },
   {
     "locationName": "Nandos Botany",
@@ -687,7 +1057,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "1 Town Centre Drive",
+    "suburb": "East Tamaki",
+    "city": "Auckland 2016",
+    "postCode": "2016"
   },
   {
     "locationName": "Seaworld Fisheries Otara",
@@ -697,7 +1071,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "122 East Tamaki Road",
+    "suburb": "Otara",
+    "city": "Auckland 2023",
+    "postCode": "2023"
   },
   {
     "locationName": "Laundromatic Chartwell",
@@ -707,7 +1085,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "27 Chartwell Avenue",
+    "suburb": "Glenfield",
+    "city": "Auckland 0629",
+    "postCode": "0629"
   },
   {
     "locationName": "Wellington Airport",
@@ -717,7 +1099,11 @@
     "whatToDo": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "1 Stewart Duff Drive",
+    "suburb": "Rongotai",
+    "city": "Wellington 6022",
+    "postCode": "6022"
   },
   {
     "locationName": "The Pumphouse Theatre Takapuna",
@@ -727,17 +1113,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "2A Manurere Avenue",
+    "suburb": "Takapuna",
+    "city": "Auckland 0622",
+    "postCode": "0622"
   },
   {
     "locationName": "Domestic Terminal Auckland Airport",
-    "address": "Ray Emery Drive, Mangere,",
+    "address": "Ray Emery Drive, Mangere",
     "dayAsString": "Sunday 15 August",
     "times": "4:00 pm - 5:00 pm",
     "whatToDo": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "Ray Emery Drive",
+    "suburb": null,
+    "city": "Mangere",
+    "postCode": "gere"
   },
   {
     "locationName": "Britomart Bus Station Auckland Central",
@@ -747,7 +1141,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "8-12 Queen Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Woodturners Cafe Thames",
@@ -757,7 +1155,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "State Highway 2",
+    "suburb": "Thames",
+    "city": "3576",
+    "postCode": "3576"
   },
   {
     "locationName": "Countdown Auckland Victoria Street West",
@@ -767,7 +1169,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "1/25 Victoria Street West",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Whitaker Hall Auckland University Grafton Campus",
@@ -777,7 +1183,11 @@
     "whatToDo": "Residents \u0026 staff isolate 14 days from last exposure. Test immediately \u0026 on days 5 \u0026 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "27 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Elliot stables Auckland CBD",
@@ -787,7 +1197,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "1/41 Elliott Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Taras Beads Coromandel",
@@ -797,7 +1211,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "1/75 Kapanga Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "Umu Cafe Coromandel",
@@ -807,7 +1225,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "22 Wharf Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "Central Auckland Church of Christ",
@@ -817,7 +1239,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "52 Hepburn Street",
+    "suburb": "Freemans Bay",
+    "city": "Auckland 1011",
+    "postCode": "1011"
   },
   {
     "locationName": "Pizza Hut Birkenhead",
@@ -827,7 +1253,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "3/75 Mokoia Road",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "Gangnam Style Korean BBQ Buffet Manakau Auckland",
@@ -837,7 +1267,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "726 Great South Road",
+    "suburb": "Manukau",
+    "city": "Auckland 2104",
+    "postCode": "2104"
   },
   {
     "locationName": "Laundrycoin Laundromat Takanini",
@@ -847,7 +1281,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "108 Great South Road",
+    "suburb": "Takanini",
+    "city": "Auckland 2112",
+    "postCode": "2112"
   },
   {
     "locationName": "BP Gas Station Coromandel",
@@ -857,7 +1295,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "50 Tiki Road",
+    "suburb": null,
+    "city": "Coromandel 3056",
+    "postCode": "3056"
   },
   {
     "locationName": "Umu Cafe Coromandel",
@@ -867,7 +1309,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "22 Wharf Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "Waiparuru and Whitaker Halls Ball Aotea Centre Auckland",
@@ -877,7 +1323,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "50 Mayoral Drive",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Pak n Save Wairau Road",
@@ -887,7 +1337,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "30 Wairau Road",
+    "suburb": "Wairau Valley",
+    "city": "Auckland 0627",
+    "postCode": "0627"
   },
   {
     "locationName": "Youth Practice Avondale Primary School Hall",
@@ -897,7 +1351,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "Crayford Street West",
+    "suburb": "Avondale",
+    "city": "Auckland 1026",
+    "postCode": "1026"
   },
   {
     "locationName": "Manukau Super Strike",
@@ -907,17 +1365,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "573 Great South Road",
+    "suburb": "Manukau",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "Bar 101 Auckland CBD",
-    "address": "18 Elliott Street, ,, Auckland CBD, Auckland 1010",
+    "address": "18 Elliott Street, Auckland CBD, Auckland 1010",
     "dayAsString": "Saturday 14 August",
     "times": "3:08 am - 3:30 am",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "18 Elliott Street",
+    "suburb": "Auckland CBD",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "McDonalds New Lynn",
@@ -927,7 +1393,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "1 Memorial Drive",
+    "suburb": "New Lynn",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Whitaker Hall Auckland University Grafton Campus",
@@ -937,7 +1407,11 @@
     "whatToDo": "Residents \u0026 staff Isolate 14 days from last exposure. Test immediately, \u0026 on days 5 \u0026 12 after last exposure and call Healthline. Visitors Self-monitor for symptoms for 14 days.If symptoms develop, get a test and stay at home until you get a negative test",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "27 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Zone bowling Botany",
@@ -947,7 +1421,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "500A Ti Rakau Drive",
+    "suburb": "Northpark",
+    "city": "Auckland 2013",
+    "postCode": "2013"
   },
   {
     "locationName": "Mobil Don Buck Auckland",
@@ -957,7 +1435,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "Don Buck and Triangle Road",
+    "suburb": "Massey",
+    "city": "Auckland 0614",
+    "postCode": "0614"
   },
   {
     "locationName": "The Warehouse Glenfield Mall",
@@ -967,7 +1449,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "385 Glenfield Road",
+    "suburb": "Glenfield",
+    "city": "Auckland 0629",
+    "postCode": "0629"
   },
   {
     "locationName": "Dennys Auckland CBD",
@@ -977,7 +1463,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "51 Hobson Street",
+    "suburb": "Auckland CBD",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Sky City Casino Auckland",
@@ -987,7 +1477,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "72 Victoria Street West",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Unichem Mangere Medical Pharmacy",
@@ -997,7 +1491,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "215 Massey Road",
+    "suburb": "Mangere East",
+    "city": "Auckland 2024",
+    "postCode": "2024"
   },
   {
     "locationName": "McAuley High School Otahuhu",
@@ -1007,7 +1505,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "26 High Street",
+    "suburb": "Otahuhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "Bus 32 Mangere Town Centre to Sylvia Park",
@@ -1017,7 +1519,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "AUT City campus",
@@ -1027,7 +1533,11 @@
     "whatToDo": "All at 10am-12pm WF313 COMP501/52 Computing Technology in Society \u0026 3-4pm WG403 COMP500/51 Programming 1 will be sent information on isolation \u0026 testing by AUT. All elsewhere on city campus follow Level 4 instructions \u0026 call Healthline if symptomatic.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "55 Wellesley Street East",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Optometry Lab Building 505 Room 358 Grafton Campus University of Auckland",
@@ -1037,7 +1547,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "2 Boyle Crescent",
+    "suburb": "Grafton",
+    "city": "Auckland 1023",
+    "postCode": "1023"
   },
   {
     "locationName": "Bus 325 Otara to Otahuhu",
@@ -1047,7 +1561,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Liquor Zone Auckland CBD",
@@ -1057,7 +1575,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "9-15 Wakefield Street",
+    "suburb": "Auckland CBD",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Train Panmure to Britomart",
@@ -1067,7 +1589,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Matsu Sushi Bar Westfield Albany Mall",
@@ -1077,7 +1603,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "219 Don McKinnon Drive",
+    "suburb": "Albany",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
     "locationName": "HYPE DC Albany Mall",
@@ -1087,7 +1617,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "Shop 254/219 Don McKinnon Drive",
+    "suburb": "Albany",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
     "locationName": "McDonald\u0027s West City",
@@ -1097,7 +1631,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "7 Catherine Street",
+    "suburb": "Henderson",
+    "city": "Auckland 0612",
+    "postCode": "0612"
   },
   {
     "locationName": "Katsubi West City",
@@ -1107,7 +1645,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "7 Catherine Street",
+    "suburb": "Henderson",
+    "city": "Auckland 0612",
+    "postCode": "0612"
   },
   {
     "locationName": "F45 Training Papatoetoe",
@@ -1117,7 +1659,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "2/129 Great South Road",
+    "suburb": "Papatoetoe",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "Train Britomart to Panmure",
@@ -1127,7 +1673,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Whitaker Hall Auckland University Grafton Campus",
@@ -1137,7 +1687,11 @@
     "whatToDo": "Residents and staff Isolate 14 days from last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline. Visitors monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you test negative.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "27 Whitaker Place",
+    "suburb": "Grafton",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Palsun Korean Restaurant",
@@ -1147,7 +1701,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "57 Lorne Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Spark Arena Auckland CBD",
@@ -1157,17 +1715,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "42-80 Mahuhu Crescent",
+    "suburb": "Parnell",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Bar 101 Auckland CBD",
-    "address": "18 Elliott Street, ,, Auckland CBD, Auckland 1010",
+    "address": "18 Elliott Street, Auckland CBD, Auckland 1010",
     "dayAsString": "Friday 13 August",
     "times": "11:43 pm - 1:13 am",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "18 Elliott Street",
+    "suburb": "Auckland CBD",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Building 260 Room 115 OGGB Fisher and Paykel lecture theatre Auckland Uni City Campus",
@@ -1177,7 +1743,11 @@
     "whatToDo": "All at Statistics 101; Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "12 Grafton Road",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Bus 325 Otara to Otahuhu",
@@ -1187,7 +1757,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Bus 97 Birkenhead to Britomart",
@@ -1197,7 +1771,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "McAuley High School Otahuhu",
@@ -1207,7 +1785,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "26 High Street",
+    "suburb": "Otahuhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "AUT City campus",
@@ -1217,7 +1799,11 @@
     "whatToDo": "All at 2-5pm WZ514 COMP500/51 Programming 1 will be sent information on isolation \u0026 testing by AUT. All elsewhere on city campus follow Level 4 instructions \u0026 call Healthline if symptomatic.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "55 Wellesley Street East",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Topwell Bakery Glen Eden",
@@ -1227,7 +1813,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "16 Glen mall Place",
+    "suburb": "Glen Eden",
+    "city": "Auckland",
+    "postCode": "land"
   },
   {
     "locationName": "Glen Eden Library Glendale",
@@ -1237,7 +1827,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "12/32 Glendale Road",
+    "suburb": "Glen Eden",
+    "city": "Auckland 0602",
+    "postCode": "0602"
   },
   {
     "locationName": "Crumb Grey Lynn",
@@ -1247,7 +1841,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "37 Ariki Street",
+    "suburb": "Grey Lynn",
+    "city": "Auckland 1021",
+    "postCode": "1021"
   },
   {
     "locationName": "Won Sushi Donburi",
@@ -1257,7 +1855,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "290 Queen Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Blockhouse Bay Christian Kindergarten",
@@ -1267,7 +1869,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "76 Dundale Avenue",
+    "suburb": "Blockhouse Bay",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "CityFitness Henderson",
@@ -1277,7 +1883,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "5 Vitasovich Avenue",
+    "suburb": "Henderson",
+    "city": "Auckland 0612",
+    "postCode": "0612"
   },
   {
     "locationName": "Bus 325 Otara to Otahuhu",
@@ -1287,7 +1897,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Train Panmure to Britomart",
@@ -1297,7 +1911,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "McAuley High School Otahuhu",
@@ -1307,7 +1925,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "26 High Street",
+    "suburb": "Otahuhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "St Pierre\u0027s Sushi Auckland CBD",
@@ -1317,7 +1939,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": "G14/20 Elliott Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Blockhouse Bay Community",
@@ -1327,7 +1953,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": "524 Blockhouse Bay Road",
+    "suburb": "Blockhouse Bay",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Gongcha Bubble Tea Auckland CBD",
@@ -1337,7 +1967,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": "164 Queen Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "J. A. Russell Ltd Mt Wellington",
@@ -1347,7 +1981,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "/Date(1629547200000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": "Unit D/68 Carbine Road",
+    "suburb": "Mount Wellington",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "Countdown Newtown",
@@ -1357,17 +1995,25 @@
     "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629374400000)/"
+    "day": "/Date(1629374400000)/",
+    "streetAddress": "3 John Street",
+    "suburb": "Mount Cook",
+    "city": "Wellington 6021",
+    "postCode": "6021"
   },
   {
     "locationName": "Flight NZ443 Auckland to Wellington",
-    "address": "NO DATA",
+    "address": "",
     "dayAsString": "Thursday 19 August",
     "times": "4:30 pm - 5:30 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629288000000)/"
+    "day": "/Date(1629288000000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": null,
+    "postCode": null
   },
   {
     "locationName": "Asian Food Specialist Kilbirnie",
@@ -1377,7 +2023,11 @@
     "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629288000000)/"
+    "day": "/Date(1629288000000)/",
+    "streetAddress": "3/7 Mahora Street",
+    "suburb": "Kilbirnie",
+    "city": "Wellington 6022",
+    "postCode": "6022"
   },
   {
     "locationName": "School bus, GO BUS Line S002C, to South Auckland Seventh Day Adventist or Aorere College or De La Salle College, morning run",
@@ -1387,7 +2037,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "De la Salle High School Mangere East",
@@ -1397,7 +2051,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "81 Gray Avenue",
+    "suburb": "M?ngere East",
+    "city": "Auckland 2024",
+    "postCode": "2024"
   },
   {
     "locationName": "Lumino - Glenfield Dental Centre",
@@ -1407,7 +2065,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "418 Glenfield Road",
+    "suburb": "Glenfield",
+    "city": "Auckland 0629",
+    "postCode": "0629"
   },
   {
     "locationName": "School bus, Go Bus Line S003D, Royal Oak Intermediate School to Onehunga afternoon run",
@@ -1417,7 +2079,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Ulutoa and Sons Otahahu Auckland",
@@ -1427,7 +2093,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "87 Mangere Road",
+    "suburb": "Otahuhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "BP Service Station Bulls",
@@ -1437,7 +2107,11 @@
     "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "94 Bridge Street",
+    "suburb": null,
+    "city": "Bulls 4818",
+    "postCode": "4818"
   },
   {
     "locationName": "Lynfield College Mount Roskill",
@@ -1447,7 +2121,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "191 White Swan Road",
+    "suburb": "Mount Roskill",
+    "city": "Auckland 1041",
+    "postCode": "1041"
   },
   {
     "locationName": "Z Petrol Station Waiouru",
@@ -1457,7 +2135,11 @@
     "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "11 State Highway 1",
+    "suburb": null,
+    "city": "Waiouru 4825",
+    "postCode": "4825"
   },
   {
     "locationName": "Waiouru Public Toilets State Highway 1",
@@ -1467,7 +2149,11 @@
     "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "15 State Highway 1",
+    "suburb": null,
+    "city": "Waiouru 4825",
+    "postCode": "4825"
   },
   {
     "locationName": "School bus, Go Bus Line S003D, Royal Oak Intermediate School to Onehunga afternoon run",
@@ -1477,7 +2163,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "BP Tokoroa",
@@ -1487,7 +2177,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "32 Main Road",
+    "suburb": null,
+    "city": "Tokoroa 3420",
+    "postCode": "3420"
   },
   {
     "locationName": "Roscommon Superette Manurewa",
@@ -1497,7 +2191,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "4/255 Browns Road",
+    "suburb": "Manurewa",
+    "city": "Auckland 2103",
+    "postCode": "2103"
   },
   {
     "locationName": "Manakau Super Strike Bowling Auckland",
@@ -1507,7 +2205,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "573 Great South Road",
+    "suburb": "Manukau",
+    "city": "Auckland 2104",
+    "postCode": "2104"
   },
   {
     "locationName": "School bus, GO BUS Line S002C, to South Auckland Seventh Day Adventist or Aorere College or De La Salle College, morning run",
@@ -1517,7 +2219,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.?",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Bus 129 Don Buck Road Massey to Auckland CBD",
@@ -1527,7 +2233,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "School bus, Go Bus Line S003D, Royal Oak Intermediate School to Onehunga afternoon run",
@@ -1537,7 +2247,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Spark Arena Auckland CBD",
@@ -1547,7 +2261,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "80 Mahuhu Crescent",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "AUT City campus",
@@ -1557,7 +2275,11 @@
     "whatToDo": "All at 3-5pm WA220 COMP501/52 Computing Technology in Society and 5-8pm WG707/708 DIGD507/51 Mahi tahi will be sent information on isolation \u0026 testing by AUT. All elsewhere on city campus follow Level 4 instructions \u0026 call Healthline if symptomatic",
     "updatedAsString": "21 Aug",
     "updated": "/Date(1629460800000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "55 Wellesley Street East",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Johnsonville Medical Centre Pharmacy Wellington",
@@ -1567,7 +2289,11 @@
     "whatToDo": "Staff isolate 14 days from last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline. Customers isolate, test immediately and on day 5 after last exposure and continue to isolate until a negative day 5 test. Call Healthline.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629201600000)/"
+    "day": "/Date(1629201600000)/",
+    "streetAddress": "2 Trafalgar Street",
+    "suburb": "Johnsonville",
+    "city": "Wellington 6037",
+    "postCode": "6037"
   },
   {
     "locationName": "Countdown Johnsonville Road Wellington",
@@ -1577,7 +2303,11 @@
     "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629201600000)/"
+    "day": "/Date(1629201600000)/",
+    "streetAddress": "31 Johnsonville Road",
+    "suburb": "Johnsonville",
+    "city": "Wellington 6037",
+    "postCode": "6037"
   },
   {
     "locationName": "Blockhouse Bay Christian Kindergarten",
@@ -1587,7 +2317,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "76 Dundale Avenue",
+    "suburb": "Blockhouse Bay",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "1841 Bar and Restaurant Johnsonville",
@@ -1597,7 +2331,11 @@
     "whatToDo": "All staff \u0026 downstairs patrons isolate 14 days from last exposure. Test immediately, and on days 5 \u0026 12 after last exposure, and call Healthline. Upstairs patrons self-monitor symptoms for 14 days. If symptomatic, test and stay home until a negative test.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "1 Disraeli Street",
+    "suburb": "Johnsonville",
+    "city": "Wellington 6037",
+    "postCode": "6037"
   },
   {
     "locationName": "St Pierre\u0027s Sushi Johnsonville Mall Wellington",
@@ -1607,7 +2345,11 @@
     "whatToDo": "Staff isolate 14 days from last exposure. Test immediately, and on days 5 \u0026 12 after last exposure, and call Healthline. Johnsonville Mall customers self-monitor symptoms for 14 days. If symptomatic, test and stay home until a negative test result.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "66 Johnsonville Road",
+    "suburb": "Johnsonville",
+    "city": "Wellington 6037",
+    "postCode": "6037"
   },
   {
     "locationName": "The Roast Canteen Johnsonville Wellington",
@@ -1617,7 +2359,11 @@
     "whatToDo": "Staff isolate 14 days from last exposure. Test immediately, and on days 5 \u0026 12 after last exposure, and call Healthline. Customers self-monitor symptoms for 14 days. If symptomatic, test and stay home until a negative test result.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "5 Johnsonville Road",
+    "suburb": "Johnsonville",
+    "city": "Wellington 6037",
+    "postCode": "6037"
   },
   {
     "locationName": "One Sushi Porirua",
@@ -1627,7 +2373,11 @@
     "whatToDo": "Staff isolate 14 days from last exposure. Test immediately, and on days 5 \u0026 12 after last exposure, and call Healthline. Customers self-monitor symptoms for 14 days. If symptomatic, test and stay home until a negative test result.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "10 Serlby Place",
+    "suburb": "Porirua City Centre",
+    "city": "Porirua 5022",
+    "postCode": "5022"
   },
   {
     "locationName": "Bus 309 Queen St outside The Civic to 10 Harania Ave",
@@ -1637,7 +2387,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "The Local Doctors GP Practice Otara",
@@ -1647,7 +2401,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "3 Watford Street",
+    "suburb": "Otara",
+    "city": "Auckland 2023",
+    "postCode": "2023"
   },
   {
     "locationName": "Bus 326 Mangere to Otahuhu",
@@ -1657,7 +2415,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Western Indoor Bowling Assn Inc New Lynn",
@@ -1667,7 +2429,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "38 Portage Road",
+    "suburb": "New Lynn",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Bus 326 Mangere to Otahuhu",
@@ -1677,7 +2443,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Bus 942 Northcote College to Lake Road",
@@ -1687,7 +2457,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Bus 309X Queen St to Newmarket to Mangere",
@@ -1697,7 +2471,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "McDonalds Auckland Airport",
@@ -1707,7 +2485,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "12 Leonard Isitt Drive",
+    "suburb": "Auckland Airport",
+    "city": "Auckland 2022",
+    "postCode": "2022"
   },
   {
     "locationName": "Samoan Assembly Of God Church Mangere",
@@ -1717,17 +2499,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "33 Andrew Baxter Drive",
+    "suburb": "Mangere",
+    "city": "Auckland",
+    "postCode": "land"
   },
   {
     "locationName": "Flight NZ 445 Auckland to Wellington",
-    "address": "NO DATA",
+    "address": "",
     "dayAsString": "Sunday 15 August",
     "times": "5:00 pm - 6:00 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": null,
+    "postCode": null
   },
   {
     "locationName": "Bus 95C Britomart station to Glenfield",
@@ -1737,7 +2527,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Giga Net Cafe",
@@ -1747,7 +2541,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "L2 65 Wakefield St",
+    "suburb": "Auckland CBD",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Sunday school Church of Christ NZ Mount Roskill",
@@ -1757,7 +2555,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "361 Mount Albert Road",
+    "suburb": "Mount Roskill",
+    "city": "Auckland 1041",
+    "postCode": "1041"
   },
   {
     "locationName": "Birkenhead Superette \u0026 Lotto",
@@ -1767,7 +2569,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "43 Birkenhead Avenue",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "Church of Christ Mt Roskill",
@@ -1777,7 +2583,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "361 Mount Albert Road",
+    "suburb": "Mount Roskill",
+    "city": "Auckland 1041",
+    "postCode": "1041"
   },
   {
     "locationName": "Blockhouse Bay Christian Kindergarten",
@@ -1787,7 +2597,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "76 Dundale Avenue",
+    "suburb": "Blockhouse Bay",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Bus 326 Mangere to Otahuhu",
@@ -1797,7 +2611,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Bus 309X Queen St to Newmarket to Mangere",
@@ -1807,7 +2625,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Owens Foyer, level 2 in Aotea Centre Auckland CBD",
@@ -1817,7 +2639,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "50 Mayoral Drive",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Train Britomart to Panmure",
@@ -1827,7 +2653,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Train Britomart to Panmure",
@@ -1837,7 +2667,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Won Sushi Donburi Auckland CBD",
@@ -1847,7 +2681,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "290 Queen Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Blockhouse Bay Christian Kindergarten",
@@ -1857,7 +2695,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "20 Aug",
     "updated": "/Date(1629374400000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": "76 Dundale Avenue",
+    "suburb": "Blockhouse Bay",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Unistrut Mt Wellington",
@@ -1867,7 +2709,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628424000000)/"
+    "day": "/Date(1628424000000)/",
+    "streetAddress": "6 Arthur Brown Place",
+    "suburb": "Mount Wellington",
+    "city": "Auckland 1060",
+    "postCode": "1060"
   },
   {
     "locationName": "One Stop Mechanical Mt Wellington",
@@ -1877,7 +2723,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628424000000)/"
+    "day": "/Date(1628424000000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": null,
+    "postCode": null
   },
   {
     "locationName": "Passion Bakery Birkdale",
@@ -1887,7 +2737,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "34 Birkdale Road",
+    "suburb": "Birkdale",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "New World Green Bay",
@@ -1897,7 +2751,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "64 Godley Road",
+    "suburb": "Green Bay",
+    "city": "Auckland 0604",
+    "postCode": "0604"
   },
   {
     "locationName": "Dress Smart Onehunga",
@@ -1907,7 +2765,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "151 Arthur Street",
+    "suburb": "Onehunga",
+    "city": "Auckland 1061",
+    "postCode": "1061"
   },
   {
     "locationName": "Countdown Botany Downs",
@@ -1917,7 +2779,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": null,
+    "postCode": null
   },
   {
     "locationName": "Dress Smart Onehunga",
@@ -1927,7 +2793,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "151 Arthur Street",
+    "suburb": "Onehunga",
+    "city": "Auckland 1061",
+    "postCode": "1061"
   },
   {
     "locationName": "Coyle Park Point Chevalier Beach",
@@ -1937,7 +2807,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "Point Chevalier Road",
+    "suburb": "Point Chevalier",
+    "city": "Auckland 1022",
+    "postCode": "1022"
   },
   {
     "locationName": "KFC Takapuna",
@@ -1947,7 +2821,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "1 Taharoto Road",
+    "suburb": "Takapuna",
+    "city": "Auckland 0622",
+    "postCode": "0622"
   },
   {
     "locationName": "Church of Christ Mt Roskill",
@@ -1957,7 +2835,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "361 Mount Albert Road",
+    "suburb": "Mount Roskill",
+    "city": "Auckland 1041",
+    "postCode": "1041"
   },
   {
     "locationName": "Movie Monterey Takapuna",
@@ -1967,7 +2849,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "32 Anzac Street",
+    "suburb": "Takapuna",
+    "city": "Auckland 0622",
+    "postCode": "0622"
   },
   {
     "locationName": "Countdown Takapuna",
@@ -1977,7 +2863,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "10 Barrys Point Road",
+    "suburb": "Takapuna",
+    "city": "Auckland 0622",
+    "postCode": "0622"
   },
   {
     "locationName": "McDonald\u0027s Glenfield",
@@ -1987,7 +2877,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "Cnr Glenfield \u0026 Kaipatiki Rd",
+    "suburb": "Glenfield",
+    "city": "Auckland 0629",
+    "postCode": "0629"
   },
   {
     "locationName": "Countdown Glenfield Mall",
@@ -1997,7 +2891,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "Cnr Glenfield Rd and Downing St",
+    "suburb": "Glenfield",
+    "city": "Auckland 0629",
+    "postCode": "0629"
   },
   {
     "locationName": "Manukau Memorial Gardens Manukau",
@@ -2007,7 +2905,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "361 Puhinui Road",
+    "suburb": "Wiri",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "New World Birkenhead",
@@ -2017,7 +2919,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "180 Mokoia Road",
+    "suburb": "Chatswood",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "GMANA Cars \u0026 Wholesales Autos Otahuhu",
@@ -2027,7 +2933,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "28 Atkinson Avenue",
+    "suburb": "Otahuhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "Z Service Station Otahuhu",
@@ -2037,7 +2947,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "19 Princes Street",
+    "suburb": "?t?huhu",
+    "city": "Auckland 1062",
+    "postCode": "1062"
   },
   {
     "locationName": "Stihl Shop Glen Eden",
@@ -2047,7 +2961,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "93 West Coast Road",
+    "suburb": "Glen Eden",
+    "city": "Auckland 0602",
+    "postCode": "0602"
   },
   {
     "locationName": "Pascoes Glenfield Mall",
@@ -2057,7 +2975,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "Glenfield Rd",
+    "suburb": "Glenfield",
+    "city": "Auckland 0629",
+    "postCode": "0629"
   },
   {
     "locationName": "Stihl Shop Onehunga",
@@ -2067,7 +2989,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "308 Church Street",
+    "suburb": "Penrose",
+    "city": "Auckland 1061",
+    "postCode": "1061"
   },
   {
     "locationName": "Brews Ponsonby",
@@ -2077,7 +3003,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "250 Ponsonby Road",
+    "suburb": "Ponsonby",
+    "city": "Auckland 1011",
+    "postCode": "1011"
   },
   {
     "locationName": "Hirepool Equipment Hire Manukau",
@@ -2087,7 +3017,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "301 Puhinui Road",
+    "suburb": "Papatoetoe",
+    "city": "Auckland 2025",
+    "postCode": "2025"
   },
   {
     "locationName": "Domino\u0027s Pizza Beach Haven",
@@ -2097,7 +3031,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "104 Beach Haven Road",
+    "suburb": "Beach Haven",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "Foodcourt Westfield Albany",
@@ -2107,7 +3045,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "219 Don McKinnon Drive",
+    "suburb": "Albany",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
     "locationName": "JB HiFi Westfield Albany",
@@ -2117,7 +3059,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "219 Don McKinnon Drive",
+    "suburb": "Albany",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
     "locationName": "KMart Westfield Albany",
@@ -2127,7 +3073,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "219 Don McKinnon Drive",
+    "suburb": "Albany",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
     "locationName": "Stirling Sports Westfield Albany",
@@ -2137,7 +3087,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "219 Don McKinnon Drive",
+    "suburb": "Albany",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
     "locationName": "Mitre 10 Mega Glenfield",
@@ -2147,17 +3101,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "15 Poland Road",
+    "suburb": "Wairau Valley",
+    "city": "Auckland 0627",
+    "postCode": "0627"
   },
   {
-    "locationName": "The Cosmetic Clinic WestCity Henderson",
-    "address": "Shop 237 West City Waitakere, Henderson, Auckland 0612",
+    "locationName": "The Cosmetic Clinic West City Henderson",
+    "address": "7 Catherine Street, Henderson, Auckland 0612",
     "dayAsString": "Friday 13 August",
     "times": "4:30 pm - 5:30 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "7 Catherine Street",
+    "suburb": "Henderson",
+    "city": "Auckland 0612",
+    "postCode": "0612"
   },
   {
     "locationName": "Burger King Wairau Park",
@@ -2167,7 +3129,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "22 Link Drive",
+    "suburb": "Wairau Valley",
+    "city": "Auckland 0627",
+    "postCode": "0627"
   },
   {
     "locationName": "Hoyts Cinemas Wairau Park",
@@ -2177,7 +3143,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "15 Link Drive",
+    "suburb": "Wairau Valley",
+    "city": "Auckland 0627",
+    "postCode": "0627"
   },
   {
     "locationName": "Popking Kids Indoor Playground Mount Albert",
@@ -2187,7 +3157,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "2 Wagener Place",
+    "suburb": "Mount Albert",
+    "city": "Auckland 1025",
+    "postCode": "1025"
   },
   {
     "locationName": "Novi Lunch Bar",
@@ -2197,7 +3171,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "25 Bowden Road",
+    "suburb": "Mount Wellington",
+    "city": "Auckland 1060",
+    "postCode": "1060"
   },
   {
     "locationName": "Subway East Tamaki",
@@ -2207,17 +3185,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": null,
+    "postCode": null
   },
   {
-    "locationName": "Playground Te Atat? Peninsula",
+    "locationName": "Playground Te Atatu Peninsula",
     "address": "591 Te Atatu Road, Te Atatu Peninsula, Auckland 0610",
     "dayAsString": "Wednesday 11 August",
     "times": "3:30 pm - 4:30 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "591 Te Atatu Road",
+    "suburb": "Te Atatu Peninsula",
+    "city": "Auckland 0610",
+    "postCode": "0610"
   },
   {
     "locationName": "Te Atatu Peninsula Community Centre and Library Te Atatu",
@@ -2227,7 +3213,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "595 Te Atatu Road",
+    "suburb": "Te Atatu Peninsula",
+    "city": "Auckland 0610",
+    "postCode": "0610"
   },
   {
     "locationName": "Icco Sake Bar Auckland",
@@ -2237,7 +3227,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "601 New North Road",
+    "suburb": "Morningside",
+    "city": "Auckland 1021",
+    "postCode": "1021"
   },
   {
     "locationName": "Bus 25B City Centre to Blockhouse Bay",
@@ -2247,7 +3241,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Countdown Lincoln Road Auckland",
@@ -2257,7 +3255,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "185 Universal Drive",
+    "suburb": "Henderson",
+    "city": "Auckland 0610",
+    "postCode": "0610"
   },
   {
     "locationName": "Bus 25B City Centre to Blockhouse Bay",
@@ -2267,7 +3269,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Unistrut Mt Wellington",
@@ -2277,7 +3283,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "19 Aug",
     "updated": "/Date(1629288000000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": "6 Arthur Brown Place",
+    "suburb": "Mount Wellington",
+    "city": "Auckland 1060",
+    "postCode": "1060"
   },
   {
     "locationName": "Mexico Britomart Auckland CBD",
@@ -2287,7 +3297,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628424000000)/"
+    "day": "/Date(1628424000000)/",
+    "streetAddress": "23 Britomart Place",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Unichem Pharmacy Birkenhead",
@@ -2297,17 +3311,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": null,
+    "postCode": null
   },
   {
     "locationName": "Auckland University of Technology",
     "address": "2 Governor Fitzroy Place, Auckland Central, Auckland 1010",
     "dayAsString": "Tuesday 17 August",
     "times": "11:30 am - 1:00 pm",
-    "whatToDo": "Staff \u0026 students at lecture theatre WG403 or the level 4 foyer outside will be sent information on isolation and testing by AUT.  Students and staff elsewhere on the city campus need to follow Level 4 instructions and call Healthline if symptoms develop.",
+    "whatToDo": "Staff \u0026 students at lecture theatre WG403 or the level 4 foyer outside will be sent information on isolation and testing by AUT. Students and staff elsewhere on the city campus need to follow Level 4 instructions and call Healthline if symptoms develop.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "2 Governor Fitzroy Place",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Bus 25B City Centre to Blockhouse Bay",
@@ -2317,7 +3339,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "Mamak Malaysian Restaurant",
@@ -2327,7 +3353,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1629115200000)/"
+    "day": "/Date(1629115200000)/",
+    "streetAddress": "50 Kitchener Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Countdown Birkenhead",
@@ -2337,7 +3367,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "Cnr Highbury Pass \u0026 Birkenhead Ave",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "Warehouse New Lynn",
@@ -2347,7 +3381,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "7/13 Rata Street",
+    "suburb": "New Lynn",
+    "city": "Auckland 0600",
+    "postCode": "0600"
   },
   {
     "locationName": "Green Bay Takeaways Green Bay",
@@ -2357,7 +3395,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "56B Godley Road",
+    "suburb": "Green Bay",
+    "city": "Auckland 0604",
+    "postCode": "0604"
   },
   {
     "locationName": "Passion Bakery Birkdale",
@@ -2367,7 +3409,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "34 Birkdale Road",
+    "suburb": "Birkdale",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "Countdown Birkenhead",
@@ -2377,7 +3423,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "Cnr Highbury Pass \u0026 Birkenhead Ave",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "BP Northcote",
@@ -2387,7 +3437,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "50 Northcote Road",
+    "suburb": "Northcote",
+    "city": "Auckland 0627",
+    "postCode": "0627"
   },
   {
     "locationName": "Countdown Lynfield",
@@ -2397,7 +3451,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "570 Hillsborough Road",
+    "suburb": "Mount Roskill",
+    "city": "Auckland 1041",
+    "postCode": "1041"
   },
   {
     "locationName": "Church of Christ Mt Roskill",
@@ -2407,7 +3465,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "361 Mount Albert Road",
+    "suburb": "Mount Roskill",
+    "city": "Auckland 1041",
+    "postCode": "1041"
   },
   {
     "locationName": "Latin Market near La Pachamama",
@@ -2417,7 +3479,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "Near 179a Archers Road",
+    "suburb": "Glenfield",
+    "city": "Auckland 0629",
+    "postCode": "0629"
   },
   {
     "locationName": "BP Birkenhead",
@@ -2427,7 +3493,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "172-178 Mokoia Road",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "Pak n Save Wairau",
@@ -2437,7 +3507,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "30-60 Wairau Road",
+    "suburb": "Glenfield",
+    "city": "Auckland 0627",
+    "postCode": "0627"
   },
   {
     "locationName": "Glenfield Mall / Katsubi Japanese",
@@ -2447,17 +3521,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628942400000)/"
+    "day": "/Date(1628942400000)/",
+    "streetAddress": "Glenfield Road \u0026 Downing Street",
+    "suburb": "Glenfield",
+    "city": "Auckland 0629",
+    "postCode": "0629"
   },
   {
     "locationName": "Countdown Glenfield Mall",
-    "address": "Cnr Bentley Ave \u0026, Glenfield Road, Glenfield,, Auckland 0629",
+    "address": "Cnr Bentley Ave \u0026, Glenfield Road, Glenfield, Auckland 0629",
     "dayAsString": "Saturday 14 August",
     "times": "5:00 pm - 5:15 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": null,
+    "postCode": null
   },
   {
     "locationName": "The Good Home Birkenhhead",
@@ -2467,7 +3549,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "83 Birkenhead Avenue",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "Driving Creek Railway Tours Coromandel",
@@ -2477,7 +3563,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "380 Driving Creek Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "Driving Creek Railway Tours Coromandel",
@@ -2487,17 +3577,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "380 Driving Creek Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "McDonalds Glenfield",
-    "address": "Cnr Glenfield \u0026, Kaipatiki Road,, Glenfield, Auckland 0629",
+    "address": "Cnr Glenfield \u0026, Kaipatiki Road, Glenfield, Auckland 0629",
     "dayAsString": "Saturday 14 August",
     "times": "1:00 am - 1:15 am",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": null,
+    "postCode": null
   },
   {
     "locationName": "Avondale College",
@@ -2507,7 +3605,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "51 Victor Street",
+    "suburb": "Avondale",
+    "city": "Auckland 1026",
+    "postCode": "1026"
   },
   {
     "locationName": "Sweat Shop Brew Kitchen",
@@ -2517,7 +3619,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "7 Sale Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Liquor King Ponsonby",
@@ -2527,7 +3633,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "254 Ponsonby Road",
+    "suburb": "Ponsonby",
+    "city": "Auckland 1011",
+    "postCode": "1011"
   },
   {
     "locationName": "Chu Thai Eatery",
@@ -2537,17 +3647,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "224 Ponsonby Road",
+    "suburb": "Ponsonby",
+    "city": "Auckland 1011",
+    "postCode": "1011"
   },
   {
     "locationName": "Black Bull Liquor Store Hillcrest",
-    "address": "54 Northcote Road,, Northcote, Auckland 0627",
+    "address": "54 Northcote Road, Northcote, Auckland 0627",
     "dayAsString": "Friday 13 August",
     "times": "6:40 pm - 6:45 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "54 Northcote Road",
+    "suburb": "Northcote",
+    "city": "Auckland 0627",
+    "postCode": "0627"
   },
   {
     "locationName": "Countdown Birkenhead",
@@ -2557,7 +3675,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "Cnr Highbury Pass",
+    "suburb": "Birkenhead",
+    "city": "Auckland 0626",
+    "postCode": "0626"
   },
   {
     "locationName": "Liquor King Ponsonby",
@@ -2567,7 +3689,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "254 Ponsonby Road",
+    "suburb": "Ponsonby",
+    "city": "Auckland 1011",
+    "postCode": "1011"
   },
   {
     "locationName": "Westfield Mall Albany",
@@ -2577,17 +3703,25 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "219 Don McKinnon Drive",
+    "suburb": "Albany",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
-    "locationName": "McDonald\u0027s Stoddard Road",
+    "locationName": "McDonald\u0027s Stoddard Road Wesley",
     "address": "22 Stoddard Road, Wesley, Auckland 1041",
     "dayAsString": "Friday 13 August",
     "times": "10:00 pm - 10:30 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "22 Stoddard Road",
+    "suburb": "Wesley",
+    "city": "Auckland 1041",
+    "postCode": "1041"
   },
   {
     "locationName": "Avondale College",
@@ -2597,7 +3731,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "51 Victor Street",
+    "suburb": "Avondale",
+    "city": "Auckland 1026",
+    "postCode": "1026"
   },
   {
     "locationName": "Glasscorp Limited Albany",
@@ -2607,7 +3745,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "124 Bush Road",
+    "suburb": "Rosedale",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
     "locationName": "Unique Hardware Rosedale",
@@ -2617,7 +3759,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628683200000)/"
+    "day": "/Date(1628683200000)/",
+    "streetAddress": "1/16 Arrenway Drive",
+    "suburb": "Rosedale",
+    "city": "Auckland 0632",
+    "postCode": "0632"
   },
   {
     "locationName": "St Pierre\u0027s Sushi Elliott Street Auckland CBD",
@@ -2627,7 +3773,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "20 Elliott Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Event Cinemas Queen Street Auckland",
@@ -2637,7 +3787,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628596800000)/"
+    "day": "/Date(1628596800000)/",
+    "streetAddress": "Level 3/291-297 Queen Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Bus 97B Birkdale to Auckland CBD",
@@ -2647,7 +3801,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
   },
   {
     "locationName": "The Warehouse Auckland CBD",
@@ -2657,7 +3815,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": "21 Elliott Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Event Cinemas Queen Street Auckland",
@@ -2667,7 +3829,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "18 Aug",
     "updated": "/Date(1629201600000)/",
-    "day": "/Date(1628510400000)/"
+    "day": "/Date(1628510400000)/",
+    "streetAddress": "1/291 Queen Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland 1010",
+    "postCode": "1010"
   },
   {
     "locationName": "Devonport pharmacy",
@@ -2677,7 +3843,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "17 Aug",
     "updated": "/Date(1629115200000)/",
-    "day": "/Date(1629028800000)/"
+    "day": "/Date(1629028800000)/",
+    "streetAddress": "33 Victoria Road",
+    "suburb": "Devonport",
+    "city": "Auckland 0624",
+    "postCode": "0624"
   },
   {
     "locationName": "Star and Garter Hotel Coromandel",
@@ -2687,7 +3857,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "17 Aug",
     "updated": "/Date(1629115200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "5 Kapanga Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "Richardsons Real Estate Coromandel",
@@ -2697,7 +3871,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "17 Aug",
     "updated": "/Date(1629115200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "151 Kapanga Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "Taras Beads Coromandel",
@@ -2707,7 +3885,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "17 Aug",
     "updated": "/Date(1629115200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "1/75 Kapanga Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "Jaks Cafe \u0026 Bar Coromandel",
@@ -2717,7 +3899,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "17 Aug",
     "updated": "/Date(1629115200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "104 Kapanga Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "Hereford n A Pickle Coromandel",
@@ -2727,7 +3913,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "17 Aug",
     "updated": "/Date(1629115200000)/",
-    "day": "/Date(1628856000000)/"
+    "day": "/Date(1628856000000)/",
+    "streetAddress": "2318 Colville Road",
+    "suburb": "RD 4",
+    "city": "Coromandel 3584",
+    "postCode": "3584"
   },
   {
     "locationName": "Umu Cafe Coromandel",
@@ -2737,7 +3927,11 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "17 Aug",
     "updated": "/Date(1629115200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "22 Wharf Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   },
   {
     "locationName": "Star and Garter Hotel Coromandel",
@@ -2747,6 +3941,10 @@
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 \u0026 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "17 Aug",
     "updated": "/Date(1629115200000)/",
-    "day": "/Date(1628769600000)/"
+    "day": "/Date(1628769600000)/",
+    "streetAddress": "5 Kapanga Road",
+    "suburb": null,
+    "city": "Coromandel 3506",
+    "postCode": "3506"
   }
 ]

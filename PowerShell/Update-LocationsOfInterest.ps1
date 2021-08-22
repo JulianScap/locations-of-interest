@@ -17,10 +17,12 @@ function Get-Data() {
 function Sanitize {
   param ([string]$text)
   if ($text) {
+    $text = ($text.Split(",", [System.StringSplitOptions]::RemoveEmptyEntries) | Where-Object { $_.Trim() }) -join ","
+    $text = ($text.Split(" ", [System.StringSplitOptions]::RemoveEmptyEntries) | Where-Object { $_.Trim() }) -join " "
     return $text.Trim();
   }
   else {
-    return "NO DATA";
+    return "";
   }
 }
 
@@ -53,6 +55,35 @@ function Set-Dates {
   }
 }
 
+function Get-PostCode {
+  param([string] $city)
+  if (!$city -or $city.Length -lt 4) { return $null; }
+  return $city.Substring($city.Length - 4);
+}
+
+function Convert-Address {
+  param([PSCustomObject]$loi)
+  if (!$loi.address) { return; }
+  [string[]] $parts = $loi.address -split ",";
+
+  $parts = $parts.Trim();
+
+  if ($parts.count -eq 1) {
+    $loi.city = $parts[0];
+  }
+  elseif ($parts.count -eq 2) {
+    $loi.streetAddress = $parts[0];
+    $loi.city = $parts[1];
+    $loi.postCode = Get-PostCode $parts[1];
+  }
+  elseif ($parts.count -eq 3) {
+    $loi.streetAddress = $parts[0];
+    $loi.suburb = $parts[1];
+    $loi.city = $parts[2];
+    $loi.postCode = Get-PostCode $parts[2];
+  }
+}
+
 function Convert-ToLocationOfInterest {
   param ([System.Xml.XmlNode] $node)
   $entityAsArray = [System.Collections.ArrayList]::new();
@@ -70,9 +101,14 @@ function Convert-ToLocationOfInterest {
     updatedAsString = $entityAsArray[5];
     updated         = $null;
     day             = $null;
+    streetAddress   = $null;
+    suburb          = $null;
+    city            = $null;
+    postCode        = $null;
   };
 
   Set-Dates $loi
+  Convert-Address $loi
 
   return $loi;
 }
