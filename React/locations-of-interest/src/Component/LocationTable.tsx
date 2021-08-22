@@ -11,8 +11,9 @@ import React, { useState } from "react";
 import SortableTableCell from "./SortableTableCell";
 import { getLocationsOfInterest } from "../data/getLocationsOfInterest";
 import Sort from "../tools/Sort";
+import ISearchable from "../types/ISearchable";
 
-function LocationTable() {
+function LocationTable(props : ISearchable) {
   const [currentData, setData] = useState(getLocationsOfInterest());
   const [sortBy, setSort] = useState(Sort.defaultSort);
   const [sortAsc, setSortAsc] = useState(true);
