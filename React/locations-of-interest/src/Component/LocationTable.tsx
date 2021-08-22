@@ -9,6 +9,7 @@ import LocationRow from "./LocationRow";
 import ILocation from "../types/ILocation";
 import data from "../data/locations-of-interest.json";
 import { useState } from "react";
+import SortableTableCell from "./SortableTableCell";
 
 function prepareData(data: any[]): ILocation[] {
   let i = 1;
@@ -22,33 +23,74 @@ function prepareData(data: any[]): ILocation[] {
   });
 }
 
-function getSortProperty(id: string): string {
-  switch (id) {
-    case "headerName":
-      return "locationName";
-    case "headerStreetAddress":
-      return "streetAddress";
+function compareStrings(a: string, b: string, asc: boolean): number {
+  if (!a || a === "") {
+    return 1;
   }
-  return "";
+
+  let result = (a || "").localeCompare(b || "");
+
+  if (!asc) {
+    result *= -1;
+  }
+
+  return result;
 }
+
+function compareNumbers(a: number, b: number, asc: boolean): number {
+  let result = a - b;
+
+  if (!asc) {
+    result *= -1;
+  }
+
+  return result;
+}
+
+// function compare(a: any, b: any, asc: boolean): number {
+//   let result = 0;
+
+//   if (a < b) {
+//     result = -1;
+//   }
+
+//   if (a > b) {
+//     result = 1;
+//   }
+
+//   if (!asc) {
+//     result *= -1;
+//   }
+
+//   return result;
+// }
 
 function LocationTable() {
   const [currentData, setData] = useState(prepareData(data));
-  //const [sort, setSort] = useState("id");
+  const [sortBy, setSort] = useState("id");
+  const [sortAsc, setSortAsc] = useState(true);
 
   const sortData = (e: any) => {
-    const sortBy: string = getSortProperty(e.target.id);
+    const sortProperty: string = e.target.getAttribute("sortproperty");
 
-    currentData.sort(function (a: ILocation, b: ILocation) {
-      if (a[sortBy] < b[sortBy]) {
-        return -1;
-      }
+    let newSort: boolean;
+    if (sortBy === sortProperty) {
+      newSort = !sortAsc;
+    } else {
+      newSort = true;
+      setSort(sortProperty);
+    }
+    setSortAsc(newSort);
 
-      if (a[sortBy] > b[sortBy]) {
-        return 1;
-      }
-      return 0;
-    });
+    if (sortProperty === "id") {
+      currentData.sort((a: ILocation, b: ILocation) =>
+        compareNumbers(a[sortProperty], b[sortProperty], newSort)
+      );
+    } else {
+      currentData.sort((a: ILocation, b: ILocation) =>
+        compareStrings(a[sortProperty], b[sortProperty], newSort)
+      );
+    }
 
     setData([...currentData]);
   };
@@ -57,16 +99,24 @@ function LocationTable() {
     <Table stickyHeader={true}>
       <TableHead>
         <TableRow>
-          <TableCell>#</TableCell>
-          <TableCell onClick={sortData} id="headerName">
+          <SortableTableCell onClick={sortData} sortproperty="id">
+            #
+          </SortableTableCell>
+          <SortableTableCell onClick={sortData} sortproperty="locationName">
             Location Name
-          </TableCell>
-          <TableCell onClick={sortData} id="headerStreetAddress">
+          </SortableTableCell>
+          <SortableTableCell onClick={sortData} sortproperty="streetAddress">
             Street address
-          </TableCell>
-          <TableCell>Suburb</TableCell>
-          <TableCell>City</TableCell>
-          <TableCell>Post code</TableCell>
+          </SortableTableCell>
+          <SortableTableCell onClick={sortData} sortproperty="suburb">
+            Suburb
+          </SortableTableCell>
+          <SortableTableCell onClick={sortData} sortproperty="city">
+            City
+          </SortableTableCell>
+          <SortableTableCell onClick={sortData} sortproperty="postCode">
+            Post code
+          </SortableTableCell>
           <TableCell>Day</TableCell>
           <TableCell>Times</TableCell>
           <TableCell>Updated</TableCell>
