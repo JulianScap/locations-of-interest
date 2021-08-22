@@ -7,48 +7,13 @@ import {
 } from "@material-ui/core";
 import LocationRow from "./LocationRow";
 import ILocation from "../types/ILocation";
-import data from "../data/locations-of-interest.json";
 import { useState } from "react";
 import SortableTableCell from "./SortableTableCell";
-
-function prepareData(data: any[]): ILocation[] {
-  let i = 1;
-
-  return data.map((element) => {
-    let result: ILocation = {
-      ...element,
-      id: i++,
-    };
-    return result;
-  });
-}
-
-function compareStrings(a: string, b: string, asc: boolean): number {
-  if (!a || a === "") {
-    return 1;
-  }
-
-  let result = (a || "").localeCompare(b || "");
-
-  if (!asc) {
-    result *= -1;
-  }
-
-  return result;
-}
-
-function compareNumbers(a: number, b: number, asc: boolean): number {
-  let result = a - b;
-
-  if (!asc) {
-    result *= -1;
-  }
-
-  return result;
-}
+import Compare from "../tools/Compare";
+import { getLocationsOfInterest } from "../data/getLocationsOfInterest";
 
 function LocationTable() {
-  const [currentData, setData] = useState(prepareData(data));
+  const [currentData, setData] = useState(getLocationsOfInterest());
   const [sortBy, setSort] = useState("id");
   const [sortAsc, setSortAsc] = useState(true);
 
@@ -66,11 +31,15 @@ function LocationTable() {
 
     if (sortProperty === "id") {
       currentData.sort((a: ILocation, b: ILocation) =>
-        compareNumbers(a[sortProperty], b[sortProperty], newSort)
+      Compare.numbers(a[sortProperty], b[sortProperty], newSort)
+      );
+    } else if (sortProperty === "day" || sortProperty === "updated") {
+      currentData.sort((a: ILocation, b: ILocation) =>
+      Compare.dates(a[sortProperty], b[sortProperty], newSort)
       );
     } else {
       currentData.sort((a: ILocation, b: ILocation) =>
-        compareStrings(a[sortProperty], b[sortProperty], newSort)
+      Compare.strings(a[sortProperty], b[sortProperty], newSort)
       );
     }
 
@@ -99,9 +68,13 @@ function LocationTable() {
           <SortableTableCell onClick={sortData} sortproperty="postCode">
             Post code
           </SortableTableCell>
-          <TableCell>Day</TableCell>
+          <SortableTableCell onClick={sortData} sortproperty="day">
+            Day
+          </SortableTableCell>
           <TableCell>Times</TableCell>
-          <TableCell>Updated</TableCell>
+          <SortableTableCell onClick={sortData} sortproperty="updated">
+            Updated
+          </SortableTableCell>
         </TableRow>
       </TableHead>
       <TableBody>

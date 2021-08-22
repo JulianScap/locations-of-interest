@@ -10,8 +10,8 @@ interface ILocation {
   times: string;
   whatToDo: string;
   updatedAsString: string;
-  updated: string;
-  day: string;
+  updated: Date;
+  day: Date;
   [name: string]: any;
 }
 

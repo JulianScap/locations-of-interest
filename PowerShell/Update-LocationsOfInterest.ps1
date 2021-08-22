@@ -45,13 +45,13 @@ function Set-Dates {
   if ($loi.updatedAsString) {
     [string[]] $tokens = -split $loi.updatedAsString;
     [int] $month = Get-Month $tokens[1];
-    $loi.updated = [DateTime]::new(2021, $month, $tokens[0]);
+    $loi.updated = [DateTime]::new(2021, $month, $tokens[0]).ToString("yyyy-MM-ddTHH:mm:ssZ");
   }
 
   if ($loi.dayAsString) {
     [string[]] $tokens = -split $loi.dayAsString;
     [int] $month = Get-Month $tokens[2];
-    $loi.day = [DateTime]::new(2021, $month, $tokens[1]);
+    $loi.day = [DateTime]::new(2021, $month, $tokens[1]).ToString("yyyy-MM-ddTHH:mm:ssZ");
   }
 }
 
