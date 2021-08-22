@@ -9,8 +9,8 @@ import LocationRow from "./LocationRow";
 import ILocation from "../types/ILocation";
 import { useState } from "react";
 import SortableTableCell from "./SortableTableCell";
-import Compare from "../tools/Compare";
 import { getLocationsOfInterest } from "../data/getLocationsOfInterest";
+import Sort from "../tools/Sort";
 
 function LocationTable() {
   const [currentData, setData] = useState(getLocationsOfInterest());
@@ -27,23 +27,15 @@ function LocationTable() {
       newSort = true;
     }
 
-    if (sortProperty === "id") {
-      currentData.sort((a: ILocation, b: ILocation) =>
-      Compare.numbers(a[sortProperty], b[sortProperty], newSort)
-      );
-    } else if (sortProperty === "day" || sortProperty === "updated") {
-      currentData.sort((a: ILocation, b: ILocation) =>
-      Compare.dates(a[sortProperty], b[sortProperty], newSort)
-      );
-    } else {
-      currentData.sort((a: ILocation, b: ILocation) =>
-      Compare.strings(a[sortProperty], b[sortProperty], newSort)
-      );
-    }
+    const sorted: ILocation[] = Sort.locations(
+      currentData,
+      newSort,
+      sortProperty
+    );
 
     setSort(sortProperty);
     setSortAsc(newSort);
-    setData([...currentData]);
+    setData(sorted);
   };
 
   return (
