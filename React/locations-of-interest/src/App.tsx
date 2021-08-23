@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import LocationTable from "./Component/LocationTable";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import { Input } from "@material-ui/core";
+import { TextField } from "@material-ui/core";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -16,16 +16,28 @@ function App() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Input
-        placeholder="Search..."
+      <br />
+      <TextField
+        label="Search"
+        variant="outlined"
         onChange={(e) => setSearch(e.currentTarget.value)}
       />
-      <Input
-        placeholder="Updated date"
+      <TextField
+        InputLabelProps={{ shrink: true }}
+        label="Updated date"
+        variant="outlined"
         type="Date"
-        onChange={(e) => setUpdatedDate(new Date(e.currentTarget.value)) }
+        onChange={(e) => {
+          if (e.currentTarget.value) {
+            setUpdatedDate(new Date(e.currentTarget.value));
+          } else {
+            setUpdatedDate(undefined);
+          }
+        }}
       />
-      <LocationTable search={{text: finishedSearch, updatedFrom: updatedDate }} />
+      <LocationTable
+        search={{ text: finishedSearch, updatedFrom: updatedDate }}
+      />
     </React.Fragment>
   );
 }
