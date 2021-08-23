@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "https://julianscap.github.io/locations-of-interest/static/css/main.6dea0f05.chunk.css",
-    "main.js": "https://julianscap.github.io/locations-of-interest/static/js/main.fc5d6bcb.chunk.js",
-    "main.js.map": "https://julianscap.github.io/locations-of-interest/static/js/main.fc5d6bcb.chunk.js.map",
-    "runtime-main.js": "https://julianscap.github.io/locations-of-interest/static/js/runtime-main.37ee515c.js",
-    "runtime-main.js.map": "https://julianscap.github.io/locations-of-interest/static/js/runtime-main.37ee515c.js.map",
-    "static/js/2.7a19ee3a.chunk.js": "https://julianscap.github.io/locations-of-interest/static/js/2.7a19ee3a.chunk.js",
-    "static/js/2.7a19ee3a.chunk.js.map": "https://julianscap.github.io/locations-of-interest/static/js/2.7a19ee3a.chunk.js.map",
-    "static/js/3.c08ba92c.chunk.js": "https://julianscap.github.io/locations-of-interest/static/js/3.c08ba92c.chunk.js",
-    "static/js/3.c08ba92c.chunk.js.map": "https://julianscap.github.io/locations-of-interest/static/js/3.c08ba92c.chunk.js.map",
+    "main.js": "https://julianscap.github.io/locations-of-interest/static/js/main.9b12f4c1.chunk.js",
+    "main.js.map": "https://julianscap.github.io/locations-of-interest/static/js/main.9b12f4c1.chunk.js.map",
+    "runtime-main.js": "https://julianscap.github.io/locations-of-interest/static/js/runtime-main.626e7c52.js",
+    "runtime-main.js.map": "https://julianscap.github.io/locations-of-interest/static/js/runtime-main.626e7c52.js.map",
+    "static/js/2.e2b818a0.chunk.js": "https://julianscap.github.io/locations-of-interest/static/js/2.e2b818a0.chunk.js",
+    "static/js/2.e2b818a0.chunk.js.map": "https://julianscap.github.io/locations-of-interest/static/js/2.e2b818a0.chunk.js.map",
+    "static/js/3.2b0603ef.chunk.js": "https://julianscap.github.io/locations-of-interest/static/js/3.2b0603ef.chunk.js",
+    "static/js/3.2b0603ef.chunk.js.map": "https://julianscap.github.io/locations-of-interest/static/js/3.2b0603ef.chunk.js.map",
     "index.html": "https://julianscap.github.io/locations-of-interest/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "https://julianscap.github.io/locations-of-interest/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.7a19ee3a.chunk.js.LICENSE.txt": "https://julianscap.github.io/locations-of-interest/static/js/2.7a19ee3a.chunk.js.LICENSE.txt"
+    "static/js/2.e2b818a0.chunk.js.LICENSE.txt": "https://julianscap.github.io/locations-of-interest/static/js/2.e2b818a0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.37ee515c.js",
-    "static/js/2.7a19ee3a.chunk.js",
+    "static/js/runtime-main.626e7c52.js",
+    "static/js/2.e2b818a0.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.fc5d6bcb.chunk.js"
+    "static/js/main.9b12f4c1.chunk.js"
   ]
 }
