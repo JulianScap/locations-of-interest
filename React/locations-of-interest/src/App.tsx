@@ -2,18 +2,28 @@ import React, { useEffect, useState } from "react";
 import LocationTable from "./Component/LocationTable";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { TextField } from "@material-ui/core";
+import ISearch from "./types/ISearch";
 
 function App() {
-  const [search, setSearch] = useState("");
-  const [updatedDate, setUpdatedDate] = useState<Date>();
   const [textSearch, setTextSearch] = useState("");
+  const [search, setSearch] = useState<ISearch>({ text: "" });
 
   useEffect(() => {
     const timeOutId = setTimeout(() => {
-      setSearch(textSearch);
+      setSearch((s) => ({ ...s, text: textSearch }));
     }, 500);
     return () => clearTimeout(timeOutId);
   }, [textSearch]);
+
+  const setDateSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    let newDate: Date | undefined;
+
+    if (e.currentTarget.value) {
+      newDate = new Date(e.currentTarget.value);
+    }
+
+    setSearch({ ...search, updatedTo: undefined, updatedFrom: newDate });
+  };
 
   return (
     <React.Fragment>
@@ -29,15 +39,9 @@ function App() {
         label="Updated date"
         variant="outlined"
         type="Date"
-        onChange={(e) => {
-          if (e.currentTarget.value) {
-            setUpdatedDate(new Date(e.currentTarget.value));
-          } else {
-            setUpdatedDate(undefined);
-          }
-        }}
+        onChange={setDateSearch}
       />
-      <LocationTable search={{ text: search, updatedFrom: updatedDate }} />
+      <LocationTable search={search} />
     </React.Fragment>
   );
 }
