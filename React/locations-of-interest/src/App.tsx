@@ -9,9 +9,11 @@ function App() {
   const [textSearch, setTextSearch] = useState("");
 
   useEffect(() => {
-    const timeOutId = setTimeout(() => setTextSearch(search), 500);
+    const timeOutId = setTimeout(() => {
+      setSearch(textSearch);
+    }, 500);
     return () => clearTimeout(timeOutId);
-  }, [search]);
+  }, [textSearch]);
 
   return (
     <React.Fragment>
@@ -20,7 +22,7 @@ function App() {
       <TextField
         label="Search"
         variant="outlined"
-        onChange={(e) => setSearch(e.currentTarget.value)}
+        onChange={(e) => setTextSearch(e.currentTarget.value)}
       />
       <TextField
         InputLabelProps={{ shrink: true }}
@@ -35,9 +37,7 @@ function App() {
           }
         }}
       />
-      <LocationTable
-        search={{ text: textSearch, updatedFrom: updatedDate }}
-      />
+      <LocationTable search={{ text: search, updatedFrom: updatedDate }} />
     </React.Fragment>
   );
 }
