@@ -6,10 +6,10 @@ import { TextField } from "@material-ui/core";
 function App() {
   const [search, setSearch] = useState("");
   const [updatedDate, setUpdatedDate] = useState<Date>();
-  const [finishedSearch, setDisplayMessage] = useState("");
+  const [textSearch, setTextSearch] = useState("");
 
   useEffect(() => {
-    const timeOutId = setTimeout(() => setDisplayMessage(search), 500);
+    const timeOutId = setTimeout(() => setTextSearch(search), 500);
     return () => clearTimeout(timeOutId);
   }, [search]);
 
@@ -36,7 +36,7 @@ function App() {
         }}
       />
       <LocationTable
-        search={{ text: finishedSearch, updatedFrom: updatedDate }}
+        search={{ text: textSearch, updatedFrom: updatedDate }}
       />
     </React.Fragment>
   );
