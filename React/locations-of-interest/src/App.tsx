@@ -5,6 +5,7 @@ import { Input } from "@material-ui/core";
 
 function App() {
   const [search, setSearch] = useState("");
+  const [updatedDate, setUpdatedDate] = useState<Date>();
   const [finishedSearch, setDisplayMessage] = useState("");
 
   useEffect(() => {
@@ -19,7 +20,12 @@ function App() {
         placeholder="Search..."
         onChange={(e) => setSearch(e.currentTarget.value)}
       />
-      <LocationTable search={finishedSearch} />
+      <Input
+        placeholder="Updated date"
+        type="Date"
+        onChange={(e) => setUpdatedDate(new Date(e.currentTarget.value)) }
+      />
+      <LocationTable search={{text: finishedSearch, updatedFrom: updatedDate }} />
     </React.Fragment>
   );
 }

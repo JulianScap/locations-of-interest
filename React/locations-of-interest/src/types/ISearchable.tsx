@@ -1,5 +1,7 @@
+import ISearch from "./ISearch";
+
 interface ISearchable {
-  search: string;
+  search: ISearch;
 }
 
 export default ISearchable;
