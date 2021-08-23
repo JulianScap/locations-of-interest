@@ -302,10 +302,10 @@
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
     "day": "2021-08-14T00:00:00Z",
-    "streetAddress": null,
-    "suburb": null,
-    "city": null,
-    "postCode": null
+    "streetAddress": "Cornwall Park, Green Lane West",
+    "suburb": "Epsom",
+    "city": "Auckland",
+    "postCode": "1051"
   },
   {
     "locationName": "Trail Run Event Totara Park Auckland",
@@ -316,10 +316,10 @@
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
     "day": "2021-08-15T00:00:00Z",
-    "streetAddress": null,
-    "suburb": null,
-    "city": null,
-    "postCode": null
+    "streetAddress": "Totara Park, 90 Wairere Road",
+    "suburb": "The Gardens",
+    "city": "Auckland",
+    "postCode": "2105"
   },
   {
     "locationName": "Bus 007 Glen Eden to Green Bay",
@@ -554,10 +554,10 @@
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
     "day": "2021-08-15T00:00:00Z",
-    "streetAddress": null,
-    "suburb": null,
-    "city": null,
-    "postCode": null
+    "streetAddress": "Mascot Ave &, Wanstead Way",
+    "suburb": "Mangere Central",
+    "city": "Auckland",
+    "postCode": "2022"
   },
   {
     "locationName": "Westside Fitness Henderson",
@@ -792,10 +792,10 @@
     "updatedAsString": "22 Aug",
     "updated": "2021-08-22T00:00:00Z",
     "day": "2021-08-16T00:00:00Z",
-    "streetAddress": null,
-    "suburb": null,
-    "city": null,
-    "postCode": null
+    "streetAddress": "Cnr Westgate &, Fernhill Drive",
+    "suburb": "Massey",
+    "city": "Auckland",
+    "postCode": "0614"
   },
   {
     "locationName": "Koffee Bar West City Henderson",
@@ -3508,10 +3508,10 @@
     "updatedAsString": "19 Aug",
     "updated": "2021-08-19T00:00:00Z",
     "day": "2021-08-09T00:00:00Z",
-    "streetAddress": null,
-    "suburb": null,
-    "city": null,
-    "postCode": null
+    "streetAddress": "15 Kalmia Street corner of, Sultan Street",
+    "suburb": "Ellerslie",
+    "city": "Auckland",
+    "postCode": "1051"
   },
   {
     "locationName": "Passion Bakery Birkdale",
@@ -3564,10 +3564,10 @@
     "updatedAsString": "19 Aug",
     "updated": "2021-08-19T00:00:00Z",
     "day": "2021-08-17T00:00:00Z",
-    "streetAddress": null,
-    "suburb": null,
-    "city": null,
-    "postCode": null
+    "streetAddress": "Cnr Te Irirangi Drive &, Ti Rakau Drive",
+    "suburb": "Botany Downs",
+    "city": "Auckland",
+    "postCode": "2023"
   },
   {
     "locationName": "Dress Smart Onehunga",
@@ -4096,10 +4096,10 @@
     "updatedAsString": "18 Aug",
     "updated": "2021-08-18T00:00:00Z",
     "day": "2021-08-17T00:00:00Z",
-    "streetAddress": null,
-    "suburb": null,
-    "city": null,
-    "postCode": null
+    "streetAddress": "Birkenhead Avenue Shop 28, Highbury Shopping Centre",
+    "suburb": "Birkenhead",
+    "city": "Auckland",
+    "postCode": "0626"
   },
   {
     "locationName": "Auckland University of Technology",
@@ -4320,10 +4320,10 @@
     "updatedAsString": "18 Aug",
     "updated": "2021-08-18T00:00:00Z",
     "day": "2021-08-14T00:00:00Z",
-    "streetAddress": null,
-    "suburb": null,
-    "city": null,
-    "postCode": null
+    "streetAddress": "Cnr Bentley Ave &, Glenfield Road",
+    "suburb": "Glenfield",
+    "city": "Auckland",
+    "postCode": "0629"
   },
   {
     "locationName": "The Good Home Birkenhhead",
@@ -4376,10 +4376,10 @@
     "updatedAsString": "18 Aug",
     "updated": "2021-08-18T00:00:00Z",
     "day": "2021-08-14T00:00:00Z",
-    "streetAddress": null,
-    "suburb": null,
-    "city": null,
-    "postCode": null
+    "streetAddress": "Cnr Glenfield &, Kaipatiki Road",
+    "suburb": "Glenfield",
+    "city": "Auckland",
+    "postCode": "0629"
   },
   {
     "locationName": "Avondale College",

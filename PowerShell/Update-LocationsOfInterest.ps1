@@ -98,6 +98,13 @@ function Convert-Address {
     $loi.city = $cityPostCode[0];
     $loi.postCode = $cityPostCode[1];
   }
+  elseif ($parts.count -gt 3) {
+    $loi.streetAddress = $parts[0..($parts.count - 3)] -join ', '
+    $loi.suburb = $parts[$parts.count - 2];
+    [string[]] $cityPostCode = Get-CityPostCode $parts[$parts.count - 1]
+    $loi.city = $cityPostCode[0];
+    $loi.postCode = $cityPostCode[1];
+  }
 
   if (!$loi.city -and $loi.suburb) {
     $loi.city = $loi.suburb;
