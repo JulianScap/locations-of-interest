@@ -64,28 +64,49 @@ function LocationTable(props: ISearchable) {
       <TableHead>
         <TableRow>
           <TableCell>Maps</TableCell>
-          <SortableTableCell onClick={sortData} sortproperty="locationName">
-            Location Name
-          </SortableTableCell>
-          <SortableTableCell onClick={sortData} sortproperty="streetAddress">
-            Street address
-          </SortableTableCell>
-          <SortableTableCell onClick={sortData} sortproperty="suburb">
-            Suburb
-          </SortableTableCell>
-          <SortableTableCell onClick={sortData} sortproperty="city">
-            City
-          </SortableTableCell>
-          <SortableTableCell onClick={sortData} sortproperty="postCode">
-            Post code
-          </SortableTableCell>
-          <SortableTableCell onClick={sortData} sortproperty="day">
-            Day
-          </SortableTableCell>
+          <SortableTableCell
+            onClick={sortData}
+            sortproperty="locationName"
+            text="Location Name"
+            currentSort={{ sortBy: sortBy, sortAsc: sortAsc }}
+          />
+          <SortableTableCell
+            onClick={sortData}
+            sortproperty="streetAddress"
+            text="Street address"
+            currentSort={{ sortBy: sortBy, sortAsc: sortAsc }}
+          />
+          <SortableTableCell
+            onClick={sortData}
+            sortproperty="suburb"
+            text="Suburb"
+            currentSort={{ sortBy: sortBy, sortAsc: sortAsc }}
+          />
+          <SortableTableCell
+            onClick={sortData}
+            sortproperty="city"
+            text="City"
+            currentSort={{ sortBy: sortBy, sortAsc: sortAsc }}
+          />
+          <SortableTableCell
+            onClick={sortData}
+            sortproperty="postCode"
+            text="Post code"
+            currentSort={{ sortBy: sortBy, sortAsc: sortAsc }}
+          />
+          <SortableTableCell
+            onClick={sortData}
+            sortproperty="day"
+            text="Day"
+            currentSort={{ sortBy: sortBy, sortAsc: sortAsc }}
+          />
           <TableCell>Times</TableCell>
-          <SortableTableCell onClick={sortData} sortproperty="updated">
-            Updated
-          </SortableTableCell>
+          <SortableTableCell
+            onClick={sortData}
+            sortproperty="updated"
+            text="Updated"
+            currentSort={{ sortBy: sortBy, sortAsc: sortAsc }}
+          />
         </TableRow>
       </TableHead>
       <TableBody>
