@@ -7,7 +7,7 @@ import {
 } from "@material-ui/core";
 import LocationRow from "./LocationRow";
 import ILocation from "../types/ILocation";
-import React, { useState, useMemo } from "react";
+import React, { useState, useEffect } from "react";
 import SortableTableCell from "./SortableTableCell";
 import { getLocationsOfInterest } from "../data/getLocationsOfInterest";
 import Sort from "../tools/Sort";
@@ -15,9 +15,16 @@ import ISearchable from "../types/ISearchable";
 import Filter from "../tools/Filter";
 
 function LocationTable(props: ISearchable) {
-  const locationsOfInterest = useMemo(getLocationsOfInterest, [
-    getLocationsOfInterest,
-  ]);
+  const [locationsOfInterest, setLocationsOfInterest] = useState<ILocation[]>([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await getLocationsOfInterest();
+      setLocationsOfInterest(response);
+    }
+    fetchData();
+  }, []);
+
   const [currentData, setData] = useState(locationsOfInterest);
   const [sortBy, setSort] = useState(Sort.defaultSort);
   const [sortAsc, setSortAsc] = useState(true);

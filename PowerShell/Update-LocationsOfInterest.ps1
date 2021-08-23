@@ -1,4 +1,4 @@
-[string] $jsonFile = '..\React\locations-of-interest\src\data\locations-of-interest.json';
+[string] $jsonFile = "$PSScriptRoot\..\json\locations-of-interest.json";
 [string] $tmpFolder = '.tmp';
 
 function Get-Data() {
