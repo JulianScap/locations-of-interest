@@ -38,6 +38,17 @@ function Get-Month {
   }
 }
 
+function GetHoursMinutes {
+  param ([string] $times)
+  [string]$regex = "^(\d{1,2}):(\d{1,2}) ?([aApP][mM])";
+  if (!$times -match $regex) { return; }
+  [bool] $pm = $Matches.3 -ieq "pm"
+  [int] $hours = + $Matches.1 + (0, 12)[!!$pm]
+  [int] $minutes = + $Matches.2
+
+  return $hours, $minutes;
+}
+
 function Set-Dates {
   param ([PSCustomObject]$loi)
   if (!$loi) { return; }
@@ -51,7 +62,10 @@ function Set-Dates {
   if ($loi.dayAsString) {
     [string[]] $tokens = -split $loi.dayAsString;
     [int] $month = Get-Month $tokens[2];
-    $loi.day = [DateTime]::new(2021, $month, $tokens[1]).ToString("yyyy-MM-ddTHH:mm:ssZ");
+    [int] $hours, [int]$minutes = GetHoursMinutes $loi.times;
+    $hours ??= 12;
+    $minutes ??= 0;
+    $loi.day = [DateTime]::new(2021, $month, $tokens[1], $hours, $minutes, 0).ToString("yyyy-MM-ddTHH:mm:ssZ");
   }
 }
 
