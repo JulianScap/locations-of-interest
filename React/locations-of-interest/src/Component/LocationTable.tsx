@@ -47,7 +47,7 @@ function LocationTable(props: ISearchable) {
   const filtered = Filter.locations(locationsOfInterest, props.search);
 
   if (filtered.length !== currentData.length) {
-    setData(filtered);
+    setData([...filtered]);
   }
 
   return (

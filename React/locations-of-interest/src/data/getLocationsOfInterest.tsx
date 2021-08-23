@@ -1,3 +1,4 @@
+import Constants from "../tools/Constants";
 import ILocation from "../types/ILocation";
 import data from "./locations-of-interest.json";
 
@@ -18,7 +19,9 @@ export function getLocationsOfInterest(): ILocation[] {
       result.postCode,
       result.streetAddress,
       result.suburb,
-    ].join("\n");
+    ]
+      .join("\n")
+      .toLocaleLowerCase(Constants.locale);
 
     return result;
   });
