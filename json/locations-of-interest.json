@@ -1,5 +1,47 @@
 [
   {
+    "locationName": "St Therese Catholic Church Mangere East",
+    "address": "10 Wickman Way, Mangere East, Auckland 2024",
+    "dayAsString": "Sunday 15 August",
+    "times": "6:00 pm - 7:30 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-15T00:00:00Z",
+    "streetAddress": "10 Wickman Way",
+    "suburb": "Mangere East",
+    "city": "Auckland",
+    "postCode": "2024"
+  },
+  {
+    "locationName": "Revive Vegan Cafe Auckland CBD",
+    "address": "33 Lorne Street, Auckland CBD, Auckland 1010, Auckland CBD, Auckland 1010",
+    "dayAsString": "Friday 13 August",
+    "times": "2:30 pm - 3:37 pm",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-13T00:00:00Z",
+    "streetAddress": "33 Lorne Street, Auckland CBD, Auckland 1010",
+    "suburb": "Auckland CBD",
+    "city": "Auckland",
+    "postCode": "1010"
+  },
+  {
+    "locationName": "Western Springs College",
+    "address": "100 Motions Road, Western Springs, Auckland 1022",
+    "dayAsString": "Tuesday 17 August",
+    "times": "8:30 am - 10:30 am",
+    "whatToDo": "Those required to isolate and test have been identified and contacted by Public Health. All others, monitor symptoms for 14 days post exposure, if they become unwell have a test, isolate and call Healthline for advice.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-17T00:00:00Z",
+    "streetAddress": "100 Motions Road",
+    "suburb": "Western Springs",
+    "city": "Auckland",
+    "postCode": "1022"
+  },
+  {
     "locationName": "Countdown Mangere Mall",
     "address": "Bader Drive, Mangere, Auckland 2022",
     "dayAsString": "Tuesday 17 August",
@@ -280,10 +322,10 @@
     "postCode": ""
   },
   {
-    "locationName": "Bus NX2 Wellesley St to Constellation St",
+    "locationName": "Bus NX2 Wellesley St to Constellation Drive",
     "address": "Auckland",
     "dayAsString": "Tuesday 10 August",
-    "times": "5:28 pm - 7:01 pm",
+    "times": "5:28 pm - 6:01 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
@@ -336,7 +378,7 @@
     "postCode": "2022"
   },
   {
-    "locationName": "Tank Westfield Mall Henderson",
+    "locationName": "Tank West City Waitakere",
     "address": "7 Catherine Street, Henderson, Auckland 0612",
     "dayAsString": "Friday 13 August",
     "times": "6:45 pm - 8:30 pm",
@@ -434,7 +476,7 @@
     "postCode": ""
   },
   {
-    "locationName": "The Warehouse Westfield Mall Henderson",
+    "locationName": "The Warehouse West City Waitakere",
     "address": "7 Catherine Street, Henderson, Auckland 0612",
     "dayAsString": "Friday 13 August",
     "times": "6:45 pm - 8:30 pm",
@@ -462,7 +504,7 @@
     "postCode": "1010"
   },
   {
-    "locationName": "Bus NX1 Constellation St to St Patrick Cathedral",
+    "locationName": "Bus NX1 Constellation Drive to St Patrick Cathedral",
     "address": "Auckland",
     "dayAsString": "Thursday 12 August",
     "times": "10:40 am - 12:30 pm",
@@ -493,7 +535,7 @@
     "locationName": "Bus NX2 Sunnynook Bus Station to Wellesley St",
     "address": "Auckland",
     "dayAsString": "Wednesday 11 August",
-    "times": "9:42 am - 11:09 am",
+    "times": "9:42 am - 10:09 am",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
@@ -532,7 +574,7 @@
     "postCode": "0622"
   },
   {
-    "locationName": "Bus NX2 Wellesley St to Constellation St",
+    "locationName": "Bus NX2 Wellesley St to Constellation Drive",
     "address": "Auckland",
     "dayAsString": "Wednesday 11 August",
     "times": "4:32 pm - 6:02 pm",
@@ -546,7 +588,7 @@
     "postCode": null
   },
   {
-    "locationName": "Bus NX2 Wellesley St to Constellation St",
+    "locationName": "Bus NX2 Wellesley St to Constellation Drive",
     "address": "Auckland",
     "dayAsString": "Tuesday 17 August",
     "times": "6:13 pm - 7:41 pm",
@@ -574,10 +616,10 @@
     "postCode": null
   },
   {
-    "locationName": "Bus NX2 Constellation St to Wellesley St",
+    "locationName": "Bus NX2 Constellation Drive to Wellesley St",
     "address": "Auckland",
     "dayAsString": "Friday 13 August",
-    "times": "9:40 am - 11:06 am",
+    "times": "9:40 am - 10:06 am",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
@@ -605,7 +647,7 @@
     "locationName": "Bus NX2 Sunnynook Bus Station to Wellesley St",
     "address": "Auckland",
     "dayAsString": "Tuesday 17 August",
-    "times": "10:05 am - 11:25 am",
+    "times": "10:05 am - 10:25 am",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
@@ -616,10 +658,10 @@
     "postCode": null
   },
   {
-    "locationName": "Bus NX2 Wellesley St to Constellation St",
+    "locationName": "Bus NX2 Wellesley St to Constellation Drive",
     "address": "Auckland",
     "dayAsString": "Friday 13 August",
-    "times": "4:25 pm - 5:50 pm",
+    "times": "4:25 pm - 4:50 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
@@ -630,10 +672,10 @@
     "postCode": null
   },
   {
-    "locationName": "Bus NX2 Wellesley St to Constellation St",
+    "locationName": "Bus NX2 Wellesley St to Constellation Drive",
     "address": "Auckland",
     "dayAsString": "Monday 16 August",
-    "times": "3:57 pm - 5:21 pm",
+    "times": "3:57 pm - 4:21 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
@@ -644,18 +686,18 @@
     "postCode": null
   },
   {
-    "locationName": "Revive Vegan Cafe Auckland CBD",
-    "address": "33 Lorne Street, Auckland CBD, Auckland 1010, Auckland CBD, Auckland 1010",
-    "dayAsString": "Friday 13 August",
-    "times": "2:30 pm - 3:37 pm",
-    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "locationName": "Bus NX1 Lower Britomart to Constellation Drive",
+    "address": "Auckland",
+    "dayAsString": "Thursday 12 August",
+    "times": "2:31 pm - 2:59 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
-    "day": "2021-08-13T00:00:00Z",
-    "streetAddress": "33 Lorne Street, Auckland CBD, Auckland 1010",
-    "suburb": "Auckland CBD",
+    "day": "2021-08-12T00:00:00Z",
+    "streetAddress": null,
+    "suburb": null,
     "city": "Auckland",
-    "postCode": "1010"
+    "postCode": null
   },
   {
     "locationName": "Auckland Art Gallery Auckland CBD",
@@ -4187,7 +4229,7 @@
   },
   {
     "locationName": "Samoan Assembly Of God Church Mangere",
-    "address": "33 Andrew Baxter Drive, Mangere, Auckland",
+    "address": "33 Andrew Baxter Drive, Mangere, Auckland 2022",
     "dayAsString": "Sunday 15 August",
     "times": "9:00 am - 3:00 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
@@ -4197,7 +4239,7 @@
     "streetAddress": "33 Andrew Baxter Drive",
     "suburb": "Mangere",
     "city": "Auckland",
-    "postCode": ""
+    "postCode": "2022"
   },
   {
     "locationName": "Flight NZ 445 Auckland to Wellington",
