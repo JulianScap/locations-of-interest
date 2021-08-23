@@ -63,6 +63,7 @@ function LocationTable(props: ISearchable) {
     <Table stickyHeader={true}>
       <TableHead>
         <TableRow>
+          <TableCell>Maps</TableCell>
           <SortableTableCell onClick={sortData} sortproperty="locationName">
             Location Name
           </SortableTableCell>
