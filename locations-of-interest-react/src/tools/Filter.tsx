@@ -9,26 +9,20 @@ function filterByText(location: ILocation, text: string) {
   return location.search.indexOf(text) !== -1;
 }
 
-function filterByDate(
-  location: ILocation,
-  updatedFrom?: Date,
-  updatedTo?: Date
-) {
-  if (!updatedFrom && !updatedTo) {
-    return true;
+function filterByDate(date: Date, from?: Date, to?: Date) {
+  if (from && to) {
+    return date >= from && date < to;
   }
 
-  if (updatedFrom && updatedTo) {
-    return location.updated > updatedFrom && location.updated < updatedTo;
+  if (from) {
+    return date >= from;
   }
 
-  if (updatedFrom) {
-    return location.updated > updatedFrom;
+  if (to) {
+    return date < to;
   }
 
-  if (updatedTo) {
-    return location.updated < updatedTo;
-  }
+  return true;
 }
 
 function prepare(search: ISearch) {
@@ -37,7 +31,12 @@ function prepare(search: ISearch) {
   if (search.updatedFrom) {
     search.updatedTo = new Date(search.updatedFrom);
     search.updatedTo.setDate(search.updatedTo.getDate() + 1);
-    search.updatedFrom.setMinutes(search.updatedFrom.getMinutes() - 1);
+    search.updatedTo.setMinutes(search.updatedTo.getMinutes() - 1);
+  }
+
+  if (search.dayTo) {
+    search.dayTo.setDate(search.dayTo.getDate() + 1);
+    search.dayTo.setMinutes(search.dayTo.getMinutes() - 1);
   }
 }
 
@@ -54,7 +53,8 @@ function filterList(
   return locationsOfInterest.filter(
     (location) =>
       filterByText(location, search.text) &&
-      filterByDate(location, search.updatedFrom, search.updatedTo)
+      filterByDate(location.updated, search.updatedFrom, search.updatedTo) &&
+      filterByDate(location.day, search.dayFrom, search.dayTo)
   );
 }
 

@@ -7,7 +7,7 @@ const StyledTableRow = withStyles((_: Theme) =>
         backgroundColor: "white",
       },
       "&:nth-of-type(even)": {
-        backgroundColor: "grey",
+        backgroundColor: "cornsilk",
       },
     },
   })

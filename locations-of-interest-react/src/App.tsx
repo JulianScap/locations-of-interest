@@ -25,6 +25,17 @@ function App() {
     setSearch({ ...search, updatedTo: undefined, updatedFrom: newDate });
   };
 
+  const setDaySearch = (value: string, property: string) => {
+    let newDate: Date | undefined;
+
+    if (value) {
+      newDate = new Date(value);
+    }
+
+    const newSearch = { ...search, [property]: newDate };
+    setSearch(newSearch);
+  };
+
   return (
     <React.Fragment>
       <CssBaseline />
@@ -34,6 +45,23 @@ function App() {
         variant="outlined"
         onChange={(e) => setTextSearch(e.currentTarget.value)}
       />
+      &nbsp;
+      <TextField
+        InputLabelProps={{ shrink: true }}
+        label="Day from"
+        variant="outlined"
+        type="Date"
+        onChange={(e) => setDaySearch(e.currentTarget.value, "dayFrom")}
+      />
+      &nbsp;
+      <TextField
+        InputLabelProps={{ shrink: true }}
+        label="Day to"
+        variant="outlined"
+        type="Date"
+        onChange={(e) => setDaySearch(e.currentTarget.value, "dayTo")}
+      />
+      &nbsp;
       <TextField
         InputLabelProps={{ shrink: true }}
         label="Updated date"
