@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://julianscap.github.io/locations-of-interest-page/static/css/main.6dea0f05.chunk.css",
-    "main.js": "https://julianscap.github.io/locations-of-interest-page/static/js/main.98be9cbd.chunk.js",
-    "main.js.map": "https://julianscap.github.io/locations-of-interest-page/static/js/main.98be9cbd.chunk.js.map",
+    "main.js": "https://julianscap.github.io/locations-of-interest-page/static/js/main.ef3bf913.chunk.js",
+    "main.js.map": "https://julianscap.github.io/locations-of-interest-page/static/js/main.ef3bf913.chunk.js.map",
     "runtime-main.js": "https://julianscap.github.io/locations-of-interest-page/static/js/runtime-main.c0855bcb.js",
     "runtime-main.js.map": "https://julianscap.github.io/locations-of-interest-page/static/js/runtime-main.c0855bcb.js.map",
     "static/js/2.1cd72e3c.chunk.js": "https://julianscap.github.io/locations-of-interest-page/static/js/2.1cd72e3c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c0855bcb.js",
     "static/js/2.1cd72e3c.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.98be9cbd.chunk.js"
+    "static/js/main.ef3bf913.chunk.js"
   ]
 }
