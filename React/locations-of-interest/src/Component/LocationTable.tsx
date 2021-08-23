@@ -7,14 +7,18 @@ import {
 } from "@material-ui/core";
 import LocationRow from "./LocationRow";
 import ILocation from "../types/ILocation";
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import SortableTableCell from "./SortableTableCell";
 import { getLocationsOfInterest } from "../data/getLocationsOfInterest";
 import Sort from "../tools/Sort";
 import ISearchable from "../types/ISearchable";
+import Filter from "../tools/Filter";
 
 function LocationTable(props: ISearchable) {
-  const [currentData, setData] = useState(getLocationsOfInterest());
+  const locationsOfInterest = useMemo(getLocationsOfInterest, [
+    getLocationsOfInterest,
+  ]);
+  const [currentData, setData] = useState(locationsOfInterest);
   const [sortBy, setSort] = useState(Sort.defaultSort);
   const [sortAsc, setSortAsc] = useState(true);
 
@@ -39,6 +43,12 @@ function LocationTable(props: ISearchable) {
     setSortAsc(newSort);
     setData(sorted);
   };
+
+  const filtered = Filter.locations(locationsOfInterest, props.search);
+
+  if (filtered.length !== currentData.length) {
+    setData(filtered);
+  }
 
   return (
     <Table stickyHeader={true}>

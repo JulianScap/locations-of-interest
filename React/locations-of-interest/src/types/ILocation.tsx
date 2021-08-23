@@ -10,6 +10,7 @@ interface ILocation {
   times: string;
   whatToDo: string;
   updatedAsString: string;
+  search: string;
   updated: Date;
   day: Date;
   [name: string]: string | number | Date;
