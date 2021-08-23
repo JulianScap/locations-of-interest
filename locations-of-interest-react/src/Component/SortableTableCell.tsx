@@ -27,15 +27,16 @@ function getIcon(
 }
 
 function SortableTableCell(props: SortableTableCellProps) {
+  const { text, currentSort, ...cellProps } = props;
   const icon: JSX.Element = getIcon(
     props.sortproperty,
-    props.currentSort.sortBy,
-    props.currentSort.sortAsc
+    currentSort.sortBy,
+    currentSort.sortAsc
   );
 
   return (
-    <TableCell {...props}>
-      {props.text} {icon}
+    <TableCell {...cellProps}>
+      {text} {icon}
     </TableCell>
   );
 }
