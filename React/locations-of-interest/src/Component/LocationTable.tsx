@@ -15,7 +15,9 @@ import ISearchable from "../types/ISearchable";
 import Filter from "../tools/Filter";
 
 function LocationTable(props: ISearchable) {
-  const [locationsOfInterest, setLocationsOfInterest] = useState<ILocation[]>([]);
+  const [locationsOfInterest, setLocationsOfInterest] = useState<ILocation[]>(
+    []
+  );
 
   useEffect(() => {
     async function fetchData() {
@@ -61,9 +63,6 @@ function LocationTable(props: ISearchable) {
     <Table stickyHeader={true}>
       <TableHead>
         <TableRow>
-          <SortableTableCell onClick={sortData} sortproperty="id">
-            #
-          </SortableTableCell>
           <SortableTableCell onClick={sortData} sortproperty="locationName">
             Location Name
           </SortableTableCell>

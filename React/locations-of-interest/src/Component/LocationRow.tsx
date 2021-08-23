@@ -25,7 +25,6 @@ class LocationRow extends PureComponent<LocationRowProps, LocationRowState> {
   render() {
     return (
       <StyledTableRow>
-        <TableCell>{this.state.location.id}</TableCell>
         <TableCell>
           <span title={this.state.location.whatToDo}>
             {this.state.location.locationName}
@@ -33,7 +32,18 @@ class LocationRow extends PureComponent<LocationRowProps, LocationRowState> {
         </TableCell>
         <TableCell>{this.state.location.streetAddress}</TableCell>
         <TableCell>{this.state.location.suburb}</TableCell>
-        <TableCell>{this.state.location.city}</TableCell>
+        <TableCell>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={
+              "https://www.google.co.nz/maps?hl=en&q=" +
+              encodeURIComponent(this.state.location.address)
+            }
+          >
+            {this.state.location.city}
+          </a>
+        </TableCell>
         <TableCell>{this.state.location.postCode}</TableCell>
         <TableCell>{this.state.location.dayAsString}</TableCell>
         <TableCell>{this.state.location.times}</TableCell>
