@@ -5,18 +5,32 @@ import { TextField } from "@material-ui/core";
 import ISearch from "./types/ISearch";
 import ILocation from "./types/ILocation";
 import { getLocationsOfInterest } from "./data/getLocationsOfInterest";
+import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
 
 function App() {
   const [textSearch, setTextSearch] = useState("");
-  const [search, setSearch] = useState<ISearch>({ text: "" });
-  
+  const [search, setSearch] = useState<ISearch>({ text: "", suburb: "" });
+
   const [locationsOfInterest, setLocationsOfInterest] = useState<ILocation[]>(
     []
   );
 
+  const [suburbs, setSuburbs] = useState<string[]>([]);
+
   useEffect(() => {
     async function fetchData() {
       const response = await getLocationsOfInterest();
+      setSuburbs(
+        response
+          .map((x) => x.suburb)
+          .filter(
+            (value, index, self) =>
+              !!value &&
+              self.indexOf(value) === index &&
+              !value.startsWith("RD")
+          )
+          .sort()
+      );
       setLocationsOfInterest(response);
     }
     fetchData();
@@ -57,6 +71,7 @@ function App() {
       <TextField
         label="Search"
         variant="outlined"
+        style={{ width: 250 }}
         onChange={(e) => setTextSearch(e.currentTarget.value)}
       />
       &nbsp;
@@ -65,6 +80,7 @@ function App() {
         label="Day from"
         variant="outlined"
         type="Date"
+        style={{ width: 250 }}
         onChange={(e) => setDaySearch(e.currentTarget.value, "dayFrom")}
       />
       &nbsp;
@@ -73,6 +89,7 @@ function App() {
         label="Day to"
         variant="outlined"
         type="Date"
+        style={{ width: 250 }}
         onChange={(e) => setDaySearch(e.currentTarget.value, "dayTo")}
       />
       &nbsp;
@@ -81,7 +98,19 @@ function App() {
         label="Updated date"
         variant="outlined"
         type="Date"
+        style={{ width: 250 }}
         onChange={setDateSearch}
+      />
+      &nbsp;
+      <Autocomplete
+        options={suburbs}
+        style={{ width: 250, display: "inline-block" }}
+        renderInput={(params: AutocompleteRenderInputParams) => (
+          <TextField {...params} label="Suburb" variant="outlined" />
+        )}
+        onChange={(_, value: string | null) => {
+          setSearch((s) => ({ ...s, suburb: value || "" }));
+        }}
       />
       <LocationTable search={search} locations={locationsOfInterest} />
     </React.Fragment>

@@ -9,6 +9,16 @@ function filterByText(location: ILocation, text: string) {
   return location.search.indexOf(text) !== -1;
 }
 
+function filterBySuburb(location: ILocation, suburb: string) {
+  if (!suburb) {
+    return true;
+  }
+  if (!location.suburb) {
+    return false;
+  }
+  return location.suburb.toLocaleLowerCase(Constants.locale) === suburb;
+}
+
 function filterByDate(date: Date, from?: Date, to?: Date) {
   if (from && to) {
     return date >= from && date < to;
@@ -28,6 +38,7 @@ function filterByDate(date: Date, from?: Date, to?: Date) {
 function prepare(search: ISearch): ISearch {
   const result: ISearch = {
     text: search.text,
+    suburb: search.suburb,
     updatedFrom: search.updatedFrom ? new Date(search.updatedFrom) : undefined,
     updatedTo: search.updatedTo ? new Date(search.updatedTo) : undefined,
     dayTo: search.dayTo ? new Date(search.dayTo) : undefined,
@@ -35,6 +46,7 @@ function prepare(search: ISearch): ISearch {
   };
 
   result.text = result.text.toLocaleLowerCase(Constants.locale);
+  result.suburb = result.suburb.toLocaleLowerCase(Constants.locale);
 
   if (result.updatedFrom) {
     result.updatedTo = new Date(result.updatedFrom);
@@ -63,6 +75,7 @@ function filterList(
   return locationsOfInterest.filter(
     (location) =>
       filterByText(location, clonedSearch.text) &&
+      filterBySuburb(location, clonedSearch.suburb) &&
       filterByDate(
         location.updated,
         clonedSearch.updatedFrom,
