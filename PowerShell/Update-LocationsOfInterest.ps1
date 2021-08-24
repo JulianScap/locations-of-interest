@@ -40,13 +40,20 @@ function Get-Month {
 
 function GetHoursMinutes {
   param ([string] $times)
-  [string]$regex = "^(\d{1,2}):(\d{1,2}) ?([aApP][mM])";
-  if (!$times -match $regex) { return; }
-  [bool] $pm = $Matches.3 -ieq "pm"
-  [int] $hours = + $Matches.1 + (0, 12)[!!$pm]
-  [int] $minutes = + $Matches.2
 
-  return $hours, $minutes;
+  [string] $regex = '^(?<hours>\d+):(?<minutes>\d+) ?(?<pm>[aApP][mM])';
+  [System.Text.RegularExpressions.Match] $match = [regex]::Match($times, $regex)
+
+  if (!$match.Success) { return 12, 0; }
+
+  [bool] $pm = $match.Groups["pm"].Value -ieq "pm"
+  [int] $h = $match.Groups["hours"].Value
+  if ($pm -and $h -ne 12) {
+    $h += 12;
+  }
+  [int] $m = + $match.Groups["minutes"].Value
+
+  return $h, $m;
 }
 
 function Set-Dates {
@@ -62,9 +69,8 @@ function Set-Dates {
   if ($loi.dayAsString) {
     [string[]] $tokens = -split $loi.dayAsString;
     [int] $month = Get-Month $tokens[2];
-    [int] $hours, [int]$minutes = GetHoursMinutes $loi.times;
-    $hours ??= 12;
-    $minutes ??= 0;
+    [int] $hours, $minutes = GetHoursMinutes $loi.times;
+
     $loi.day = [DateTime]::new(2021, $month, $tokens[1], $hours, $minutes, 0).ToString("yyyy-MM-ddTHH:mm:ssZ");
   }
 }
