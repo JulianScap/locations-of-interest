@@ -3,10 +3,24 @@ import LocationTable from "./Component/LocationTable";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { TextField } from "@material-ui/core";
 import ISearch from "./types/ISearch";
+import ILocation from "./types/ILocation";
+import { getLocationsOfInterest } from "./data/getLocationsOfInterest";
 
 function App() {
   const [textSearch, setTextSearch] = useState("");
   const [search, setSearch] = useState<ISearch>({ text: "" });
+  
+  const [locationsOfInterest, setLocationsOfInterest] = useState<ILocation[]>(
+    []
+  );
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await getLocationsOfInterest();
+      setLocationsOfInterest(response);
+    }
+    fetchData();
+  }, []);
 
   useEffect(() => {
     const timeOutId = setTimeout(() => {
@@ -69,7 +83,7 @@ function App() {
         type="Date"
         onChange={setDateSearch}
       />
-      <LocationTable search={search} />
+      <LocationTable search={search} locations={locationsOfInterest} />
     </React.Fragment>
   );
 }

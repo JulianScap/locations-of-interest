@@ -1,5 +1,215 @@
 [
   {
+    "locationName": "New World New Lynn",
+    "address": "2 Crown Lynn Place, New Lynn, Auckland 0600",
+    "dayAsString": "Saturday 21 August",
+    "times": "8:53 pm - 9:30 pm",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-21T20:53:00Z",
+    "streetAddress": "2 Crown Lynn Place",
+    "suburb": "New Lynn",
+    "city": "Auckland",
+    "postCode": "0600"
+  },
+  {
+    "locationName": "West Liquor New Lynn Central",
+    "address": "3044 Great North Road, New Lynn, Auckland 0600",
+    "dayAsString": "Saturday 21 August",
+    "times": "9:33 pm - 9:45 pm",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-21T21:33:00Z",
+    "streetAddress": "3044 Great North Road",
+    "suburb": "New Lynn",
+    "city": "Auckland",
+    "postCode": "0600"
+  },
+  {
+    "locationName": "The Square Gift Store Auckland CBD",
+    "address": "St Patrick's Square 43 Wyndham Street, Auckland CBD, Auckland 1010",
+    "dayAsString": "Thursday 12 August",
+    "times": "11:45 am - 12:55 pm",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-12T11:45:00Z",
+    "streetAddress": "St Patrick's Square 43 Wyndham Street",
+    "suburb": "Auckland CBD",
+    "city": "Auckland",
+    "postCode": "1010"
+  },
+  {
+    "locationName": "Aotea Centre Auckland",
+    "address": "50 Mayoral Drive, Auckland Central, Auckland 1010",
+    "dayAsString": "Saturday 14 August",
+    "times": "7:00 pm - 11:00 pm",
+    "whatToDo": "Those not at Waiparuru and Whitaker Halls Ball: Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-14T19:00:00Z",
+    "streetAddress": "50 Mayoral Drive",
+    "suburb": "Auckland Central",
+    "city": "Auckland",
+    "postCode": "1010"
+  },
+  {
+    "locationName": "Bus NB5021 487 Dominion Road to 37 Symonds Street",
+    "address": "Auckland",
+    "dayAsString": "Saturday 21 August",
+    "times": "3:41 pm - 3:54 pm",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-21T15:41:00Z",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
+  },
+  {
+    "locationName": "TAPAC The Auckland Performing Arts Centre Western Springs - Foyer",
+    "address": "100 Motions Road, Western Springs, Auckland 1022",
+    "dayAsString": "Friday 13 August",
+    "times": "6:00 pm - 7:30 pm",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-13T18:00:00Z",
+    "streetAddress": "100 Motions Road",
+    "suburb": "Western Springs",
+    "city": "Auckland",
+    "postCode": "1022"
+  },
+  {
+    "locationName": "Countdown Auckland Metro, 19-25 Victoria Street West, Auckland CBD, Auckland 1010",
+    "address": "19-25 Victoria Street West, Auckland CBD, Auckland 1010",
+    "dayAsString": "Tuesday 17 August",
+    "times": "3:47 pm - 5:05 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-17T15:47:00Z",
+    "streetAddress": "19-25 Victoria Street West",
+    "suburb": "Auckland CBD",
+    "city": "Auckland",
+    "postCode": "1010"
+  },
+  {
+    "locationName": "Break Time Symonds Street, 43 Symonds Street, Grafton, Auckland 1010",
+    "address": "43 Symonds Street, Grafton, Auckland 1010",
+    "dayAsString": "Tuesday 17 August",
+    "times": "4:00 pm - 5:45 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-17T16:00:00Z",
+    "streetAddress": "43 Symonds Street",
+    "suburb": "Grafton",
+    "city": "Auckland",
+    "postCode": "1010"
+  },
+  {
+    "locationName": "Vmart Diray 79 Wakefield Street, City, Auckland 1010",
+    "address": "79 Wakefield Street, Auckland Central, Auckland 1010",
+    "dayAsString": "Thursday 19 August",
+    "times": "5:29 pm - 5:35 pm",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-19T17:29:00Z",
+    "streetAddress": "79 Wakefield Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland",
+    "postCode": "1010"
+  },
+  {
+    "locationName": "Bus NB2118 84 Wakefield Street stop to 510 Dominion Road stop",
+    "address": "Auckland",
+    "dayAsString": "Saturday 21 August",
+    "times": "3:11 pm - 3:24 pm",
+    "whatToDo": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-21T15:11:00Z",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
+  },
+  {
+    "locationName": "Subway Auckland CBD",
+    "address": "25 Symonds Street, Auckland Central, Auckland 1010",
+    "dayAsString": "Tuesday 17 August",
+    "times": "4:00 pm - 5:15 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-17T16:00:00Z",
+    "streetAddress": "25 Symonds Street",
+    "suburb": "Auckland Central",
+    "city": "Auckland",
+    "postCode": "1010"
+  },
+  {
+    "locationName": "MECCA MAXIMA Westfield, Albany",
+    "address": "1 Don McKinnon Drive, Albany, Auckland 0632",
+    "dayAsString": "Sunday 15 August",
+    "times": "1:10 pm - 3:15 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-15T13:10:00Z",
+    "streetAddress": "1 Don McKinnon Drive",
+    "suburb": "Albany",
+    "city": "Auckland",
+    "postCode": "0632"
+  },
+  {
+    "locationName": "Avondale Medical Pharmacy",
+    "address": "256 Rosebank Road, Avondale, Auckland 1026",
+    "dayAsString": "Tuesday 17 August",
+    "times": "2:30 pm - 2:45 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-17T14:30:00Z",
+    "streetAddress": "256 Rosebank Road",
+    "suburb": "Avondale",
+    "city": "Auckland",
+    "postCode": "1026"
+  },
+  {
+    "locationName": "Countdown Pakuranga",
+    "address": "Pakuranga Town Centre, Pakuranga, Auckland 2013",
+    "dayAsString": "Friday 20 August",
+    "times": "12:36 pm - 1:15 pm",
+    "whatToDo": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-20T12:36:00Z",
+    "streetAddress": "Pakuranga Town Centre",
+    "suburb": "Pakuranga",
+    "city": "Auckland",
+    "postCode": "2013"
+  },
+  {
+    "locationName": "Bus NX2 Akoranga Station to University of Auckland stop 7039 Mayoral Drive",
+    "address": "Auckland",
+    "dayAsString": "Monday 16 August",
+    "times": "6:25 pm - 7:50 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-16T18:25:00Z",
+    "streetAddress": null,
+    "suburb": null,
+    "city": "Auckland",
+    "postCode": null
+  },
+  {
     "locationName": "Filipino Night Rosmini College",
     "address": "36 Dominion Street, Takapuna, Auckland 0622",
     "dayAsString": "Friday 13 August",
@@ -126,7 +336,7 @@
     "postCode": "1010"
   },
   {
-    "locationName": "24/7 Breaktime Grafton",
+    "locationName": "24/7 Breaktime Symonds Street",
     "address": "43 Symonds Street, Grafton, Auckland 1010, Grafton, Auckland 1010",
     "dayAsString": "Tuesday 10 August",
     "times": "1:00 pm - 2:10 pm",
@@ -530,6 +740,20 @@
     "suburb": "Western Springs",
     "city": "Auckland",
     "postCode": "1022"
+  },
+  {
+    "locationName": "1841 Bar and Restaurant Johnsonville",
+    "address": "1 Disraeli Street, Johnsonville, Wellington 6037",
+    "dayAsString": "Tuesday 17 August",
+    "times": "5:00 pm - 9:15 pm",
+    "whatToDo": "All staff & downstairs patrons isolate 14 days from last exposure. Test immediately, and on days 5 & 12 after last exposure, and call Healthline. Upstairs patrons self-monitor symptoms for 14 days. If symptomatic, test and stay home until a negative test.",
+    "updatedAsString": "24 Aug",
+    "updated": "2021-08-24T00:00:00Z",
+    "day": "2021-08-17T17:00:00Z",
+    "streetAddress": "1 Disraeli Street",
+    "suburb": "Johnsonville",
+    "city": "Wellington",
+    "postCode": "6037"
   },
   {
     "locationName": "Countdown Mangere Mall",
@@ -1176,18 +1400,18 @@
     "postCode": null
   },
   {
-    "locationName": "Bus NX1 Lower Britomart to Constellation Drive",
-    "address": "Auckland",
-    "dayAsString": "Thursday 12 August",
-    "times": "2:31 pm - 2:59 pm",
+    "locationName": "Revive Vegan Cafe Auckland CBD",
+    "address": "33 Lorne Street, Auckland CBD, Auckland 1010",
+    "dayAsString": "Friday 13 August",
+    "times": "2:30 pm - 3:37 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
-    "day": "2021-08-12T14:31:00Z",
-    "streetAddress": null,
-    "suburb": null,
+    "day": "2021-08-13T14:30:00Z",
+    "streetAddress": "33 Lorne Street",
+    "suburb": "Auckland CBD",
     "city": "Auckland",
-    "postCode": null
+    "postCode": "1010"
   },
   {
     "locationName": "Auckland Art Gallery Auckland CBD",
@@ -1778,11 +2002,11 @@
     "postCode": "0627"
   },
   {
-    "locationName": "TAPAC The Auckland Performing Arts Centre Western Springs",
+    "locationName": "TAPAC The Auckland Performing Arts Centre Western Springs - VIPERS class",
     "address": "100 Motions Road, Western Springs, Auckland 1022",
     "dayAsString": "Friday 13 August",
-    "times": "5:00 pm - 6:00 pm",
-    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+    "times": "5:00 pm - 7:00 pm",
+    "whatToDo": "All at Contemporary Dance class: Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "23 Aug",
     "updated": "2021-08-23T00:00:00Z",
     "day": "2021-08-13T17:00:00Z",
@@ -2464,7 +2688,7 @@
     "postCode": "1010"
   },
   {
-    "locationName": "Waiparuru Dining Hall Grafton Campus University of Auckland",
+    "locationName": "Waiparuru Dining Hall University of Auckland Grafton Campus",
     "address": "35 Whitaker Place, Grafton, Auckland 1010",
     "dayAsString": "Monday 16 August",
     "times": "6:00 pm - 7:00 pm",
@@ -2646,7 +2870,7 @@
     "postCode": "2022"
   },
   {
-    "locationName": "Whitaker Hall - The University of Auckland Grafton Campus",
+    "locationName": "Whitaker Hall University of Auckland Grafton Campus",
     "address": "27 Whitaker Place, Grafton, Auckland 1010",
     "dayAsString": "Wednesday 18 August",
     "times": "12:00 am - 11:59 pm",
@@ -2870,7 +3094,7 @@
     "postCode": "2025"
   },
   {
-    "locationName": "Munchy Mart Auckland University Campus",
+    "locationName": "Munchy Mart University of Auckland Campus",
     "address": "11 Symonds Street, Auckland Central, Auckland 1010",
     "dayAsString": "Tuesday 17 August",
     "times": "2:00 pm - 2:15 pm",
@@ -2940,7 +3164,7 @@
     "postCode": null
   },
   {
-    "locationName": "Whitaker Hall - University of Auckland Grafton Campus",
+    "locationName": "Whitaker Hall University of Auckland Grafton Campus",
     "address": "27 Whitaker Place, Grafton, Auckland 1010",
     "dayAsString": "Tuesday 17 August",
     "times": "12:00 am - 11:59 pm",
@@ -2985,11 +3209,11 @@
     "locationName": "Pinati's Keke Pua'a Queen St Otahuhu Auckland",
     "address": "19A Queen Street, Otahuhu, Auckland 1062",
     "dayAsString": "Monday 16 August",
-    "times": "9:45 am - 10:45 am",
+    "times": "8:45 am - 10:45 am",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "2021-08-22T00:00:00Z",
-    "day": "2021-08-16T09:45:00Z",
+    "day": "2021-08-16T08:45:00Z",
     "streetAddress": "19A Queen Street",
     "suburb": "Otahuhu",
     "city": "Auckland",
@@ -3038,7 +3262,7 @@
     "postCode": "0627"
   },
   {
-    "locationName": "Building 503 Room 124 Grafton Campus",
+    "locationName": "University of Auckland OPTOM 272B Building 503 Room 124 Grafton Campus",
     "address": "85 Park Road, Grafton, Auckland 1023",
     "dayAsString": "Monday 16 August",
     "times": "9:00 am - 11:00 am",
@@ -3193,14 +3417,14 @@
   },
   {
     "locationName": "Wymondley Road Superette Otara",
-    "address": "2 Wymondley Road, Otara, Auckland 2025",
+    "address": "2A Wymondley Road, Otara, Auckland 2025",
     "dayAsString": "Monday 16 August",
     "times": "2:00 pm - 2:10 pm",
     "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "2021-08-22T00:00:00Z",
     "day": "2021-08-16T14:00:00Z",
-    "streetAddress": "2 Wymondley Road",
+    "streetAddress": "2A Wymondley Road",
     "suburb": "Otara",
     "city": "Auckland",
     "postCode": "2025"
@@ -3220,7 +3444,7 @@
     "postCode": "1042"
   },
   {
-    "locationName": "Whitaker Hall - University of Auckland Grafton Campus",
+    "locationName": "Whitaker Hall University of Auckland Grafton Campus",
     "address": "27 Whitaker Place, Grafton, Auckland 1010",
     "dayAsString": "Monday 16 August",
     "times": "12:00 am - 11:59 pm",
@@ -3374,7 +3598,7 @@
     "postCode": "1010"
   },
   {
-    "locationName": "Whitaker Hall - University of Auckland Grafton Campus",
+    "locationName": "Whitaker Hall University of Auckland Grafton Campus",
     "address": "27 Whitaker Place, Grafton, Auckland 1010",
     "dayAsString": "Sunday 15 August",
     "times": "12:00 am - 11:59 pm",
@@ -3514,7 +3738,7 @@
     "postCode": "3506"
   },
   {
-    "locationName": "Waiparuru and Whitaker Halls Ball Aotea Centre Auckland",
+    "locationName": "Waiparuru and Whitaker Halls Ball (University of Auckland) Aotea Centre Auckland",
     "address": "50 Mayoral Drive, Auckland Central, Auckland 1010",
     "dayAsString": "Saturday 14 August",
     "times": "7:00 pm - 11:00 pm",
@@ -3724,7 +3948,7 @@
     "postCode": "1010"
   },
   {
-    "locationName": "Optometry Lab Building 505 Room 358 Grafton Campus University of Auckland",
+    "locationName": "Optometry Lab Building 505 Room 358 University of Auckland Grafton Campus",
     "address": "2 Boyle Crescent, Grafton, Auckland 1023",
     "dayAsString": "Friday 13 August",
     "times": "8:00 am - 10:00 am",
@@ -3864,7 +4088,7 @@
     "postCode": null
   },
   {
-    "locationName": "Whitaker Hall Auckland University Grafton Campus",
+    "locationName": "Whitaker Hall University of Auckland Grafton Campus",
     "address": "27 Whitaker Place, Grafton, Auckland 1010",
     "dayAsString": "Friday 13 August",
     "times": "12:00 am - 11:59 pm",
@@ -3920,14 +4144,14 @@
     "postCode": "1010"
   },
   {
-    "locationName": "Building 260 Room 115 OGGB Fisher and Paykel lecture theatre University of Auckland City Campus",
+    "locationName": "University of Auckland, STATS101: Building 260 Room 115 OGGB Fisher and Paykel lecture theatre City Campus",
     "address": "12 Grafton Road, Auckland Central, Auckland 1010",
     "dayAsString": "Friday 13 August",
-    "times": "11:45 am - 2:00 pm",
+    "times": "12:00 pm - 2:00 pm",
     "whatToDo": "All at Statistics 101; Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
     "updatedAsString": "22 Aug",
     "updated": "2021-08-22T00:00:00Z",
-    "day": "2021-08-13T11:45:00Z",
+    "day": "2021-08-13T12:00:00Z",
     "streetAddress": "12 Grafton Road",
     "suburb": "Auckland Central",
     "city": "Auckland",
@@ -4508,20 +4732,6 @@
     "postCode": "0600"
   },
   {
-    "locationName": "1841 Bar and Restaurant Johnsonville",
-    "address": "1 Disraeli Street, Johnsonville, Wellington 6037",
-    "dayAsString": "Tuesday 17 August",
-    "times": "5:00 pm - 9:15 pm",
-    "whatToDo": "All staff & downstairs patrons isolate 14 days from last exposure. Test immediately, and on days 5 & 12 after last exposure, and call Healthline. Upstairs patrons self-monitor symptoms for 14 days. If symptomatic, test and stay home until a negative test.",
-    "updatedAsString": "20 Aug",
-    "updated": "2021-08-20T00:00:00Z",
-    "day": "2021-08-17T17:00:00Z",
-    "streetAddress": "1 Disraeli Street",
-    "suburb": "Johnsonville",
-    "city": "Wellington",
-    "postCode": "6037"
-  },
-  {
     "locationName": "St Pierre's Sushi Johnsonville Shopping Centre Wellington",
     "address": "Johnsonville Shopping Centre, 34 Johnsonville Road, Johnsonville, Wellington 6037",
     "dayAsString": "Tuesday 17 August",
@@ -4676,7 +4886,7 @@
     "postCode": "2022"
   },
   {
-    "locationName": "Samoan Assembly Of God Church Mangere",
+    "locationName": "Assembly Of God Church of Samoa Mangere",
     "address": "33 Andrew Baxter Drive, Mangere, Auckland 2022",
     "dayAsString": "Sunday 15 August",
     "times": "9:00 am - 3:00 pm",
