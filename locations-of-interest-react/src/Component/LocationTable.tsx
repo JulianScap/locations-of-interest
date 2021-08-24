@@ -53,9 +53,10 @@ function LocationTable(props: ISearchable) {
     setData(sorted);
   };
 
-  const filtered = Filter.locations(locationsOfInterest, props.search);
+  let filtered = Filter.locations(locationsOfInterest, props.search);
 
   if (filtered.length !== currentData.length) {
+    filtered = Sort.locations(filtered, sortAsc, sortBy);
     setData([...filtered]);
   }
 
