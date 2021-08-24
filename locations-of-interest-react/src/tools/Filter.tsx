@@ -25,19 +25,29 @@ function filterByDate(date: Date, from?: Date, to?: Date) {
   return true;
 }
 
-function prepare(search: ISearch) {
-  search.text = search.text.toLocaleLowerCase(Constants.locale);
+function prepare(search: ISearch): ISearch {
+  const result: ISearch = {
+    text: search.text,
+    updatedFrom: search.updatedFrom ? new Date(search.updatedFrom) : undefined,
+    updatedTo: search.updatedTo ? new Date(search.updatedTo) : undefined,
+    dayTo: search.dayTo ? new Date(search.dayTo) : undefined,
+    dayFrom: search.dayFrom ? new Date(search.dayFrom) : undefined,
+  };
 
-  if (search.updatedFrom) {
-    search.updatedTo = new Date(search.updatedFrom);
-    search.updatedTo.setDate(search.updatedTo.getDate() + 1);
-    search.updatedTo.setMinutes(search.updatedTo.getMinutes() - 1);
+  result.text = result.text.toLocaleLowerCase(Constants.locale);
+
+  if (result.updatedFrom) {
+    result.updatedTo = new Date(result.updatedFrom);
+    result.updatedTo.setDate(result.updatedTo.getDate() + 1);
+    result.updatedTo.setMinutes(result.updatedTo.getMinutes() - 1);
   }
 
-  if (search.dayTo) {
-    search.dayTo.setDate(search.dayTo.getDate() + 1);
-    search.dayTo.setMinutes(search.dayTo.getMinutes() - 1);
+  if (result.dayTo) {
+    result.dayTo.setDate(result.dayTo.getDate() + 1);
+    result.dayTo.setMinutes(result.dayTo.getMinutes() - 1);
   }
+
+  return result;
 }
 
 function filterList(
@@ -48,13 +58,17 @@ function filterList(
     return locationsOfInterest;
   }
 
-  prepare(search);
+  const clonedSearch = prepare(search);
 
   return locationsOfInterest.filter(
     (location) =>
-      filterByText(location, search.text) &&
-      filterByDate(location.updated, search.updatedFrom, search.updatedTo) &&
-      filterByDate(location.day, search.dayFrom, search.dayTo)
+      filterByText(location, clonedSearch.text) &&
+      filterByDate(
+        location.updated,
+        clonedSearch.updatedFrom,
+        clonedSearch.updatedTo
+      ) &&
+      filterByDate(location.day, clonedSearch.dayFrom, clonedSearch.dayTo)
   );
 }
 
