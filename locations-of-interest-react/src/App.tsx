@@ -5,6 +5,9 @@ import ISearch from "./types/ISearch";
 import ILocation from "./types/ILocation";
 import { getLocationsOfInterest } from "./data/getLocationsOfInterest";
 import LocationsFilter from "./Component/LocationsFilter";
+import { FormControl } from "@material-ui/core";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import { InputLabel } from "@material-ui/core";
 
 function App() {
   const [textSearch, setTextSearch] = useState("");
@@ -68,14 +71,29 @@ function App() {
     <React.Fragment>
       <CssBaseline />
       <br />
-      <LocationsFilter
-        suburbs={suburbs}
-        resultCount={resultCount}
-        setTextSearch={setTextSearch}
-        setSuburbSearch={(value) => setSearch((s) => ({ ...s, suburb: value || "" }))}
-        setDaySearch={setDaySearch}
-        setDateSearch={setDateSearch}
-      />
+      <div style={{ display: "flex" }}>
+        <LocationsFilter
+          suburbs={suburbs}
+          setTextSearch={setTextSearch}
+          setSuburbSearch={(value) =>
+            setSearch((s) => ({ ...s, suburb: value || "" }))
+          }
+          setDaySearch={setDaySearch}
+          setDateSearch={setDateSearch}
+        />
+        &nbsp;
+        <FormControl style={{ flex: 1, textAlign: "right" }}>
+          <InputLabel>{"Count: " + resultCount}</InputLabel>
+        </FormControl>
+        &nbsp;
+        <a
+          href="https://github.com/JulianScap/locations-of-interest"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <GitHubIcon />
+        </a>
+      </div>
       <LocationTable
         search={search}
         locations={locationsOfInterest}

@@ -1,10 +1,8 @@
-import { FormControl, InputLabel, TextField } from "@material-ui/core";
+import { TextField } from "@material-ui/core";
 import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
-import GitHubIcon from "@material-ui/icons/GitHub";
 
 interface ILocationsFilterProps {
   suburbs: string[];
-  resultCount: number;
 
   setTextSearch: (text: string) => void;
   setSuburbSearch: (suburb: string | null) => void;
@@ -14,7 +12,7 @@ interface ILocationsFilterProps {
 
 function LocationsFilter(props: ILocationsFilterProps) {
   return (
-    <div style={{ display: "flex" }}>
+    <>
       <TextField
         label="Search"
         variant="outlined"
@@ -56,22 +54,10 @@ function LocationsFilter(props: ILocationsFilterProps) {
           <TextField {...params} label="Suburb" variant="outlined" />
         )}
         onChange={(_, value: string | null) => {
-          props.setSuburbSearch(value)
+          props.setSuburbSearch(value);
         }}
       />
-      &nbsp;
-      <FormControl style={{ flex: 1, textAlign: "right" }}>
-        <InputLabel>{"Count: " + props.resultCount}</InputLabel>
-      </FormControl>
-      &nbsp;
-      <a
-        href="https://github.com/JulianScap/locations-of-interest"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <GitHubIcon />
-      </a>
-    </div>
+    </>
   );
 }
 
