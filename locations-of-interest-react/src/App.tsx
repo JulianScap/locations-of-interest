@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import LocationTable from "./Component/LocationTable";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import { TextField, InputLabel, FormControl } from "@material-ui/core";
 import ISearch from "./types/ISearch";
 import ILocation from "./types/ILocation";
 import { getLocationsOfInterest } from "./data/getLocationsOfInterest";
-import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import LocationsFilter from "./Component/LocationsFilter";
 
 function App() {
   const [textSearch, setTextSearch] = useState("");
@@ -70,64 +68,14 @@ function App() {
     <React.Fragment>
       <CssBaseline />
       <br />
-      <div style={{ display: "flex" }}>
-        <TextField
-          label="Search"
-          variant="outlined"
-          style={{ flex: 1 }}
-          onChange={(e) => setTextSearch(e.currentTarget.value)}
-        />
-        &nbsp;
-        <TextField
-          InputLabelProps={{ shrink: true }}
-          label="Day from"
-          variant="outlined"
-          type="Date"
-          style={{ flex: 1 }}
-          onChange={(e) => setDaySearch(e.currentTarget.value, "dayFrom")}
-        />
-        &nbsp;
-        <TextField
-          InputLabelProps={{ shrink: true }}
-          label="Day to"
-          variant="outlined"
-          type="Date"
-          style={{ flex: 1 }}
-          onChange={(e) => setDaySearch(e.currentTarget.value, "dayTo")}
-        />
-        &nbsp;
-        <TextField
-          InputLabelProps={{ shrink: true }}
-          label="Updated date"
-          variant="outlined"
-          type="Date"
-          style={{ flex: 1 }}
-          onChange={setDateSearch}
-        />
-        &nbsp;
-        <Autocomplete
-          options={suburbs}
-          style={{ flex: 1, display: "inline-block" }}
-          renderInput={(params: AutocompleteRenderInputParams) => (
-            <TextField {...params} label="Suburb" variant="outlined" />
-          )}
-          onChange={(_, value: string | null) => {
-            setSearch((s) => ({ ...s, suburb: value || "" }));
-          }}
-        />
-        &nbsp;
-        <FormControl style={{ flex: 1, textAlign: "right" }}>
-          <InputLabel>{"Count: " + resultCount}</InputLabel>
-        </FormControl>
-        &nbsp;
-        <a
-          href="https://github.com/JulianScap/locations-of-interest"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <GitHubIcon />
-        </a>
-      </div>
+      <LocationsFilter
+        suburbs={suburbs}
+        resultCount={resultCount}
+        setTextSearch={setTextSearch}
+        setSuburbSearch={(value) => setSearch((s) => ({ ...s, suburb: value || "" }))}
+        setDaySearch={setDaySearch}
+        setDateSearch={setDateSearch}
+      />
       <LocationTable
         search={search}
         locations={locationsOfInterest}
