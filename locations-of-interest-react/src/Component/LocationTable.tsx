@@ -10,10 +10,10 @@ import ILocation from "../types/ILocation";
 import React, { useState } from "react";
 import SortableTableCell from "./SortableTableCell";
 import Sort from "../tools/Sort";
-import ISearchable from "../types/ISearchable";
+import ILocationTableProps from "../types/ILocationTableProps";
 import Filter from "../tools/Filter";
 
-function LocationTable(props: ISearchable) {
+function LocationTable(props: ILocationTableProps) {
   const [currentData, setData] = useState(props.locations);
   const [sortBy, setSort] = useState(Sort.defaultSort);
   const [sortAsc, setSortAsc] = useState(true);
@@ -45,6 +45,7 @@ function LocationTable(props: ISearchable) {
   if (filtered.length !== currentData.length) {
     filtered = Sort.locations(filtered, sortAsc, sortBy);
     setData([...filtered]);
+    props.onCountChange(filtered.length);
   }
 
   return (

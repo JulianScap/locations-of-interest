@@ -1,9 +1,10 @@
 import ILocation from "./ILocation";
 import ISearch from "./ISearch";
 
-interface ISearchable {
+interface ILocationTableProps {
   search: ISearch;
   locations: ILocation[];
+  onCountChange: (newCount: number) => void;
 }
 
-export default ISearchable;
+export default ILocationTableProps;
