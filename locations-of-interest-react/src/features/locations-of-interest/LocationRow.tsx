@@ -1,7 +1,7 @@
 import { TableCell } from "@material-ui/core";
 import { PureComponent } from "react";
-import ILocation from "../types/ILocation";
-import StyledTableRow from "./StyledTableRow";
+import ILocation from "../../types/ILocation";
+import StyledTableRow from "../../Component/StyledTableRow";
 import MapIcon from "@material-ui/icons/Map";
 
 interface LocationRowProps {
