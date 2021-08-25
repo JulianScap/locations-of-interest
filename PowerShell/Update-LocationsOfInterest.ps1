@@ -64,7 +64,8 @@ function Set-Dates {
   if ($loi.updatedAsString) {
     [string[]] $tokens = -split $loi.updatedAsString;
     [int] $month = Get-Month $tokens[1];
-    $loi.updated = [DateTime]::new(2021, $month, $tokens[0]).ToString("yyyy-MM-ddTHH:mm:ssZ");
+    [int] $hours, $minutes = GetHoursMinutes ($tokens[2..3] -join ' ');
+    $loi.updated = [DateTime]::new(2021, $month, $tokens[0], $hours, $minutes, 0).ToString("yyyy-MM-ddTHH:mm:ssZ");
   }
 
   if ($loi.dayAsString) {
