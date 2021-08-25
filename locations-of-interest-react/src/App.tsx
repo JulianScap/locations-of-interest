@@ -6,6 +6,7 @@ import ISearch from "./types/ISearch";
 import ILocation from "./types/ILocation";
 import { getLocationsOfInterest } from "./data/getLocationsOfInterest";
 import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 function App() {
   const [textSearch, setTextSearch] = useState("");
@@ -116,10 +117,16 @@ function App() {
         />
         &nbsp;
         <FormControl style={{ flex: 1, textAlign: "right" }}>
-          <InputLabel style={{ width: 250 }}>
-            {"Count: " + resultCount}
-          </InputLabel>
+          <InputLabel>{"Count: " + resultCount}</InputLabel>
         </FormControl>
+        &nbsp;
+        <a
+          href="https://github.com/JulianScap/locations-of-interest"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <GitHubIcon />
+        </a>
       </div>
       <LocationTable
         search={search}
