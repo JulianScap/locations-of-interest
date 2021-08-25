@@ -10,6 +10,7 @@ function Get-Data() {
 
   $result = $response | Where-Object { $_.command -eq "insert" -and $_.method -eq "replaceWith" -and $_.selector.StartsWith(".view-dom-id-") }
 
+  $result.data = $result.data.Replace('<?xml version="1.0"?>', '');
   $result.data > "./$tmpFolder/locations-of-interest.xml"
   return $result.data;
 }
