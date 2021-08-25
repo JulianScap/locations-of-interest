@@ -4,7 +4,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import ISearch from "./types/ISearch";
 import ILocation from "./types/ILocation";
 import { getLocationsOfInterest } from "./data/getLocationsOfInterest";
-import LocationsFilter from "./Component/LocationsFilter";
+import LocationsFilter from "./features/locations-of-interest/LocationsFilter";
 import { FormControl } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { InputLabel } from "@material-ui/core";

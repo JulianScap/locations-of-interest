@@ -5,7 +5,7 @@ import {
   TableCell,
   TableHead,
 } from "@material-ui/core";
-import LocationRow from "./LocationRow";
+import LocationRow from "../features/locations-of-interest/LocationRow";
 import ILocation from "../types/ILocation";
 import React, { useState } from "react";
 import SortableTableCell from "./SortableTableCell";
