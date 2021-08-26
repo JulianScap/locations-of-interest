@@ -1,23 +1,19 @@
 import { TextField } from "@material-ui/core";
 import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
+import { useAppDispatch, useAppSelector } from "../../app/hooks";
+import { applySuburb, filterDayFrom, filterDayTo, filterUpdatedDate, selectSuburbs } from "./locationsSlice";
 
-interface ILocationsFilterProps {
-  suburbs: string[];
+function LocationsFilter() {
+  const suburbs = useAppSelector(selectSuburbs);
+  const dispatch = useAppDispatch();
 
-  setTextSearch: (text: string) => void;
-  setSuburbSearch: (suburb: string | null) => void;
-  setDaySearch: (dayAsText: string, property: string) => void;
-  setDateSearch: (e: React.ChangeEvent<HTMLInputElement>) => void;
-}
-
-function LocationsFilter(props: ILocationsFilterProps) {
   return (
     <>
       <TextField
         label="Search"
         variant="outlined"
         style={{ flex: 1 }}
-        onChange={(e) => props.setTextSearch(e.currentTarget.value)}
+        onChange={(e) => /*TODO*/ console.log(e.currentTarget.value) }
       />
       &nbsp;
       <TextField
@@ -26,7 +22,7 @@ function LocationsFilter(props: ILocationsFilterProps) {
         variant="outlined"
         type="Date"
         style={{ flex: 1 }}
-        onChange={(e) => props.setDaySearch(e.currentTarget.value, "dayFrom")}
+        onChange={(e) => dispatch(filterDayFrom(e.currentTarget.value))}
       />
       &nbsp;
       <TextField
@@ -35,7 +31,7 @@ function LocationsFilter(props: ILocationsFilterProps) {
         variant="outlined"
         type="Date"
         style={{ flex: 1 }}
-        onChange={(e) => props.setDaySearch(e.currentTarget.value, "dayTo")}
+        onChange={(e) => dispatch(filterDayTo(e.currentTarget.value))}
       />
       &nbsp;
       <TextField
@@ -44,17 +40,17 @@ function LocationsFilter(props: ILocationsFilterProps) {
         variant="outlined"
         type="Date"
         style={{ flex: 1 }}
-        onChange={props.setDateSearch}
+        onChange={(e) => dispatch(filterUpdatedDate(e.currentTarget.value))}
       />
       &nbsp;
       <Autocomplete
-        options={props.suburbs}
+        options={suburbs}
         style={{ flex: 1, display: "inline-block" }}
         renderInput={(params: AutocompleteRenderInputParams) => (
           <TextField {...params} label="Suburb" variant="outlined" />
         )}
         onChange={(_, value: string | null) => {
-          props.setSuburbSearch(value);
+          dispatch(applySuburb(value || ""));
         }}
       />
     </>

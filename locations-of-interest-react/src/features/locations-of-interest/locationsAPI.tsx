@@ -1,10 +1,18 @@
-import Constants from "../tools/Constants";
-import ILocation from "../types/ILocation";
+import Constants from "../../tools/Constants";
+import ILocation from "../../types/ILocation";
 
 const url: string =
   "https://raw.githubusercontent.com/JulianScap/locations-of-interest/main/json/locations-of-interest.json";
 
+let locationsGlobal: ILocation[] | undefined;
+let status: "idle" | "busy" | "ready" = "idle";
+
 export async function getLocationsOfInterest(): Promise<ILocation[]> {
+  if (locationsGlobal || status === "busy" || status === "ready") {
+    return locationsGlobal || [];
+  }
+  status = "busy";
+
   let i = 1;
 
   const locations = await fetch(url)
@@ -32,5 +40,7 @@ export async function getLocationsOfInterest(): Promise<ILocation[]> {
       });
     });
 
+  locationsGlobal = locations;
+  status = "ready";
   return locations || [];
 }

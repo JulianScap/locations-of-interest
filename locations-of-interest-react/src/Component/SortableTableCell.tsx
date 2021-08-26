@@ -3,11 +3,12 @@ import { TableCell, TableCellProps } from "@material-ui/core";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 import ImportExportIcon from "@material-ui/icons/ImportExport";
+import ISort from "../types/ISort";
 
 export interface SortableTableCellProps extends TableCellProps {
   sortproperty: string;
   text?: string;
-  currentSort: { sortBy: string; sortAsc: boolean };
+  currentSort: ISort;
 }
 
 function getIcon(
@@ -30,8 +31,8 @@ function SortableTableCell(props: SortableTableCellProps) {
   const { text, currentSort, ...cellProps } = props;
   const icon: JSX.Element = getIcon(
     props.sortproperty,
-    currentSort.sortBy,
-    currentSort.sortAsc
+    currentSort.property,
+    currentSort.asc
   );
 
   return (
