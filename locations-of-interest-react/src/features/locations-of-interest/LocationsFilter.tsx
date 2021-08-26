@@ -1,7 +1,14 @@
 import { TextField } from "@material-ui/core";
 import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
-import { applySuburb, filterDayFrom, filterDayTo, filterUpdatedDate, selectSuburbs } from "./locationsSlice";
+import {
+  applySuburb,
+  filterDayFrom,
+  filterDayTo,
+  filterUpdatedDate,
+  selectSuburbs,
+  filterText,
+} from "./locationsSlice";
 
 function LocationsFilter() {
   const suburbs = useAppSelector(selectSuburbs);
@@ -13,7 +20,7 @@ function LocationsFilter() {
         label="Search"
         variant="outlined"
         style={{ flex: 1 }}
-        onChange={(e) => /*TODO*/ console.log(e.currentTarget.value) }
+        onChange={(e) => dispatch(filterText(e.currentTarget.value))}
       />
       &nbsp;
       <TextField

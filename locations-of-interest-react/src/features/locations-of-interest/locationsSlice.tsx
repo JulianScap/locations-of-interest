@@ -66,6 +66,13 @@ export const locationsSlice = createSlice({
   reducers: {
     setAllLocations: (state, action: PayloadAction<ILocation[]>) => {
       state.allLocations = action.payload;
+      state.suburbs = state.allLocations
+        .map((x) => x.suburb)
+        .filter(
+          (value, index, self) =>
+            !!value && self.indexOf(value) === index && !value.startsWith("RD")
+        )
+        .sort();
       state.visibleLocations = filterAndSort(state);
     },
     applySuburb: (state, action: PayloadAction<string>) => {
@@ -82,6 +89,10 @@ export const locationsSlice = createSlice({
     },
     filterUpdatedDate: (state, action: PayloadAction<string>) => {
       state.search.updatedFrom = getDate(action.payload);
+      state.visibleLocations = filterAndSort(state);
+    },
+    filterText: (state, action: PayloadAction<string>) => {
+      state.search.text = action.payload;
       state.visibleLocations = filterAndSort(state);
     },
     applySort: (state, action: PayloadAction<string>) => {
@@ -107,10 +118,8 @@ export const locationsSlice = createSlice({
   },
   // extraReducers: (builder) => {
   //   builder.addCase(fetchLocationsAsync.pending, (state, action) => {
-  //     console.log("pending fetchLocationsAsync");
   //   });
   //   builder.addCase(fetchLocationsAsync.fulfilled, (state, action) => {
-  //     console.log("fulfilled fetchLocationsAsync");
   //     state.visibleLocations = state.allLocations = action.payload;
   //     state.suburbs = state.allLocations
   //       .map((x) => x.suburb)
@@ -129,6 +138,7 @@ export const {
   filterUpdatedDate,
   filterDayTo,
   filterDayFrom,
+  filterText,
 } = locationsSlice.actions;
 
 export const selectSort = (state: RootState) => state.locations.sort;

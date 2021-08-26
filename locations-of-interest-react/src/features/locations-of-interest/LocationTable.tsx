@@ -17,8 +17,6 @@ function LocationTable() {
   const dispatch = useAppDispatch();
   const sort = useAppSelector(selectSort);
   const locations = useAppSelector(selectVisibleLocations);
-  console.log("sort", sort);
-  console.log("locations", locations);
 
   const sortData = (e: React.MouseEvent) => {
     const sortProperty: string | null =
