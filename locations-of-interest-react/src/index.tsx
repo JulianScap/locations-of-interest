@@ -6,9 +6,6 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { store } from "./app/store";
 import { CssBaseline } from "@material-ui/core";
-import { fetchLocations } from "./features/locations-of-interest/locationsSlice";
-
-store.dispatch(fetchLocations);
 
 ReactDOM.render(
   <React.StrictMode>
