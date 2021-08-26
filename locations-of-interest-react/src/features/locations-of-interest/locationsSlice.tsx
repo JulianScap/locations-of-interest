@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../../app/store";
 import Filter from "../../tools/Filter";
 import Sort from "../../tools/Sort";
@@ -29,20 +29,12 @@ const initialState: ILocationsState = {
   },
 };
 
-// export const fetchLocationsAsync = createAsyncThunk(
-//   "locations-of-interest/setAllLocations",
-//   async () => {
-//     return await getLocationsOfInterest();
-//   }
-// );
-
-export async function fetchLocations(dispatch: any) {
-  const response = await getLocationsOfInterest();
-  dispatch({
-    type: "locations-of-interest/setAllLocations",
-    payload: response,
-  });
-}
+export const fetchLocationsAsync = createAsyncThunk(
+  "locations-of-interest/setAllLocations",
+  async () => {
+    return await getLocationsOfInterest();
+  }
+);
 
 const filterAndSort = (state: ILocationsState): ILocation[] => {
   console.log("Filtering", JSON.stringify(state.search), JSON.stringify(state.sort));
@@ -116,20 +108,18 @@ export const locationsSlice = createSlice({
       );
     },
   },
-  // extraReducers: (builder) => {
-  //   builder.addCase(fetchLocationsAsync.pending, (state, action) => {
-  //   });
-  //   builder.addCase(fetchLocationsAsync.fulfilled, (state, action) => {
-  //     state.visibleLocations = state.allLocations = action.payload;
-  //     state.suburbs = state.allLocations
-  //       .map((x) => x.suburb)
-  //       .filter(
-  //         (value, index, self) =>
-  //           !!value && self.indexOf(value) === index && !value.startsWith("RD")
-  //       )
-  //       .sort();
-  //   });
-  // },
+  extraReducers: (builder) => {
+    builder.addCase(fetchLocationsAsync.fulfilled, (state, action) => {
+      state.visibleLocations = state.allLocations = action.payload;
+      state.suburbs = state.allLocations
+        .map((x) => x.suburb)
+        .filter(
+          (value, index, self) =>
+            !!value && self.indexOf(value) === index && !value.startsWith("RD")
+        )
+        .sort();
+    });
+  },
 });
 
 export const {
