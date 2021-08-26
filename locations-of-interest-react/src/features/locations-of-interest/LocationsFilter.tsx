@@ -1,5 +1,7 @@
 import { TextField } from "@material-ui/core";
 import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
+import { useEffect } from "react";
+import { useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import {
   applySuburb,
@@ -13,6 +15,14 @@ import {
 function LocationsFilter() {
   const suburbs = useAppSelector(selectSuburbs);
   const dispatch = useAppDispatch();
+  const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    const timeOutId = setTimeout(() => {
+      dispatch(filterText(search));
+    }, 500);
+    return () => clearTimeout(timeOutId);
+  }, [search, dispatch]);
 
   return (
     <>
@@ -20,7 +30,7 @@ function LocationsFilter() {
         label="Search"
         variant="outlined"
         style={{ flex: 1 }}
-        onChange={(e) => dispatch(filterText(e.currentTarget.value))}
+        onChange={(e) => setSearch(e.currentTarget.value)}
       />
       &nbsp;
       <TextField
