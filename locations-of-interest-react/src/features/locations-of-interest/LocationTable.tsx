@@ -76,7 +76,7 @@ function LocationTable() {
         </TableRow>
       </TableHead>
       <TableBody>
-        {(locations || []).map((location: ILocation) => (
+        {locations.map((location: ILocation) => (
           <LocationRow key={location.id} location={location} />
         ))}
       </TableBody>

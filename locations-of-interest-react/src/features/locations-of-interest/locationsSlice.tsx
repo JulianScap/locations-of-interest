@@ -37,7 +37,11 @@ export const fetchLocationsAsync = createAsyncThunk(
 );
 
 const filterAndSort = (state: ILocationsState): ILocation[] => {
-  console.log("Filtering", JSON.stringify(state.search), JSON.stringify(state.sort));
+  console.log(
+    "Filtering",
+    JSON.stringify(state.search),
+    JSON.stringify(state.sort)
+  );
   const filtered = Filter.locations(state.allLocations, state.search);
   const sorted = Sort.locations(filtered, state.sort);
   return sorted;
@@ -131,9 +135,11 @@ export const {
   filterText,
 } = locationsSlice.actions;
 
-export const selectSort = (state: RootState) => state.locations.sort;
-export const selectVisibleLocations = (state: RootState) =>
-  state.locations.visibleLocations;
-export const selectSuburbs = (state: RootState) => state.locations.suburbs;
+export const selectSort = (state: RootState): ISort =>
+  state.locations.sort || { asc: true, property: "id" };
+export const selectVisibleLocations = (state: RootState): ILocation[] =>
+  state.locations.visibleLocations || [];
+export const selectSuburbs = (state: RootState): string[] =>
+  state.locations.suburbs || [];
 
 export default locationsSlice.reducer;
