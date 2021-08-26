@@ -2,11 +2,20 @@ import { FormControl, InputLabel } from "@material-ui/core";
 import LocationsFilter from "./LocationsFilter";
 import LocationTable from "./LocationTable";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import { selectVisibleLocations } from "./locationsSlice";
-import { useAppSelector } from "../../app/hooks";
+import { fetchLocations, selectVisibleLocations } from "./locationsSlice";
+import { useAppDispatch, useAppSelector } from "../../app/hooks";
+import { useEffect } from "react";
 
 function Location() {
   const locations = useAppSelector(selectVisibleLocations);
+  const dispatch = useAppDispatch();
+
+  useEffect(() => {
+    const timeOutId = setTimeout(() => {
+      dispatch(fetchLocations);
+    }, 500);
+    return () => clearTimeout(timeOutId);
+  }, [dispatch]);
 
   return (
     <>
