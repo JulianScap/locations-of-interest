@@ -45,7 +45,7 @@ export async function fetchLocations(dispatch: any) {
 }
 
 const filterAndSort = (state: ILocationsState): ILocation[] => {
-  console.log("filtering");
+  console.log("Filtering", JSON.stringify(state.search), JSON.stringify(state.sort));
   const filtered = Filter.locations(state.allLocations, state.search);
   const sorted = Sort.locations(filtered, state.sort);
   return sorted;
