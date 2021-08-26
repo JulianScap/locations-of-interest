@@ -4,14 +4,11 @@ import LocationsFilter from "./features/locations-of-interest/LocationsFilter";
 import { FormControl } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { InputLabel } from "@material-ui/core";
-import { fetchLocationsAsync, selectVisibleLocations } from "./features/locations-of-interest/locationsSlice";
-import { useAppDispatch, useAppSelector } from "./app/hooks";
+import { selectVisibleLocations } from "./features/locations-of-interest/locationsSlice";
+import { useAppSelector } from "./app/hooks";
 
 function App() {
-  const dispatch = useAppDispatch();
   const locations = useAppSelector(selectVisibleLocations);
-
-  dispatch(fetchLocationsAsync());
 
   return (
     <React.Fragment>

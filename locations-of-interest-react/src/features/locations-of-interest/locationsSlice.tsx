@@ -1,4 +1,4 @@
-import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../../app/store";
 import Filter from "../../tools/Filter";
 import Sort from "../../tools/Sort";
@@ -29,12 +29,20 @@ const initialState: ILocationsState = {
   },
 };
 
-export const fetchLocationsAsync = createAsyncThunk(
-  "locations-of-interest/fetch-locations",
-  async () => {
-    return await getLocationsOfInterest();
-  }
-);
+// export const fetchLocationsAsync = createAsyncThunk(
+//   "locations-of-interest/setAllLocations",
+//   async () => {
+//     return await getLocationsOfInterest();
+//   }
+// );
+
+export async function fetchLocations(dispatch: any) {
+  const response = await getLocationsOfInterest();
+  dispatch({
+    type: "locations-of-interest/setAllLocations",
+    payload: response,
+  });
+}
 
 const filterAndSort = (state: ILocationsState): ILocation[] => {
   const filtered = Filter.locations(state.allLocations, state.search);
@@ -56,6 +64,10 @@ export const locationsSlice = createSlice({
   name: "locations-of-interest",
   initialState,
   reducers: {
+    setAllLocations: (state, action: PayloadAction<ILocation[]>) => {
+      state.allLocations = action.payload;
+      state.visibleLocations = filterAndSort(state);
+    },
     applySuburb: (state, action: PayloadAction<string>) => {
       state.search.suburb = action.payload;
       state.visibleLocations = filterAndSort(state);
@@ -93,22 +105,22 @@ export const locationsSlice = createSlice({
       );
     },
   },
-  extraReducers: (builder) => {
-    builder.addCase(fetchLocationsAsync.pending, (state, action) => {
-      console.log("pending fetchLocationsAsync");
-    });
-    builder.addCase(fetchLocationsAsync.fulfilled, (state, action) => {
-      console.log("fulfilled fetchLocationsAsync");
-      state.visibleLocations = state.allLocations = action.payload;
-      state.suburbs = state.allLocations
-        .map((x) => x.suburb)
-        .filter(
-          (value, index, self) =>
-            !!value && self.indexOf(value) === index && !value.startsWith("RD")
-        )
-        .sort();
-    });
-  },
+  // extraReducers: (builder) => {
+  //   builder.addCase(fetchLocationsAsync.pending, (state, action) => {
+  //     console.log("pending fetchLocationsAsync");
+  //   });
+  //   builder.addCase(fetchLocationsAsync.fulfilled, (state, action) => {
+  //     console.log("fulfilled fetchLocationsAsync");
+  //     state.visibleLocations = state.allLocations = action.payload;
+  //     state.suburbs = state.allLocations
+  //       .map((x) => x.suburb)
+  //       .filter(
+  //         (value, index, self) =>
+  //           !!value && self.indexOf(value) === index && !value.startsWith("RD")
+  //       )
+  //       .sort();
+  //   });
+  // },
 });
 
 export const {
