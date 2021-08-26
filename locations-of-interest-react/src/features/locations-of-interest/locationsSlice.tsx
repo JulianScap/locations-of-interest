@@ -45,16 +45,17 @@ export async function fetchLocations(dispatch: any) {
 }
 
 const filterAndSort = (state: ILocationsState): ILocation[] => {
+  console.log("filtering");
   const filtered = Filter.locations(state.allLocations, state.search);
-  const sorted = Sort.locations(filtered, state.sort.asc, state.sort.property);
+  const sorted = Sort.locations(filtered, state.sort);
   return sorted;
 };
 
-const getDate = (value: string | null): Date | undefined => {
-  let newDate: Date | undefined;
+const getDate = (value: string | null): number | undefined => {
+  let newDate: number | undefined;
 
   if (value) {
-    newDate = new Date(value);
+    newDate = new Date(value).getTime();
   }
 
   return newDate;
@@ -111,8 +112,7 @@ export const locationsSlice = createSlice({
 
       state.visibleLocations = Sort.locations(
         state.visibleLocations,
-        state.sort.asc,
-        state.sort.property
+        state.sort
       );
     },
   },

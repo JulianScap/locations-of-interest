@@ -11,9 +11,9 @@ interface ILocation {
   whatToDo: string;
   updatedAsString: string;
   search: string;
-  updated: Date;
-  day: Date;
-  [name: string]: string | number | Date;
+  updated: number;
+  day: number;
+  [name: string]: string | number;
 }
 
 export default ILocation;

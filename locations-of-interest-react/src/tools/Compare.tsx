@@ -22,19 +22,8 @@ function compareNumbers(a: number, b: number, asc: boolean): number {
   return result;
 }
 
-function compareDates(a: Date, b: Date, asc: boolean): number {
-  let result = a > b ? 1 : -1;
-
-  if (!asc) {
-    result *= -1;
-  }
-
-  return result;
-}
-
 const Compare = {
   numbers: compareNumbers,
-  dates: compareDates,
   strings: compareStrings,
 };
 
