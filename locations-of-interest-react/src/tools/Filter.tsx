@@ -19,7 +19,7 @@ function filterBySuburb(location: ILocation, suburb: string) {
   return location.suburb.toLocaleLowerCase(Constants.locale) === suburb;
 }
 
-function filterByDate(date: Date, from?: Date, to?: Date) {
+function filterByDate(date: number, from?: number, to?: number) {
   if (from && to) {
     return date >= from && date < to;
   }
@@ -39,24 +39,27 @@ function prepare(search: ISearch): ISearch {
   const result: ISearch = {
     text: search.text,
     suburb: search.suburb,
-    updatedFrom: search.updatedFrom ? new Date(search.updatedFrom) : undefined,
-    updatedTo: search.updatedTo ? new Date(search.updatedTo) : undefined,
-    dayTo: search.dayTo ? new Date(search.dayTo) : undefined,
-    dayFrom: search.dayFrom ? new Date(search.dayFrom) : undefined,
+    updatedFrom: search.updatedFrom ? search.updatedFrom : undefined,
+    updatedTo: search.updatedTo ? search.updatedTo : undefined,
+    dayTo: search.dayTo ? search.dayTo : undefined,
+    dayFrom: search.dayFrom ? search.dayFrom : undefined,
   };
 
   result.text = result.text.toLocaleLowerCase(Constants.locale);
   result.suburb = result.suburb.toLocaleLowerCase(Constants.locale);
 
   if (result.updatedFrom) {
-    result.updatedTo = new Date(result.updatedFrom);
-    result.updatedTo.setDate(result.updatedTo.getDate() + 1);
-    result.updatedTo.setMinutes(result.updatedTo.getMinutes() - 1);
+    let updatedTo: Date = new Date(result.updatedFrom);
+    updatedTo.setDate(updatedTo.getDate() + 1);
+    updatedTo.setMinutes(updatedTo.getMinutes() - 1);
+    result.updatedTo = updatedTo.getTime();
   }
 
   if (result.dayTo) {
-    result.dayTo.setDate(result.dayTo.getDate() + 1);
-    result.dayTo.setMinutes(result.dayTo.getMinutes() - 1);
+    let dayTo: Date = new Date(result.dayTo);
+    dayTo.setDate(dayTo.getDate() + 1);
+    dayTo.setMinutes(dayTo.getMinutes() - 1);
+    result.dayTo = dayTo.getTime();
   }
 
   return result;

@@ -1,10 +1,10 @@
 interface ISearch {
   text: string;
   suburb: string;
-  updatedFrom?: Date;
-  updatedTo?: Date;
-  dayFrom?: Date;
-  dayTo?: Date;
+  updatedFrom?: number;
+  updatedTo?: number;
+  dayFrom?: number;
+  dayTo?: number;
 }
 
 export default ISearch;

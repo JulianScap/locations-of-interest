@@ -1,29 +1,28 @@
 import ILocation from "../types/ILocation";
+import ISort from "../types/ISort";
 import Compare from "./Compare";
 
-function SortLocations(
-  locations: ILocation[],
-  asc: boolean,
-  sortProperty: string
-): ILocation[] {
-  if (sortProperty === "id") {
+function sortLocations(locations: ILocation[], sort: ISort): ILocation[] {
+  const sortProperty: string = sort.property;
+  if (sortProperty === "id" || sortProperty === "day" || sortProperty === "updated") {
     locations.sort((a: ILocation, b: ILocation) =>
-      Compare.numbers(a[sortProperty], b[sortProperty], asc)
-    );
-  } else if (sortProperty === "day" || sortProperty === "updated") {
-    locations.sort((a: ILocation, b: ILocation) =>
-      Compare.dates(a[sortProperty], b[sortProperty], asc)
+      Compare.numbers(a[sortProperty], b[sortProperty], sort.asc)
     );
   } else {
     locations.sort((a: ILocation, b: ILocation) =>
-      Compare.strings(a[sortProperty] as string, b[sortProperty] as string, asc)
+      Compare.strings(
+        a[sortProperty] as string,
+        b[sortProperty] as string,
+        sort.asc
+      )
     );
   }
+
   return [...locations];
 }
 
 const Sort = {
-  locations: SortLocations,
+  locations: sortLocations,
   defaultSort: "id",
 };
 

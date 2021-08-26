@@ -21,8 +21,8 @@ export async function getLocationsOfInterest(): Promise<ILocation[]> {
       return data.map((element: any) => {
         let result: ILocation = {
           ...element,
-          day: new Date(element.day),
-          updated: new Date(element.updated),
+          day: new Date(element.day).getTime(),
+          updated: new Date(element.updated).getTime(),
           id: i++,
         };
 
