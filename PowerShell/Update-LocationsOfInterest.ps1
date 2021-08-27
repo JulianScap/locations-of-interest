@@ -130,7 +130,9 @@ function Convert-Address {
 
   if (!$loi.city -and $loi.suburb) {
     $loi.city = $loi.suburb;
-    $loi.suburb = $null;
+  }
+  if ($loi.city -and !$loi.suburb) {
+    $loi.suburb = $loi.city;
   }
 }
 
