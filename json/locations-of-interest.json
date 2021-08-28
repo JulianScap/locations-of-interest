@@ -23,7 +23,7 @@
     "updated": "2021-08-28T20:00:00Z",
     "day": "2021-08-17T09:30:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -37,7 +37,7 @@
     "updated": "2021-08-28T16:00:00Z",
     "day": "2021-08-13T09:00:00Z",
     "streetAddress": "360 Queen Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -163,7 +163,7 @@
     "updated": "2021-08-28T14:00:00Z",
     "day": "2021-08-19T17:29:00Z",
     "streetAddress": "79 Wakefield Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -177,7 +177,7 @@
     "updated": "2021-08-28T14:00:00Z",
     "day": "2021-08-16T20:00:00Z",
     "streetAddress": "Building 109",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -317,7 +317,7 @@
     "updated": "2021-08-28T12:00:00Z",
     "day": "2021-08-16T18:50:00Z",
     "streetAddress": "33 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -331,7 +331,7 @@
     "updated": "2021-08-28T10:00:00Z",
     "day": "2021-08-17T12:30:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -359,7 +359,7 @@
     "updated": "2021-08-28T10:00:00Z",
     "day": "2021-08-17T10:00:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -373,7 +373,7 @@
     "updated": "2021-08-28T10:00:00Z",
     "day": "2021-08-17T12:30:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -387,7 +387,7 @@
     "updated": "2021-08-28T10:00:00Z",
     "day": "2021-08-17T14:00:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -401,7 +401,7 @@
     "updated": "2021-08-27T20:00:00Z",
     "day": "2021-08-17T09:22:00Z",
     "streetAddress": "38 Princes Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -569,7 +569,7 @@
     "updated": "2021-08-27T08:00:00Z",
     "day": "2021-08-12T13:45:00Z",
     "streetAddress": "7 Queen Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -695,7 +695,7 @@
     "updated": "2021-08-26T20:00:00Z",
     "day": "2021-08-17T14:30:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -723,7 +723,7 @@
     "updated": "2021-08-26T20:00:00Z",
     "day": "2021-08-16T14:00:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -737,7 +737,7 @@
     "updated": "2021-08-26T20:00:00Z",
     "day": "2021-08-16T16:30:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -751,7 +751,7 @@
     "updated": "2021-08-26T20:00:00Z",
     "day": "2021-08-17T12:15:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -765,7 +765,7 @@
     "updated": "2021-08-26T20:00:00Z",
     "day": "2021-08-17T14:10:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -989,7 +989,7 @@
     "updated": "2021-08-26T14:00:00Z",
     "day": "2021-08-13T12:00:00Z",
     "streetAddress": "12 Grafton Road",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1031,7 +1031,7 @@
     "updated": "2021-08-26T12:00:00Z",
     "day": "2021-08-13T14:45:00Z",
     "streetAddress": "Wellesley Street East",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1045,7 +1045,7 @@
     "updated": "2021-08-26T12:00:00Z",
     "day": "2021-08-16T10:15:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1157,7 +1157,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-17T12:00:00Z",
     "streetAddress": "8 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1171,7 +1171,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-19T12:00:00Z",
     "streetAddress": "8 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1185,7 +1185,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-20T12:00:00Z",
     "streetAddress": "8 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1199,7 +1199,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-21T12:00:00Z",
     "streetAddress": "8 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1213,7 +1213,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-22T12:00:00Z",
     "streetAddress": "8 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1241,7 +1241,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-15T12:00:00Z",
     "streetAddress": "8 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1255,7 +1255,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-18T12:00:00Z",
     "streetAddress": "8 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1269,7 +1269,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-16T12:00:00Z",
     "streetAddress": "8 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1283,7 +1283,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-14T12:00:00Z",
     "streetAddress": "8 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1297,7 +1297,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-12T09:00:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1381,7 +1381,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-13T08:00:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1507,7 +1507,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-17T14:00:00Z",
     "streetAddress": "11 Symonds Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1619,7 +1619,7 @@
     "updated": "2021-08-25T18:00:00Z",
     "day": "2021-08-11T09:30:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1661,7 +1661,7 @@
     "updated": "2021-08-25T16:00:00Z",
     "day": "2021-08-11T10:15:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1927,7 +1927,7 @@
     "updated": "2021-08-25T12:00:00Z",
     "day": "2021-08-17T15:47:00Z",
     "streetAddress": "19-25 Victoria Street West",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1941,7 +1941,7 @@
     "updated": "2021-08-25T12:00:00Z",
     "day": "2021-08-15T14:30:00Z",
     "streetAddress": "19-25 Victoria Street West",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1983,7 +1983,7 @@
     "updated": "2021-08-25T12:00:00Z",
     "day": "2021-08-17T13:30:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -1997,7 +1997,7 @@
     "updated": "2021-08-25T12:00:00Z",
     "day": "2021-08-17T18:00:00Z",
     "streetAddress": "20 Symonds Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2011,7 +2011,7 @@
     "updated": "2021-08-25T12:00:00Z",
     "day": "2021-08-15T13:00:00Z",
     "streetAddress": "360 Queen Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": ""
   },
@@ -2123,7 +2123,7 @@
     "updated": "2021-08-25T10:00:00Z",
     "day": "2021-08-16T12:30:00Z",
     "streetAddress": "9 Symonds Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2207,7 +2207,7 @@
     "updated": "2021-08-25T10:00:00Z",
     "day": "2021-08-13T14:30:00Z",
     "streetAddress": "33 Lorne Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2291,7 +2291,7 @@
     "updated": "2021-08-24T20:00:00Z",
     "day": "2021-08-12T11:45:00Z",
     "streetAddress": "St Patrick's Square 43 Wyndham Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2305,7 +2305,7 @@
     "updated": "2021-08-24T18:00:00Z",
     "day": "2021-08-14T19:00:00Z",
     "streetAddress": "50 Mayoral Drive",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2361,7 +2361,7 @@
     "updated": "2021-08-24T18:00:00Z",
     "day": "2021-08-17T16:00:00Z",
     "streetAddress": "25 Symonds Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2459,7 +2459,7 @@
     "updated": "2021-08-24T16:00:00Z",
     "day": "2021-08-12T13:30:00Z",
     "streetAddress": "64 Queen Street, Auckland CBD, Auckland 1010",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2473,7 +2473,7 @@
     "updated": "2021-08-24T16:00:00Z",
     "day": "2021-08-13T12:00:00Z",
     "streetAddress": "220 Queen St",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2487,7 +2487,7 @@
     "updated": "2021-08-24T14:00:00Z",
     "day": "2021-08-13T11:00:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2501,7 +2501,7 @@
     "updated": "2021-08-24T14:00:00Z",
     "day": "2021-08-11T15:00:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2515,7 +2515,7 @@
     "updated": "2021-08-24T14:00:00Z",
     "day": "2021-08-17T10:45:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2529,7 +2529,7 @@
     "updated": "2021-08-24T14:00:00Z",
     "day": "2021-08-13T16:45:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2683,7 +2683,7 @@
     "updated": "2021-08-24T12:00:00Z",
     "day": "2021-08-16T12:00:00Z",
     "streetAddress": "25 Symonds Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -2893,7 +2893,7 @@
     "updated": "2021-08-23T20:00:00Z",
     "day": "2021-08-17T12:40:00Z",
     "streetAddress": "3B/33 Mount Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -3117,7 +3117,7 @@
     "updated": "2021-08-23T20:00:00Z",
     "day": "2021-08-12T13:45:00Z",
     "streetAddress": "7 Queen Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -3215,7 +3215,7 @@
     "updated": "2021-08-23T18:00:00Z",
     "day": "2021-08-12T09:00:00Z",
     "streetAddress": "360 Queen Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -3229,7 +3229,7 @@
     "updated": "2021-08-23T18:00:00Z",
     "day": "2021-08-12T12:15:00Z",
     "streetAddress": "43 Wyndham Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -3467,7 +3467,7 @@
     "updated": "2021-08-23T12:00:00Z",
     "day": "2021-08-17T11:40:00Z",
     "streetAddress": "55 Wellesley Street East",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -3523,7 +3523,7 @@
     "updated": "2021-08-23T10:00:00Z",
     "day": "2021-08-13T19:59:00Z",
     "streetAddress": "Victoria Street & Federal Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -3705,7 +3705,7 @@
     "updated": "2021-08-22T19:00:00Z",
     "day": "2021-08-16T13:00:00Z",
     "streetAddress": "186 Queen Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -4307,7 +4307,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-17T13:00:00Z",
     "streetAddress": "12 Grafton Road",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -4587,7 +4587,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-15T16:10:00Z",
     "streetAddress": "8-12 Queen Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -4629,7 +4629,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-15T12:10:00Z",
     "streetAddress": "1/41 Elliott Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -4727,7 +4727,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-14T19:00:00Z",
     "streetAddress": "50 Mayoral Drive",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -4783,7 +4783,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-14T03:08:00Z",
     "streetAddress": "18 Elliott Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -4853,7 +4853,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-14T01:00:00Z",
     "streetAddress": "51 Hobson Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -4867,7 +4867,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-14T01:17:00Z",
     "streetAddress": "72 Victoria Street West",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -4937,7 +4937,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-13T19:00:00Z",
     "streetAddress": "9-15 Wakefield Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -5035,7 +5035,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-13T12:30:00Z",
     "streetAddress": "57 Lorne Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -5049,7 +5049,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-13T23:43:00Z",
     "streetAddress": "18 Elliott Street",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -5133,7 +5133,7 @@
     "updated": "2021-08-22T09:00:00Z",
     "day": "2021-08-12T12:00:00Z",
     "streetAddress": "290 Queen Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -5441,7 +5441,7 @@
     "updated": "2021-08-21T09:00:00Z",
     "day": "2021-08-12T15:00:00Z",
     "streetAddress": "80 Mahuhu Crescent",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -5693,7 +5693,7 @@
     "updated": "2021-08-20T09:00:00Z",
     "day": "2021-08-15T14:00:00Z",
     "streetAddress": "L2 65 Wakefield St",
-    "suburb": "Auckland CBD",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -5763,7 +5763,7 @@
     "updated": "2021-08-20T09:00:00Z",
     "day": "2021-08-13T12:15:00Z",
     "streetAddress": "50 Mayoral Drive",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -5805,7 +5805,7 @@
     "updated": "2021-08-20T09:00:00Z",
     "day": "2021-08-11T12:00:00Z",
     "streetAddress": "290 Queen Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -6365,7 +6365,7 @@
     "updated": "2021-08-18T09:00:00Z",
     "day": "2021-08-17T11:30:00Z",
     "streetAddress": "2 Governor Fitzroy Place",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -6393,7 +6393,7 @@
     "updated": "2021-08-18T09:00:00Z",
     "day": "2021-08-17T13:15:00Z",
     "streetAddress": "50 Kitchener Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -6659,7 +6659,7 @@
     "updated": "2021-08-18T09:00:00Z",
     "day": "2021-08-13T21:00:00Z",
     "streetAddress": "7 Sale Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -6799,7 +6799,7 @@
     "updated": "2021-08-18T09:00:00Z",
     "day": "2021-08-11T11:30:00Z",
     "streetAddress": "20 Elliott Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },
@@ -6813,7 +6813,7 @@
     "updated": "2021-08-18T09:00:00Z",
     "day": "2021-08-11T12:00:00Z",
     "streetAddress": "Level 3/291-297 Queen Street",
-    "suburb": "Auckland Central",
+    "suburb": "Auckland",
     "city": "Auckland",
     "postCode": "1010"
   },

@@ -134,6 +134,10 @@ function Convert-Address {
   if ($loi.city -and !$loi.suburb) {
     $loi.suburb = $loi.city;
   }
+
+  if ($loi.suburb -in "Auckland CBD", "Auckland Central") {
+    $loi.suburb = "Auckland";
+  }
 }
 
 function Convert-ToLocationOfInterest {
