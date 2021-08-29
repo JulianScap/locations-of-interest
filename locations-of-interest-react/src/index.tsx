@@ -4,8 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
-import { store } from "./app/store";
 import { CssBaseline } from "@material-ui/core";
+import store from "./store";
 
 ReactDOM.render(
   <React.StrictMode>

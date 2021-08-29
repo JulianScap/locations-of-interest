@@ -9,21 +9,44 @@ import LocationRow from "./LocationRow";
 import ILocation from "../../types/ILocation";
 import React from "react";
 import SortableTableCell from "../../Component/SortableTableCell";
-import Sort from "../../tools/Sort";
-import { useAppSelector, useAppDispatch } from "../../app/hooks";
-import { applySort, selectSort, selectVisibleLocations } from "./locationsSlice";
+import {
+  getErrorSelector,
+  getLocationsSelector,
+  getPendingSelector,
+} from "../../store/location/selectors";
+import { useSelector } from "react-redux";
+
+// import Sort from "../../tools/Sort";
 
 function LocationTable() {
-  const dispatch = useAppDispatch();
-  const sort = useAppSelector(selectSort);
-  const locations = useAppSelector(selectVisibleLocations);
+  // const sortData = (e: React.MouseEvent) => {
+  //   const sortProperty: string | null =
+  //     e.currentTarget.getAttribute("sortproperty") || Sort.defaultSort;
 
-  const sortData = (e: React.MouseEvent) => {
-    const sortProperty: string | null =
-      e.currentTarget.getAttribute("sortproperty") || Sort.defaultSort;
+  //   dispatch(applySort(sortProperty));
+  // };
+  const pending = useSelector(getPendingSelector);
+  const locations = useSelector(getLocationsSelector);
+  const error = useSelector(getErrorSelector);
 
-    dispatch(applySort(sortProperty));
-  };
+  let tableRows: JSX.Element[];
+
+  if (pending) {
+    tableRows = [
+      <TableRow key="1">
+        <TableCell colSpan={9}>Loading...</TableCell>
+      </TableRow>,
+    ];
+  } else if (error) {
+    tableRows = [
+      <TableRow key="1">
+        <TableCell colSpan={9}>Error : {error}</TableCell>
+      </TableRow>];
+  } else {
+    tableRows = locations.map((location: ILocation) => (
+      <LocationRow key={location.id} location={location} />
+    ));
+  }
 
   return (
     <Table stickyHeader={true}>
@@ -31,55 +54,51 @@ function LocationTable() {
         <TableRow>
           <TableCell>Maps</TableCell>
           <SortableTableCell
-            onClick={sortData}
+            // onClick={sortData}
             sortproperty="locationName"
             text="Location Name"
-            currentSort={sort}
+            // currentSort={sort}
           />
           <SortableTableCell
-            onClick={sortData}
+            // onClick={sortData}
             sortproperty="streetAddress"
             text="Street address"
-            currentSort={sort}
+            // currentSort={sort}
           />
           <SortableTableCell
-            onClick={sortData}
+            // onClick={sortData}
             sortproperty="suburb"
             text="Suburb"
-            currentSort={sort}
+            // currentSort={sort}
           />
           <SortableTableCell
-            onClick={sortData}
+            // onClick={sortData}
             sortproperty="city"
             text="City"
-            currentSort={sort}
+            // currentSort={sort}
           />
           <SortableTableCell
-            onClick={sortData}
+            // onClick={sortData}
             sortproperty="postCode"
             text="Post code"
-            currentSort={sort}
+            // currentSort={sort}
           />
           <SortableTableCell
-            onClick={sortData}
+            // onClick={sortData}
             sortproperty="day"
             text="Day"
-            currentSort={sort}
+            // currentSort={sort}
           />
           <TableCell>Times</TableCell>
           <SortableTableCell
-            onClick={sortData}
+            // onClick={sortData}
             sortproperty="updated"
             text="Updated"
-            currentSort={sort}
+            // currentSort={sort}
           />
         </TableRow>
       </TableHead>
-      <TableBody>
-        {locations.map((location: ILocation) => (
-          <LocationRow key={location.id} location={location} />
-        ))}
-      </TableBody>
+      <TableBody>{tableRows}</TableBody>
     </Table>
   );
 }

@@ -8,19 +8,18 @@ import ISort from "../types/ISort";
 export interface SortableTableCellProps extends TableCellProps {
   sortproperty: string;
   text?: string;
-  currentSort: ISort;
+  currentSort?: ISort;
 }
 
 function getIcon(
   sortProperty: string,
-  sortBy: string,
-  sortAsc: boolean
+  sort?: ISort
 ): JSX.Element {
-  if (sortProperty !== sortBy) {
+  if (sortProperty !== sort?.property) {
     return <ImportExportIcon />;
   }
 
-  if (sortAsc) {
+  if (sort?.asc) {
     return <ArrowUpwardIcon />;
   } else {
     return <ArrowDownwardIcon />;
@@ -31,8 +30,7 @@ function SortableTableCell(props: SortableTableCellProps) {
   const { text, currentSort, ...cellProps } = props;
   const icon: JSX.Element = getIcon(
     props.sortproperty,
-    currentSort.property,
-    currentSort.asc
+    currentSort
   );
 
   return (

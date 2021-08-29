@@ -1,29 +1,25 @@
-import { FormControl, InputLabel } from "@material-ui/core";
-import LocationsFilter from "./LocationsFilter";
+import { FormControl } from "@material-ui/core";
 import LocationTable from "./LocationTable";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import { fetchLocationsAsync, selectVisibleLocations } from "./locationsSlice";
-import { useAppDispatch, useAppSelector } from "../../app/hooks";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { fetchLocationRequest } from "../../store/location/actions";
 
 function Location() {
-  const locations = useAppSelector(selectVisibleLocations);
-  const dispatch = useAppDispatch();
+  // const locations = useAppSelector(selectVisibleLocations);
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    const timeOutId = setTimeout(() => {
-      dispatch(fetchLocationsAsync());
-    }, 500);
-    return () => clearTimeout(timeOutId);
+    dispatch(fetchLocationRequest());
   }, [dispatch]);
 
   return (
-    <>
+    <React.Fragment>
       <div style={{ display: "flex" }}>
-        <LocationsFilter />
+        {/* <LocationsFilter /> */}
         &nbsp;
         <FormControl style={{ flex: 1, textAlign: "right" }}>
-          <InputLabel>{"Count: " + locations.length}</InputLabel>
+          {/* <InputLabel>{"Count: " + locations.length}</InputLabel> */}
         </FormControl>
         &nbsp;
         <a
@@ -35,7 +31,7 @@ function Location() {
         </a>
       </div>
       <LocationTable />
-    </>
+    </React.Fragment>
   );
 }
 
