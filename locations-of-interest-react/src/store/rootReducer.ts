@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
 
-import locationReducer from "./location/reducer";
+import locationsReducer from "./locations/reducer";
 
 const rootReducer = combineReducers({
-  location: locationReducer,
+  locations: locationsReducer,
 });
 
 export type AppState = ReturnType<typeof rootReducer>;

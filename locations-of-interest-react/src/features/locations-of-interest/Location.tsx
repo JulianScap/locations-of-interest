@@ -3,14 +3,14 @@ import LocationTable from "./LocationTable";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { fetchLocationRequest } from "../../store/location/actions";
+import { fetchLocationsRequest } from "../../store/locations/actions";
 
 function Location() {
   // const locations = useAppSelector(selectVisibleLocations);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchLocationRequest());
+    dispatch(fetchLocationsRequest());
   }, [dispatch]);
 
   return (

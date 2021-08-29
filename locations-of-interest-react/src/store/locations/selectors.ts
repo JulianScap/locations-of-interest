@@ -2,11 +2,11 @@ import { createSelector } from "reselect";
 
 import { AppState } from "../rootReducer";
 
-const getPending = (state: AppState) => state.location.pending;
+const getPending = (state: AppState) => state.locations.pending;
 
-const getLocations = (state: AppState) => state.location.locations;
+const getLocations = (state: AppState) => state.locations.locations;
 
-const getError = (state: AppState) => state.location.error;
+const getError = (state: AppState) => state.locations.error;
 
 export const getLocationsSelector = createSelector(getLocations, (todos) => todos);
 

@@ -13,7 +13,7 @@ import {
   getErrorSelector,
   getLocationsSelector,
   getPendingSelector,
-} from "../../store/location/selectors";
+} from "../../store/locations/selectors";
 import { useSelector } from "react-redux";
 
 // import Sort from "../../tools/Sort";

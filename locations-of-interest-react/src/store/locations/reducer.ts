@@ -1,32 +1,32 @@
 import {
-  FETCH_LOCATION_REQUEST,
-  FETCH_LOCATION_SUCCESS,
-  FETCH_LOCATION_FAILURE,
+  FETCH_LOCATIONS_REQUEST,
+  FETCH_LOCATIONS_SUCCESS,
+  FETCH_LOCATIONS_FAILURE,
 } from "./actionTypes";
 
-import { LocationActions, LocationState } from "./types";
+import { LocationsActions, LocationsState } from "./types";
 
-const initialState: LocationState = {
+const initialState: LocationsState = {
   pending: false,
   locations: [],
   error: null,
 };
 
-const ok = (state = initialState, action: LocationActions) => {
+const reducer = (state = initialState, action: LocationsActions) => {
   switch (action.type) {
-    case FETCH_LOCATION_REQUEST:
+    case FETCH_LOCATIONS_REQUEST:
       return {
         ...state,
         pending: true,
       };
-    case FETCH_LOCATION_SUCCESS:
+    case FETCH_LOCATIONS_SUCCESS:
       return {
         ...state,
         pending: false,
         locations: action.payload.locations,
         error: null,
       };
-    case FETCH_LOCATION_FAILURE:
+    case FETCH_LOCATIONS_FAILURE:
       return {
         ...state,
         pending: false,
@@ -40,4 +40,4 @@ const ok = (state = initialState, action: LocationActions) => {
   }
 };
 
-export default ok;
+export default reducer;
