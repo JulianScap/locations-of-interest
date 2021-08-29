@@ -1,5 +1,33 @@
 [
   {
+    "locationName": "Novi Lunch Bar",
+    "address": "25A Bowden Road, Mount Wellington, Auckland 1060",
+    "dayAsString": "Thursday 12 August",
+    "times": "1:45 pm - 2:00 pm",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+    "updatedAsString": "29 Aug 6:00 pm",
+    "updated": "2021-08-29T18:00:00Z",
+    "day": "2021-08-12T13:45:00Z",
+    "streetAddress": "25A Bowden Road",
+    "suburb": "Mount Wellington",
+    "city": "Auckland",
+    "postCode": "1060"
+  },
+  {
+    "locationName": "Headquarters Bar",
+    "address": "115 Customs Street West, Auckland Central, Auckland 1010",
+    "dayAsString": "Saturday 14 August",
+    "times": "11:30 pm - 1:30 am",
+    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure.",
+    "updatedAsString": "29 Aug 6:00 pm",
+    "updated": "2021-08-29T18:00:00Z",
+    "day": "2021-08-14T23:30:00Z",
+    "streetAddress": "115 Customs Street West",
+    "suburb": "Auckland",
+    "city": "Auckland",
+    "postCode": "1010"
+  },
+  {
     "locationName": "Residence Mount Terrace Apartments",
     "address": "33 Mount Street, Auckland Central, Auckland 1010",
     "dayAsString": "Monday 16 August",
@@ -6060,20 +6088,6 @@
     "suburb": "Mount Albert",
     "city": "Auckland",
     "postCode": "1025"
-  },
-  {
-    "locationName": "Novi Lunch Bar",
-    "address": "25 Bowden Road, Mount Wellington, Auckland 1060",
-    "dayAsString": "Thursday 12 August",
-    "times": "1:45 pm - 2:00 pm",
-    "whatToDo": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-    "updatedAsString": "19 Aug 9:00 am",
-    "updated": "2021-08-19T09:00:00Z",
-    "day": "2021-08-12T13:45:00Z",
-    "streetAddress": "25 Bowden Road",
-    "suburb": "Mount Wellington",
-    "city": "Auckland",
-    "postCode": "1060"
   },
   {
     "locationName": "Subway East Tamaki",
