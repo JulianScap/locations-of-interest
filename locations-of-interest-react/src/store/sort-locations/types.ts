@@ -33,7 +33,7 @@ export type SortLocationsFailure = {
   payload: SortLocationsFailurePayload;
 };
 
-export type LocationsActions =
+export type SortActions =
   | SortLocationsRequest
   | SortLocationsSuccess
   | SortLocationsFailure;

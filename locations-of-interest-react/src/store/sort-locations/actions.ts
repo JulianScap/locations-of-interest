@@ -11,18 +11,18 @@ import {
   SortLocationsFailurePayload,
 } from "./types";
 
-export const fetchLocationsRequest = (): SortLocationsRequest => ({
+export const sortLocationsRequest = (): SortLocationsRequest => ({
   type: SORT_LOCATIONS_REQUEST,
 });
 
-export const fetchLocationsSuccess = (
+export const sortLocationsSuccess = (
   payload: SortLocationsSuccessPayload
 ): SortLocationsSuccess => ({
   type: SORT_LOCATIONS_SUCCESS,
   payload,
 });
 
-export const fetchLocationsFailure = (
+export const sortLocationsFailure = (
   payload: SortLocationsFailurePayload
 ): SortLocationsFailure => ({
   type: SORT_LOCATIONS_FAILURE,

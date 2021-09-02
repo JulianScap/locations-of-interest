@@ -8,7 +8,7 @@ const getLocations = (state: AppState) => state.locations.locations;
 
 const getError = (state: AppState) => state.locations.error;
 
-export const getLocationsSelector = createSelector(getLocations, (todos) => todos);
+export const getLocationsSelector = createSelector(getLocations, (locations) => locations);
 
 export const getPendingSelector = createSelector(
   getPending,
