@@ -15,7 +15,7 @@ function* fetchLocationsSaga() {
         locations: response,
       })
     );
-  } catch (e) {
+  } catch (e: any) {
     yield put(
       fetchLocationsFailure({
         error: e.message,
