@@ -12,7 +12,7 @@ function Get-Data() {
 
   $result.data = $result.data.Replace('<?xml version="1.0"?>', '');
   $result.data > "./$tmpFolder/locations-of-interest.xml"
-  return $result.data;
+  return "<div>$($result.data)</div>";
 }
 
 function Sanitize {
