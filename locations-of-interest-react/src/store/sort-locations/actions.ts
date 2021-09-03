@@ -11,7 +11,7 @@ import {
   SortLocationsFailurePayload,
 } from "./types";
 
-export const sortLocationsRequest = (): SortLocationsRequest => ({
+export const sortLocationsRequest = (property: string): SortLocationsRequest => ({
   type: SORT_LOCATIONS_REQUEST,
 });
 
